@@ -1,0 +1,1001 @@
+transaction_id,customer_id,product_id,product_name,category,quantity_sold,unit_price,transaction_date,store_id,store_location,inventory_level,reorder_point,reorder_quantity,supplier_id,supplier_lead_time,customer_age,customer_gender,customer_income,customer_loyalty_level,payment_method,promotion_applied,promotion_type,weather_conditions,holiday_indicator,weekday,stockout_indicator,forecasted_demand,actual_demand
+1,1793,6500,Colgate Toothpaste,Toothpaste,3,3.5,2023-09-06,7989,East Thomasville,480,28,174,4510,7,22,Other,30218,Platinum,Debit Card,False,Buy One Get One,Cloudy,False,Wednesday,True,125,80
+2,7865,1565,Colgate Toothpaste,Toothpaste,5,3.5,2023-01-20,7551,Lake Dawn,263,21,161,7612,13,56,Male,66630,Gold,Debit Card,True,None,Snowy,False,Friday,False,106,133
+3,259,1212,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-12-03,5893,West Melvinfort,343,27,153,2853,12,38,Other,102645,Silver,Debit Card,False,Discount,Sunny,True,Sunday,True,68,138
+4,4059,8850,Colgate Whitening Strips,Teeth Whitening,4,25.0,2024-11-23,722,Jasonview,439,24,183,5672,14,23,Male,86350,Silver,Mobile Payment,True,Discount,Sunny,False,Saturday,False,54,115
+5,8979,9436,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-09-01,8198,Williamsville,341,46,274,646,8,51,Other,116948,Gold,Cash,False,Discount,Cloudy,True,Friday,True,147,44
+6,9522,8941,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-11-16,1411,Barrberg,265,44,119,368,9,65,Male,29646,Platinum,Mobile Payment,True,None,Cloudy,True,Saturday,True,71,98
+7,9009,9814,Colgate Toothbrush,Toothbrush,7,2.0,2024-07-05,6334,East Frankton,258,49,103,9381,14,30,Other,46837,Bronze,Cash,True,None,Snowy,False,Friday,True,52,44
+8,9783,2713,Colgate Mouthwash,Mouthwash,8,5.0,2024-08-25,3161,Stephenville,62,42,205,9000,3,66,Female,36398,Platinum,Credit Card,False,Buy One Get One,Rainy,False,Sunday,False,125,103
+9,3115,9806,Colgate Toothbrush,Toothbrush,1,2.0,2024-08-31,6586,Hillborough,122,46,226,4664,4,30,Other,44310,Gold,Credit Card,True,Discount,Cloudy,True,Saturday,False,121,40
+10,3640,4379,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-03-01,9101,Sparksfort,410,29,292,2305,14,24,Other,56817,Bronze,Debit Card,False,Discount,Snowy,True,Wednesday,False,66,111
+11,418,2523,Colgate Toothpaste,Toothpaste,10,3.5,2023-09-26,4438,Thompsonmouth,75,47,169,2513,3,61,Male,91217,Platinum,Mobile Payment,True,None,Rainy,True,Tuesday,True,112,129
+12,2200,1255,Colgate Toothpaste,Toothpaste,7,3.5,2023-03-21,5415,East Christopherhaven,235,23,216,4695,7,65,Male,87827,Silver,Credit Card,True,Buy One Get One,Sunny,True,Tuesday,True,57,108
+13,5459,7892,Colgate Mouthwash,Mouthwash,9,5.0,2024-04-28,5916,South Kerri,80,34,261,595,14,42,Female,117862,Platinum,Cash,True,None,Cloudy,True,Sunday,True,81,133
+14,8725,2836,Colgate Toothpaste,Toothpaste,10,3.5,2024-11-22,2133,Everettfort,429,23,298,7160,4,67,Other,45942,Gold,Mobile Payment,False,Discount,Cloudy,True,Friday,False,120,67
+15,9463,2910,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-05-26,6562,Wilsontown,272,35,250,9510,3,27,Female,72094,Gold,Credit Card,False,Buy One Get One,Sunny,True,Friday,True,110,138
+16,3069,761,Colgate Mouthwash,Mouthwash,1,5.0,2023-05-15,1359,Callahanmouth,124,42,264,9867,6,44,Male,59038,Gold,Mobile Payment,True,Discount,Sunny,False,Monday,True,57,93
+17,9709,6575,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-12-18,1836,Foxport,233,29,207,2969,12,63,Male,93899,Platinum,Debit Card,False,Discount,Rainy,False,Wednesday,False,50,118
+18,6645,528,Colgate Toothbrush,Toothbrush,1,2.0,2023-06-24,7931,Hallshire,368,40,118,7589,10,63,Male,80760,Platinum,Cash,True,Buy One Get One,Snowy,False,Saturday,False,117,44
+19,3234,4160,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-03-29,2299,New Andrew,227,44,172,5687,14,67,Female,51197,Platinum,Debit Card,False,Discount,Snowy,False,Friday,False,84,133
+20,4099,5436,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-09-29,9047,Keithbury,387,41,139,5082,3,70,Other,72803,Platinum,Cash,True,None,Sunny,False,Friday,False,71,106
+21,4992,936,Colgate Toothbrush,Toothbrush,9,2.0,2023-04-13,1606,Millerland,141,29,154,6252,10,53,Male,114250,Bronze,Mobile Payment,False,None,Sunny,False,Thursday,False,99,64
+22,329,1733,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-07-11,8850,Charlesmouth,117,40,253,5124,13,22,Female,101701,Bronze,Credit Card,True,Discount,Rainy,False,Thursday,False,105,123
+23,7552,8369,Colgate Mouthwash,Mouthwash,5,5.0,2023-03-09,6887,Jasonside,292,49,235,1156,7,56,Female,25459,Gold,Cash,False,Discount,Sunny,False,Thursday,True,133,122
+24,3181,927,Colgate Mouthwash,Mouthwash,1,5.0,2024-06-02,4643,Josephville,207,32,122,7628,13,22,Other,38736,Silver,Credit Card,False,Discount,Snowy,True,Sunday,True,117,49
+25,2268,7653,Colgate Mouthwash,Mouthwash,7,5.0,2024-04-01,6978,Garciaberg,388,49,265,3432,14,67,Other,49069,Bronze,Mobile Payment,True,Discount,Rainy,False,Monday,False,90,64
+26,8385,9503,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-10-16,9700,Ruizmouth,468,45,213,7021,4,59,Male,94851,Silver,Debit Card,False,Discount,Cloudy,False,Monday,True,119,55
+27,5026,6888,Colgate Toothbrush,Toothbrush,7,2.0,2023-12-03,4319,Angelahaven,473,42,216,9480,9,39,Other,85911,Platinum,Debit Card,False,None,Rainy,True,Sunday,True,100,46
+28,7740,5208,Colgate Toothpaste,Toothpaste,7,3.5,2023-03-12,5804,Lake Brendaport,393,47,178,40,6,19,Female,117185,Silver,Mobile Payment,False,Buy One Get One,Sunny,False,Sunday,True,94,118
+29,7296,7087,Colgate Toothpaste,Toothpaste,9,3.5,2023-09-19,4298,Jasontown,366,37,159,7954,12,67,Other,105879,Gold,Credit Card,True,Buy One Get One,Sunny,True,Tuesday,True,134,82
+30,8701,7255,Colgate Toothbrush,Toothbrush,4,2.0,2023-07-16,2016,North Petermouth,103,20,101,6866,4,67,Other,63464,Platinum,Cash,True,None,Cloudy,False,Sunday,False,50,101
+31,4584,5452,Colgate Whitening Strips,Teeth Whitening,5,25.0,2025-01-05,26,Port Shawnland,363,27,201,5321,4,35,Male,33768,Platinum,Mobile Payment,True,Discount,Rainy,True,Sunday,False,90,107
+32,167,6073,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-12-11,8826,Angelaburgh,138,44,210,405,12,37,Male,78049,Platinum,Credit Card,True,Buy One Get One,Sunny,True,Monday,False,110,74
+33,3550,3733,Colgate Mouthwash,Mouthwash,1,5.0,2024-01-27,1113,Derrickbury,115,49,250,8031,9,40,Other,98386,Gold,Debit Card,False,None,Cloudy,False,Saturday,False,148,60
+34,6691,762,Colgate Toothbrush,Toothbrush,2,2.0,2024-09-11,2138,Coleberg,104,44,292,5645,7,68,Other,29827,Platinum,Debit Card,True,Buy One Get One,Snowy,False,Wednesday,False,79,111
+35,5398,7968,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-02-10,8912,Sarahfort,210,21,168,3224,8,32,Other,72971,Gold,Credit Card,True,None,Snowy,True,Friday,True,105,73
+36,7984,7778,Colgate Toothbrush,Toothbrush,4,2.0,2024-07-11,6524,Port Virginiaborough,266,45,182,300,13,35,Male,114899,Gold,Credit Card,False,Discount,Sunny,True,Thursday,False,122,135
+37,2932,8322,Colgate Mouthwash,Mouthwash,1,5.0,2023-12-21,468,Port Brendamouth,476,25,235,7137,14,45,Other,48887,Gold,Cash,False,None,Rainy,False,Thursday,True,123,45
+38,6502,2032,Colgate Mouthwash,Mouthwash,5,5.0,2024-10-03,7835,Guzmanstad,299,46,127,6993,13,46,Female,77190,Gold,Cash,True,Discount,Cloudy,True,Thursday,True,86,130
+39,7869,9329,Colgate Toothpaste,Toothpaste,7,3.5,2024-03-07,7473,Cobbfort,388,50,173,7896,4,20,Other,81928,Bronze,Debit Card,True,None,Snowy,True,Thursday,True,138,120
+40,8343,7266,Colgate Mouthwash,Mouthwash,9,5.0,2023-02-10,2427,Sextonside,441,36,254,7788,12,59,Other,64572,Silver,Mobile Payment,False,Discount,Rainy,True,Friday,False,141,68
+41,2540,1731,Colgate Mouthwash,Mouthwash,6,5.0,2024-06-19,9620,South Cole,261,37,234,2198,2,53,Female,82733,Bronze,Mobile Payment,True,Buy One Get One,Cloudy,True,Wednesday,False,50,97
+42,8925,7692,Colgate Toothbrush,Toothbrush,4,2.0,2024-09-02,4174,Lake Colleenfurt,500,34,127,2260,9,45,Male,65995,Gold,Debit Card,False,Buy One Get One,Rainy,True,Monday,True,121,92
+43,9746,1027,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-11-16,9964,West Timothyhaven,276,21,217,7112,11,45,Other,66148,Bronze,Mobile Payment,False,None,Sunny,True,Saturday,True,60,45
+44,840,3045,Colgate Toothpaste,Toothpaste,9,3.5,2024-05-27,1351,Wintersmouth,270,33,251,6381,7,36,Female,111310,Bronze,Mobile Payment,False,Discount,Rainy,False,Monday,True,118,84
+45,6701,5164,Colgate Toothbrush,Toothbrush,6,2.0,2023-02-18,9362,Tinamouth,434,40,150,3738,3,29,Male,64624,Bronze,Debit Card,True,Buy One Get One,Cloudy,True,Saturday,True,122,86
+46,4,1513,Colgate Toothpaste,Toothpaste,5,3.5,2023-12-31,1649,West Darius,383,31,214,8771,9,65,Male,22521,Platinum,Mobile Payment,True,None,Rainy,True,Sunday,False,73,109
+47,4055,3148,Colgate Toothpaste,Toothpaste,3,3.5,2024-08-25,1044,Lake Carolyn,170,47,230,1826,11,51,Male,55523,Bronze,Cash,True,Buy One Get One,Sunny,False,Sunday,False,121,132
+48,2504,8537,Colgate Toothbrush,Toothbrush,6,2.0,2023-06-27,6817,West Russelltown,330,22,104,6868,12,31,Female,23877,Silver,Debit Card,True,Buy One Get One,Rainy,False,Tuesday,True,67,99
+49,7785,4200,Colgate Toothpaste,Toothpaste,9,3.5,2023-07-28,3243,West Sarah,101,33,120,7355,13,65,Male,28650,Gold,Credit Card,False,Discount,Snowy,True,Friday,False,134,57
+50,8380,4719,Colgate Mouthwash,Mouthwash,3,5.0,2023-03-24,8930,Lake Robert,260,26,284,531,11,70,Female,49888,Platinum,Credit Card,False,Discount,Sunny,False,Friday,True,101,92
+51,6493,3852,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-10-14,6265,North Heatherland,327,34,171,2611,4,29,Male,97437,Silver,Mobile Payment,False,Discount,Cloudy,True,Monday,False,114,94
+52,3443,4680,Colgate Toothbrush,Toothbrush,9,2.0,2023-05-12,6924,New Matthewland,174,24,239,10,4,68,Male,116612,Gold,Credit Card,False,Discount,Snowy,True,Friday,True,83,117
+53,7864,8849,Colgate Whitening Strips,Teeth Whitening,7,25.0,2024-12-24,3012,Turnerside,264,22,192,3319,6,70,Male,71620,Silver,Mobile Payment,False,Discount,Rainy,True,Tuesday,True,128,44
+54,9914,4168,Colgate Toothbrush,Toothbrush,9,2.0,2024-11-21,3044,Kylefurt,491,44,161,9726,3,34,Female,106918,Gold,Cash,True,None,Cloudy,False,Thursday,True,122,114
+55,5222,8618,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-12-31,3189,Kingmouth,66,34,219,9532,8,54,Female,84361,Silver,Cash,False,Discount,Sunny,False,Tuesday,True,76,53
+56,4689,152,Colgate Toothbrush,Toothbrush,1,2.0,2023-03-01,6636,North Joshua,167,41,106,6496,7,18,Female,96807,Silver,Debit Card,True,Discount,Sunny,False,Wednesday,True,134,56
+57,2648,8402,Colgate Toothpaste,Toothpaste,9,3.5,2024-10-15,392,Rogershaven,314,34,248,4496,5,50,Male,43675,Silver,Debit Card,False,None,Rainy,True,Tuesday,False,89,132
+58,6235,1039,Colgate Toothpaste,Toothpaste,3,3.5,2024-02-29,252,East Amy,310,26,268,3623,8,51,Other,116357,Platinum,Debit Card,False,None,Snowy,False,Thursday,False,111,68
+59,1304,7236,Colgate Toothpaste,Toothpaste,3,3.5,2024-01-31,4187,East Annfort,60,25,211,762,13,57,Female,68056,Gold,Mobile Payment,True,Discount,Sunny,False,Wednesday,True,82,94
+60,3954,3507,Colgate Toothbrush,Toothbrush,1,2.0,2023-12-17,8694,Garciashire,252,37,269,491,13,23,Male,92388,Silver,Debit Card,True,Discount,Snowy,False,Sunday,True,60,62
+61,4268,4336,Colgate Mouthwash,Mouthwash,5,5.0,2024-07-05,606,Alyssaview,133,42,281,9872,11,28,Male,94365,Silver,Credit Card,False,Discount,Rainy,False,Friday,False,136,51
+62,7753,6207,Colgate Mouthwash,Mouthwash,9,5.0,2024-10-13,4039,Benjaminside,420,44,171,9702,4,49,Male,42873,Gold,Credit Card,False,Buy One Get One,Rainy,True,Sunday,True,54,49
+63,9269,6955,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-11-15,882,Ronnieborough,290,27,252,5303,12,33,Female,88620,Bronze,Mobile Payment,True,None,Sunny,False,Wednesday,True,74,97
+64,2047,6005,Colgate Mouthwash,Mouthwash,3,5.0,2024-01-10,569,Fernandomouth,457,34,139,9417,2,32,Other,95828,Silver,Mobile Payment,True,None,Rainy,True,Wednesday,False,148,126
+65,5374,447,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-05-14,3272,Leeburgh,400,50,129,5595,7,47,Other,32736,Platinum,Debit Card,True,None,Sunny,True,Tuesday,True,110,119
+66,2002,1751,Colgate Mouthwash,Mouthwash,8,5.0,2024-04-28,8923,Jameschester,150,40,272,5057,10,32,Male,114701,Silver,Credit Card,False,Discount,Snowy,True,Sunday,True,119,50
+67,4150,6325,Colgate Mouthwash,Mouthwash,8,5.0,2023-04-02,7943,Port Frederick,163,45,219,9835,10,53,Other,37858,Gold,Debit Card,True,Buy One Get One,Snowy,False,Sunday,True,76,61
+68,8240,7813,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-10-27,7562,West Miranda,269,43,289,746,13,58,Other,43025,Silver,Debit Card,True,Buy One Get One,Sunny,False,Sunday,True,115,58
+69,5844,4654,Colgate Toothbrush,Toothbrush,1,2.0,2024-08-05,9190,Stevenborough,90,31,199,8714,3,19,Other,75309,Gold,Cash,True,None,Snowy,True,Monday,True,80,106
+70,6196,1288,Colgate Mouthwash,Mouthwash,2,5.0,2025-01-09,3469,Robertsonshire,228,25,201,4213,9,50,Other,98128,Silver,Debit Card,False,Buy One Get One,Cloudy,True,Thursday,True,107,127
+71,8457,5043,Colgate Toothpaste,Toothpaste,10,3.5,2024-09-03,8512,Prestonstad,275,30,208,4868,2,28,Other,93220,Bronze,Credit Card,True,None,Cloudy,False,Tuesday,False,55,84
+72,7559,1251,Colgate Toothbrush,Toothbrush,9,2.0,2024-05-08,554,West Desiree,67,36,118,2044,12,42,Male,22977,Silver,Mobile Payment,True,Discount,Rainy,True,Wednesday,True,144,45
+73,224,58,Colgate Toothbrush,Toothbrush,8,2.0,2024-06-27,167,Jimmyshire,233,24,294,794,6,37,Other,70050,Bronze,Cash,False,Discount,Rainy,True,Thursday,True,125,68
+74,6975,6834,Colgate Toothpaste,Toothpaste,9,3.5,2024-03-04,2040,Rowlandchester,464,38,214,7200,2,49,Other,55872,Silver,Mobile Payment,True,None,Snowy,True,Monday,True,129,124
+75,4874,6373,Colgate Mouthwash,Mouthwash,7,5.0,2024-01-16,8256,Ballton,449,26,141,8354,9,38,Male,111137,Platinum,Debit Card,True,None,Cloudy,True,Tuesday,False,62,97
+76,9403,6098,Colgate Toothbrush,Toothbrush,9,2.0,2024-11-03,5287,Martinstad,118,45,117,4742,2,31,Female,33213,Silver,Credit Card,False,Buy One Get One,Rainy,False,Sunday,True,95,119
+77,4482,4994,Colgate Toothbrush,Toothbrush,6,2.0,2024-05-21,5384,Lake Scottmouth,58,28,112,7229,11,67,Female,114119,Platinum,Mobile Payment,False,None,Sunny,False,Tuesday,False,122,127
+78,9439,2397,Colgate Mouthwash,Mouthwash,5,5.0,2023-01-30,9596,South Kellyton,478,26,178,13,10,28,Male,39665,Bronze,Debit Card,False,None,Cloudy,True,Monday,True,146,102
+79,7548,9322,Colgate Toothpaste,Toothpaste,2,3.5,2023-10-03,3585,Mannberg,159,50,153,8950,14,21,Other,50614,Bronze,Mobile Payment,True,None,Snowy,True,Tuesday,False,68,102
+80,6008,9529,Colgate Toothpaste,Toothpaste,10,3.5,2024-01-01,6084,Andersonchester,345,35,239,4939,12,25,Female,103281,Silver,Cash,False,Discount,Snowy,False,Monday,False,50,125
+81,4402,6918,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-05-14,3988,Grossburgh,217,47,134,2243,4,51,Female,79604,Silver,Debit Card,False,Buy One Get One,Rainy,False,Sunday,True,108,44
+82,2870,8987,Colgate Mouthwash,Mouthwash,10,5.0,2024-05-26,3734,West Kim,435,38,271,2291,7,19,Other,73169,Silver,Cash,True,None,Sunny,False,Sunday,False,105,57
+83,2566,9452,Colgate Toothpaste,Toothpaste,6,3.5,2024-07-20,2511,Lake Seanhaven,310,45,200,5010,7,52,Other,81594,Gold,Cash,True,None,Cloudy,False,Saturday,True,142,125
+84,9024,411,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-11-19,4951,West Jessica,219,47,186,9606,10,45,Male,88069,Platinum,Credit Card,False,Discount,Rainy,False,Sunday,True,94,77
+85,1708,2476,Colgate Toothbrush,Toothbrush,2,2.0,2024-02-26,6988,Marissamouth,368,45,272,6786,8,39,Other,90320,Platinum,Credit Card,True,Discount,Sunny,False,Monday,False,106,79
+86,5573,9834,Colgate Toothpaste,Toothpaste,7,3.5,2023-08-15,650,Port Amber,425,38,111,2965,2,37,Other,92777,Gold,Debit Card,True,Buy One Get One,Cloudy,True,Tuesday,True,74,45
+87,9755,2807,Colgate Mouthwash,Mouthwash,10,5.0,2023-11-06,9686,Tracytown,83,31,214,8752,5,33,Other,33440,Gold,Credit Card,True,Discount,Sunny,True,Monday,True,61,67
+88,8459,8504,Colgate Mouthwash,Mouthwash,7,5.0,2024-12-14,5954,Lewisport,433,32,149,6948,5,28,Other,89920,Bronze,Cash,False,None,Sunny,True,Saturday,True,149,57
+89,8249,9995,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-03-17,898,West Elizabethton,470,24,123,6500,8,58,Other,47847,Platinum,Cash,False,Discount,Rainy,False,Sunday,True,103,60
+90,5126,7368,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-08-27,9664,South Christian,310,27,242,6609,13,57,Female,33688,Platinum,Credit Card,True,None,Sunny,False,Tuesday,False,116,106
+91,254,1446,Colgate Mouthwash,Mouthwash,1,5.0,2024-08-18,9724,Darlenestad,465,42,264,9553,7,39,Female,111652,Silver,Mobile Payment,False,None,Rainy,False,Sunday,False,67,90
+92,7466,3099,Colgate Mouthwash,Mouthwash,1,5.0,2024-10-03,5306,Katherinemouth,485,32,190,275,12,64,Female,55612,Gold,Credit Card,False,None,Rainy,False,Thursday,False,117,47
+93,205,1533,Colgate Toothpaste,Toothpaste,8,3.5,2023-04-25,9607,North Daniel,355,33,284,2987,11,39,Female,93406,Bronze,Credit Card,True,None,Rainy,True,Tuesday,False,81,53
+94,6444,8194,Colgate Toothpaste,Toothpaste,4,3.5,2023-06-29,4522,Lake Michaeltown,483,20,168,1011,14,39,Male,36724,Gold,Debit Card,False,None,Snowy,True,Thursday,False,130,103
+95,2645,2468,Colgate Toothbrush,Toothbrush,1,2.0,2023-03-23,7705,Michaelville,421,21,252,3956,11,25,Male,119794,Bronze,Debit Card,True,Discount,Rainy,True,Thursday,False,108,112
+96,1963,5049,Colgate Toothbrush,Toothbrush,2,2.0,2023-09-16,5405,Port Dakotabury,137,21,231,3572,2,19,Male,80858,Bronze,Cash,True,Buy One Get One,Sunny,True,Saturday,True,132,54
+97,1990,4305,Colgate Mouthwash,Mouthwash,4,5.0,2024-11-16,2517,Wagnerport,434,37,298,67,12,30,Male,24282,Silver,Cash,True,Discount,Sunny,False,Saturday,False,131,66
+98,8162,9910,Colgate Toothbrush,Toothbrush,1,2.0,2023-08-20,4842,New John,294,48,149,3058,5,55,Male,62106,Bronze,Debit Card,True,None,Rainy,True,Sunday,False,120,120
+99,3207,7709,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-02-24,4871,Arnoldland,310,26,299,902,3,51,Female,44942,Bronze,Debit Card,True,Discount,Rainy,True,Friday,False,75,81
+100,4837,3777,Colgate Mouthwash,Mouthwash,9,5.0,2023-10-02,3569,Lake Michelle,271,23,184,6737,13,30,Female,110753,Silver,Cash,False,Discount,Snowy,False,Monday,False,111,94
+101,9194,7077,Colgate Toothpaste,Toothpaste,4,3.5,2024-05-22,8604,Bobbychester,212,42,107,1125,8,54,Other,30027,Platinum,Mobile Payment,True,Discount,Rainy,False,Wednesday,False,80,139
+102,3071,8622,Colgate Mouthwash,Mouthwash,5,5.0,2023-03-26,4587,Jonesstad,173,44,282,4120,8,42,Other,21144,Gold,Debit Card,False,None,Rainy,True,Sunday,False,136,50
+103,7702,8891,Colgate Toothpaste,Toothpaste,7,3.5,2024-03-28,2532,South Erin,248,47,297,4121,9,53,Other,44181,Silver,Cash,False,Buy One Get One,Sunny,True,Thursday,False,114,113
+104,252,9753,Colgate Toothbrush,Toothbrush,5,2.0,2023-04-02,4355,Brooketown,213,33,172,5540,3,65,Male,41557,Platinum,Debit Card,False,None,Snowy,False,Sunday,True,111,52
+105,5129,2328,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-12-13,1035,New Ashley,451,21,171,6218,7,36,Other,31075,Platinum,Mobile Payment,False,Buy One Get One,Cloudy,False,Wednesday,False,50,41
+106,5847,1694,Colgate Mouthwash,Mouthwash,5,5.0,2023-03-21,3774,Cisnerosburgh,391,30,221,3891,12,49,Male,56941,Platinum,Credit Card,False,Buy One Get One,Sunny,True,Tuesday,False,129,47
+107,4252,364,Colgate Toothpaste,Toothpaste,4,3.5,2024-01-22,751,Kennethhaven,198,41,266,198,8,32,Female,66761,Silver,Mobile Payment,True,None,Rainy,False,Monday,True,118,115
+108,406,9832,Colgate Toothbrush,Toothbrush,10,2.0,2024-04-09,6475,Lake Christopher,84,29,286,9526,11,30,Other,53549,Silver,Cash,False,Discount,Cloudy,True,Tuesday,False,56,124
+109,1606,8383,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-02-05,995,Zacharyport,459,23,230,1138,12,37,Female,39914,Silver,Credit Card,False,Discount,Snowy,False,Sunday,False,92,90
+110,1730,9639,Colgate Mouthwash,Mouthwash,3,5.0,2023-01-18,5707,New Brian,186,34,190,610,9,64,Female,93959,Bronze,Mobile Payment,False,Discount,Sunny,True,Wednesday,False,119,60
+111,750,488,Colgate Toothpaste,Toothpaste,5,3.5,2023-08-09,265,Nicoleside,135,38,287,3602,7,43,Male,79724,Gold,Cash,True,None,Sunny,True,Wednesday,False,102,83
+112,5035,5040,Colgate Toothbrush,Toothbrush,1,2.0,2024-10-05,8342,Lake Theresaberg,238,49,194,3464,11,57,Male,97557,Bronze,Mobile Payment,True,Discount,Cloudy,True,Saturday,True,127,73
+113,1739,3514,Colgate Mouthwash,Mouthwash,9,5.0,2023-04-17,685,Stevenshaven,56,29,184,7557,12,29,Other,31083,Silver,Debit Card,True,None,Cloudy,False,Monday,True,114,112
+114,5055,1399,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-01-21,1856,Port Amanda,303,36,135,9365,14,67,Male,86267,Silver,Cash,False,Discount,Cloudy,True,Sunday,True,130,130
+115,1504,8692,Colgate Toothpaste,Toothpaste,10,3.5,2024-11-12,5572,Melissatown,208,26,216,5950,7,48,Other,109517,Platinum,Debit Card,False,Buy One Get One,Sunny,True,Tuesday,False,60,93
+116,9927,5053,Colgate Toothpaste,Toothpaste,3,3.5,2023-10-06,7687,East Jennifer,302,25,191,7528,7,28,Other,68506,Silver,Cash,True,Discount,Sunny,False,Friday,True,54,53
+117,6330,2090,Colgate Toothbrush,Toothbrush,4,2.0,2023-01-30,7252,Wattsfort,192,42,247,9429,10,57,Male,64440,Silver,Credit Card,False,Buy One Get One,Snowy,True,Monday,True,121,91
+118,7151,4087,Colgate Toothbrush,Toothbrush,5,2.0,2023-07-11,6054,Millstown,74,28,195,4366,9,24,Other,69149,Platinum,Mobile Payment,True,None,Snowy,True,Tuesday,True,128,110
+119,4144,6690,Colgate Toothbrush,Toothbrush,2,2.0,2023-08-13,7144,Port Kevin,226,26,234,7016,7,24,Other,54948,Platinum,Credit Card,True,None,Cloudy,False,Sunday,True,144,121
+120,9974,8266,Colgate Toothpaste,Toothpaste,5,3.5,2023-03-06,3883,Stevensonhaven,326,41,285,3074,5,37,Male,46708,Bronze,Mobile Payment,True,Discount,Cloudy,False,Monday,True,108,65
+121,3454,2539,Colgate Toothbrush,Toothbrush,10,2.0,2024-04-03,6481,New David,264,32,178,8715,5,38,Female,115863,Silver,Credit Card,True,Discount,Snowy,False,Wednesday,True,108,101
+122,1561,7345,Colgate Mouthwash,Mouthwash,2,5.0,2023-08-24,7459,Starkmouth,188,41,263,1677,13,24,Male,111964,Gold,Debit Card,True,Buy One Get One,Snowy,True,Thursday,True,83,101
+123,2635,7105,Colgate Mouthwash,Mouthwash,10,5.0,2023-09-03,2998,West Kristie,71,36,224,2401,13,64,Female,115620,Gold,Mobile Payment,True,Buy One Get One,Sunny,False,Sunday,False,148,43
+124,173,8861,Colgate Toothpaste,Toothpaste,4,3.5,2025-01-05,6080,Shannonfort,143,31,158,3916,5,26,Female,103874,Bronze,Cash,True,Discount,Sunny,True,Sunday,True,83,94
+125,6370,5042,Colgate Toothbrush,Toothbrush,1,2.0,2024-07-13,6140,Williamburgh,155,21,285,2575,4,66,Female,61784,Platinum,Debit Card,True,Buy One Get One,Cloudy,True,Saturday,True,90,43
+126,1737,3521,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-09-17,5924,Oliverview,468,36,237,9785,9,66,Female,101331,Silver,Mobile Payment,False,Buy One Get One,Cloudy,True,Sunday,False,138,79
+127,3582,4985,Colgate Toothbrush,Toothbrush,7,2.0,2024-06-28,5625,North Carrie,399,32,136,4582,5,58,Female,45719,Platinum,Cash,True,Discount,Sunny,False,Friday,False,92,121
+128,2464,3217,Colgate Toothpaste,Toothpaste,3,3.5,2023-04-14,3153,Jenniferborough,401,45,277,2115,10,66,Female,101925,Gold,Credit Card,False,Discount,Rainy,True,Friday,True,95,62
+129,1243,355,Colgate Toothpaste,Toothpaste,7,3.5,2024-04-14,3509,North Debbieland,407,36,252,7852,12,27,Female,40645,Silver,Debit Card,False,Discount,Rainy,False,Sunday,False,96,61
+130,9030,3192,Colgate Toothbrush,Toothbrush,4,2.0,2024-02-23,4591,Jeffreyhaven,445,25,270,2725,9,24,Male,70946,Silver,Credit Card,False,Discount,Rainy,False,Friday,True,94,92
+131,9887,4624,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-02-15,6607,Olsonville,173,49,213,5543,6,39,Female,117657,Bronze,Credit Card,False,Discount,Sunny,True,Wednesday,True,122,93
+132,1187,6545,Colgate Toothpaste,Toothpaste,2,3.5,2024-06-03,2248,West Juliehaven,359,40,146,1108,9,34,Male,110473,Silver,Credit Card,True,Discount,Sunny,True,Monday,True,98,94
+133,2670,8079,Colgate Toothpaste,Toothpaste,6,3.5,2024-08-09,6177,Justinfurt,241,22,185,4487,11,46,Male,28456,Bronze,Cash,False,None,Sunny,False,Friday,True,119,101
+134,1918,5718,Colgate Mouthwash,Mouthwash,7,5.0,2024-10-05,7376,West Jasonland,260,48,122,6890,14,33,Other,74252,Silver,Credit Card,True,None,Sunny,False,Saturday,True,143,93
+135,1230,6903,Colgate Toothpaste,Toothpaste,10,3.5,2024-06-05,6164,East Marie,315,49,101,6770,14,26,Male,45766,Bronze,Credit Card,True,None,Sunny,True,Wednesday,False,131,91
+136,206,2389,Colgate Toothpaste,Toothpaste,9,3.5,2024-05-20,209,Jessemouth,325,37,167,1978,11,30,Male,119564,Platinum,Mobile Payment,False,None,Snowy,True,Monday,False,118,48
+137,7231,2598,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-05-18,9148,Lake Ginatown,352,43,194,1738,3,35,Female,53517,Gold,Debit Card,False,Discount,Rainy,True,Saturday,True,99,41
+138,9679,9101,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-08-14,7285,Riceborough,256,43,206,4947,8,59,Female,72864,Bronze,Mobile Payment,False,Discount,Cloudy,False,Wednesday,False,72,44
+139,3329,9666,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-07-03,6716,Charleneberg,368,24,170,8263,9,38,Female,67215,Bronze,Mobile Payment,True,None,Rainy,True,Wednesday,True,104,97
+140,6313,2302,Colgate Toothbrush,Toothbrush,5,2.0,2023-03-25,1741,Steelebury,207,31,164,6123,12,60,Male,104535,Gold,Debit Card,False,Discount,Cloudy,False,Saturday,False,116,113
+141,1940,2987,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-05-03,567,Mcdanielmouth,280,48,106,2740,5,30,Male,77893,Bronze,Mobile Payment,True,Buy One Get One,Cloudy,True,Friday,True,135,105
+142,6402,4628,Colgate Toothbrush,Toothbrush,8,2.0,2024-10-03,5773,Leeview,50,27,241,4603,9,24,Other,98446,Platinum,Debit Card,False,Buy One Get One,Snowy,True,Thursday,True,64,70
+143,5782,827,Colgate Mouthwash,Mouthwash,7,5.0,2024-09-03,7901,Lake Tracyview,50,34,171,7677,5,47,Female,107914,Gold,Mobile Payment,False,Discount,Cloudy,True,Tuesday,False,61,83
+144,2001,3144,Colgate Mouthwash,Mouthwash,6,5.0,2024-10-07,1762,West Jay,182,22,210,2963,14,52,Female,63986,Platinum,Debit Card,False,Discount,Rainy,False,Monday,True,98,47
+145,4186,8025,Colgate Toothpaste,Toothpaste,2,3.5,2023-11-15,2482,Port Angelaburgh,213,46,279,992,6,34,Female,115606,Gold,Credit Card,False,Discount,Sunny,False,Wednesday,True,85,66
+146,310,6820,Colgate Mouthwash,Mouthwash,3,5.0,2024-10-14,8028,New Sean,195,24,118,385,10,48,Other,115116,Bronze,Cash,True,Discount,Rainy,False,Monday,True,50,120
+147,4204,9886,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-03-25,3795,South Joseshire,153,20,283,1563,6,55,Other,87660,Gold,Mobile Payment,True,None,Rainy,True,Monday,True,119,107
+148,4240,8120,Colgate Toothbrush,Toothbrush,6,2.0,2024-11-10,3731,Riveraburgh,297,42,285,6266,2,66,Male,63383,Gold,Debit Card,False,None,Cloudy,False,Sunday,True,105,59
+149,489,1687,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-11-11,7847,Lake Elizabethchester,442,31,300,8458,14,56,Male,101029,Bronze,Mobile Payment,False,None,Sunny,True,Saturday,False,71,67
+150,7046,3473,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-08-27,7987,West Brandon,295,37,212,5346,6,64,Other,99678,Gold,Debit Card,True,Discount,Rainy,True,Tuesday,False,106,106
+151,7531,7437,Colgate Toothbrush,Toothbrush,5,2.0,2023-05-28,5456,Andersenside,289,31,246,8241,14,67,Other,21063,Bronze,Cash,False,Discount,Sunny,True,Sunday,True,90,96
+152,5468,7839,Colgate Toothbrush,Toothbrush,5,2.0,2024-06-07,8070,Maymouth,340,21,268,9574,6,30,Female,75838,Gold,Credit Card,True,Buy One Get One,Sunny,False,Friday,True,114,80
+153,5322,2765,Colgate Toothbrush,Toothbrush,10,2.0,2024-02-06,4274,Onealfurt,190,38,298,7540,5,69,Female,50029,Gold,Credit Card,True,Discount,Cloudy,True,Tuesday,False,96,136
+154,3458,8531,Colgate Mouthwash,Mouthwash,5,5.0,2023-10-17,2312,Lake Jeanne,333,22,213,271,9,48,Other,119484,Silver,Mobile Payment,True,Discount,Snowy,True,Tuesday,False,102,139
+155,2106,8640,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-12-17,2990,Nataliemouth,155,35,168,9388,6,64,Other,113603,Platinum,Cash,True,None,Rainy,True,Tuesday,False,105,116
+156,8854,5578,Colgate Mouthwash,Mouthwash,6,5.0,2024-07-06,3742,Williamview,444,40,287,2188,11,42,Male,111848,Silver,Mobile Payment,True,Buy One Get One,Rainy,False,Saturday,False,142,53
+157,9037,7193,Colgate Toothbrush,Toothbrush,2,2.0,2024-01-11,6289,Meltonbury,181,46,201,5630,8,25,Other,94798,Silver,Debit Card,False,Discount,Sunny,False,Thursday,True,122,133
+158,2276,4673,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-03-22,8221,Turnerchester,241,23,207,1038,3,69,Other,79319,Platinum,Cash,True,Buy One Get One,Rainy,True,Wednesday,True,134,105
+159,365,7442,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-09-27,7688,Lake Natasha,356,45,100,8809,11,38,Other,81674,Platinum,Credit Card,False,Discount,Sunny,True,Friday,True,60,51
+160,5571,5797,Colgate Toothbrush,Toothbrush,3,2.0,2024-02-14,8777,Port Keithville,381,26,220,8509,10,21,Male,71091,Gold,Cash,True,None,Rainy,False,Wednesday,True,107,44
+161,2538,2072,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-02-15,2648,Cantushire,370,48,199,7901,10,43,Other,115574,Silver,Cash,False,Discount,Rainy,False,Wednesday,False,97,43
+162,5234,8633,Colgate Toothpaste,Toothpaste,8,3.5,2024-03-01,6928,Jamietown,402,37,169,4698,7,69,Female,114650,Silver,Debit Card,False,None,Snowy,True,Friday,False,110,129
+163,8069,6402,Colgate Toothbrush,Toothbrush,7,2.0,2024-04-25,6328,West Tinatown,330,49,100,3928,3,24,Male,85492,Silver,Mobile Payment,False,Discount,Cloudy,False,Thursday,True,79,70
+164,4000,9984,Colgate Toothbrush,Toothbrush,9,2.0,2024-05-07,5186,Murphyborough,55,43,284,5763,4,50,Female,87910,Bronze,Credit Card,False,Discount,Cloudy,False,Tuesday,True,113,44
+165,2530,1647,Colgate Mouthwash,Mouthwash,2,5.0,2024-12-29,7027,Port Anthonyborough,368,38,176,4815,7,40,Male,55009,Silver,Debit Card,False,Discount,Cloudy,True,Sunday,False,69,43
+166,8341,9079,Colgate Toothbrush,Toothbrush,4,2.0,2024-08-10,6654,Port Donaldstad,384,46,222,6681,7,61,Male,32595,Silver,Mobile Payment,True,Discount,Rainy,False,Saturday,False,124,122
+167,3564,1825,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-05-19,6351,Justintown,69,48,200,9208,6,37,Male,26126,Silver,Debit Card,False,Discount,Sunny,True,Friday,True,127,71
+168,8406,4237,Colgate Mouthwash,Mouthwash,7,5.0,2024-03-12,3911,Samanthaberg,120,41,204,4187,4,55,Other,84942,Platinum,Mobile Payment,True,Discount,Cloudy,True,Tuesday,False,100,115
+169,5037,832,Colgate Mouthwash,Mouthwash,6,5.0,2023-08-28,3073,Hurstbury,201,29,164,4062,2,51,Female,81612,Bronze,Credit Card,False,Discount,Snowy,False,Monday,True,111,127
+170,3655,4273,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-09-16,3643,South Peterbury,367,24,103,8246,6,23,Other,52382,Silver,Credit Card,False,None,Sunny,True,Saturday,True,116,84
+171,8887,6014,Colgate Mouthwash,Mouthwash,8,5.0,2024-08-28,480,Johnsonview,94,43,117,8785,12,23,Female,75590,Platinum,Debit Card,True,Buy One Get One,Cloudy,True,Wednesday,False,140,115
+172,4582,1123,Colgate Whitening Strips,Teeth Whitening,7,25.0,2024-09-28,6582,Lindseybury,452,29,259,7409,12,36,Other,52911,Bronze,Credit Card,True,Discount,Sunny,False,Saturday,False,122,83
+173,3217,4044,Colgate Toothbrush,Toothbrush,10,2.0,2023-03-01,1122,West Melissa,170,43,175,2843,4,20,Male,22624,Bronze,Mobile Payment,True,Buy One Get One,Sunny,True,Wednesday,False,115,73
+174,3064,4749,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-11-16,4294,Ramirezshire,97,23,276,5625,3,49,Male,73319,Gold,Mobile Payment,False,Buy One Get One,Snowy,True,Saturday,False,64,60
+175,4914,9382,Colgate Toothbrush,Toothbrush,2,2.0,2024-09-23,3103,Lake Mark,368,25,196,5590,2,43,Female,94917,Silver,Credit Card,False,None,Sunny,False,Monday,False,125,101
+176,4265,547,Colgate Toothpaste,Toothpaste,3,3.5,2024-09-12,5227,Vincentmouth,439,25,158,944,8,63,Other,57259,Silver,Mobile Payment,False,Buy One Get One,Cloudy,True,Thursday,True,111,57
+177,1340,5779,Colgate Toothpaste,Toothpaste,6,3.5,2024-08-25,3131,Ashleyville,87,49,237,2919,3,39,Male,55531,Silver,Mobile Payment,False,Buy One Get One,Rainy,True,Sunday,False,137,135
+178,463,75,Colgate Toothbrush,Toothbrush,2,2.0,2023-01-26,2365,Wardbury,437,27,100,4134,6,36,Male,38995,Silver,Cash,False,Buy One Get One,Cloudy,False,Thursday,True,133,90
+179,4190,5581,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-10-17,1172,Delgadoport,114,34,217,9576,5,24,Male,23551,Silver,Cash,False,None,Sunny,False,Tuesday,True,140,63
+180,819,4004,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-12-05,6381,Kimberlyport,359,33,150,4552,13,36,Male,74395,Bronze,Cash,True,Discount,Snowy,False,Thursday,False,111,120
+181,5167,4042,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-11-10,7528,Courtneyfort,450,37,175,3743,12,36,Female,38388,Silver,Debit Card,False,Buy One Get One,Snowy,False,Sunday,True,137,74
+182,1923,5878,Colgate Toothpaste,Toothpaste,4,3.5,2024-10-06,8216,Travisville,314,34,231,697,14,43,Other,44819,Platinum,Credit Card,True,None,Cloudy,True,Sunday,True,92,56
+183,4400,4332,Colgate Toothbrush,Toothbrush,4,2.0,2024-09-27,4413,Austinborough,240,30,136,2822,5,28,Other,70693,Silver,Debit Card,False,None,Rainy,False,Friday,False,125,122
+184,1845,6217,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-11-18,4308,Port Vickiemouth,337,38,111,3823,13,27,Other,63099,Platinum,Mobile Payment,False,Buy One Get One,Cloudy,False,Monday,False,143,130
+185,950,357,Colgate Toothbrush,Toothbrush,5,2.0,2023-05-21,3004,Williamsside,397,43,163,4592,9,27,Male,85696,Gold,Credit Card,True,Buy One Get One,Sunny,False,Sunday,False,116,99
+186,3808,3872,Colgate Toothbrush,Toothbrush,5,2.0,2023-10-27,1412,Sanchezland,367,43,299,9983,11,41,Female,114950,Silver,Credit Card,False,Buy One Get One,Sunny,True,Friday,False,101,40
+187,896,4452,Colgate Mouthwash,Mouthwash,10,5.0,2024-03-20,6320,Christophershire,188,41,131,568,7,41,Other,49459,Gold,Cash,False,Discount,Cloudy,True,Wednesday,True,54,76
+188,6684,5149,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-02-02,931,West Keithfort,192,50,128,4201,7,59,Male,43857,Bronze,Credit Card,True,Discount,Cloudy,False,Friday,False,62,94
+189,3549,6871,Colgate Mouthwash,Mouthwash,10,5.0,2024-01-25,7366,Amberhaven,191,45,180,9493,7,62,Other,106495,Platinum,Debit Card,False,Discount,Rainy,False,Thursday,False,68,47
+190,5501,5017,Colgate Toothbrush,Toothbrush,7,2.0,2023-12-08,5542,Port Ronald,180,24,158,9503,7,26,Male,71784,Bronze,Cash,True,Discount,Rainy,True,Friday,True,111,43
+191,4479,5669,Colgate Toothbrush,Toothbrush,4,2.0,2023-07-20,2639,West Rickyport,106,44,145,7854,14,29,Female,58295,Platinum,Credit Card,False,None,Cloudy,True,Thursday,True,63,58
+192,7917,8639,Colgate Toothpaste,Toothpaste,10,3.5,2024-12-05,3639,Ashleymouth,353,41,223,1404,10,63,Female,28336,Bronze,Credit Card,False,Discount,Rainy,True,Thursday,False,68,78
+193,461,6813,Colgate Toothbrush,Toothbrush,8,2.0,2024-04-28,9450,Port Jamesport,280,25,246,8768,13,51,Male,95532,Bronze,Credit Card,False,None,Snowy,False,Sunday,False,90,91
+194,5714,5727,Colgate Mouthwash,Mouthwash,5,5.0,2023-06-29,8875,Mooreburgh,201,20,110,5505,8,54,Other,26189,Bronze,Cash,False,None,Snowy,True,Thursday,True,146,135
+195,600,2037,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-08-07,2692,Port Wendychester,278,46,176,5285,3,32,Female,72356,Bronze,Debit Card,True,Buy One Get One,Rainy,False,Monday,True,110,107
+196,5934,6647,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-08-16,4731,North Peggyport,316,47,175,6799,8,22,Female,60316,Platinum,Debit Card,True,Discount,Snowy,True,Friday,False,85,88
+197,6949,2460,Colgate Toothbrush,Toothbrush,10,2.0,2024-03-15,3740,East Stephanie,164,30,258,116,2,35,Female,53908,Bronze,Credit Card,True,Buy One Get One,Sunny,True,Friday,True,118,90
+198,2696,6317,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-03-28,1139,South Kristopherbury,53,23,245,2821,13,32,Male,81671,Platinum,Credit Card,False,Buy One Get One,Cloudy,True,Tuesday,False,115,55
+199,9860,2098,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-09-02,1592,North Elizabethstad,498,30,206,1206,13,47,Male,31887,Gold,Debit Card,True,Buy One Get One,Cloudy,True,Saturday,False,120,133
+200,9626,1439,Colgate Toothpaste,Toothpaste,6,3.5,2023-08-30,6763,Brendahaven,129,24,189,4282,2,32,Other,63728,Gold,Mobile Payment,True,None,Sunny,False,Wednesday,False,112,102
+201,3793,8357,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-02-06,1498,Port Max,445,50,172,8046,2,52,Male,60805,Platinum,Cash,True,Discount,Sunny,False,Monday,True,64,119
+202,7771,2239,Colgate Toothbrush,Toothbrush,7,2.0,2023-04-24,6782,Amandaborough,55,33,199,2880,6,20,Other,54849,Platinum,Mobile Payment,True,Buy One Get One,Rainy,False,Monday,True,136,53
+203,9621,2088,Colgate Toothbrush,Toothbrush,3,2.0,2023-09-02,4729,Port Johntown,422,38,262,331,7,50,Female,31501,Gold,Mobile Payment,False,Buy One Get One,Sunny,False,Saturday,True,95,98
+204,7267,4759,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-04-11,6894,Martinezborough,210,22,236,1634,14,61,Other,117372,Gold,Cash,False,Buy One Get One,Rainy,False,Thursday,False,85,114
+205,6031,1037,Colgate Toothpaste,Toothpaste,7,3.5,2024-08-13,3649,Tammyland,459,20,144,8405,12,43,Male,40723,Silver,Debit Card,False,Discount,Snowy,False,Tuesday,True,122,59
+206,1769,4923,Colgate Toothpaste,Toothpaste,7,3.5,2023-02-25,2205,Brownmouth,331,38,149,3117,8,37,Female,27853,Silver,Cash,False,Buy One Get One,Rainy,False,Saturday,True,92,130
+207,76,7343,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-08-19,5305,Port Robertfurt,302,46,123,6236,8,54,Female,40494,Platinum,Cash,True,Buy One Get One,Snowy,False,Saturday,True,79,49
+208,5588,2571,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-04-16,9765,Lake Michael,167,40,196,28,3,64,Male,45678,Gold,Cash,True,Buy One Get One,Snowy,False,Sunday,False,52,135
+209,578,7618,Colgate Toothpaste,Toothpaste,1,3.5,2025-01-01,4236,Thompsonside,414,30,121,1513,9,61,Female,75208,Bronze,Debit Card,True,Discount,Sunny,False,Wednesday,False,116,95
+210,2390,9050,Colgate Toothpaste,Toothpaste,1,3.5,2024-09-16,4715,East Joseph,424,47,152,6601,5,30,Other,57292,Bronze,Debit Card,False,Discount,Snowy,False,Monday,True,96,137
+211,3915,1150,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-04-20,285,East David,124,32,240,2692,11,22,Other,106010,Silver,Cash,True,Buy One Get One,Cloudy,True,Thursday,True,95,118
+212,1019,6749,Colgate Mouthwash,Mouthwash,3,5.0,2024-12-20,572,East Sandra,373,21,123,3764,8,42,Other,39588,Bronze,Credit Card,False,Discount,Sunny,True,Friday,False,128,113
+213,1417,8347,Colgate Toothpaste,Toothpaste,8,3.5,2024-12-24,6624,Jamesburgh,178,23,120,6281,7,29,Female,113244,Bronze,Debit Card,False,None,Snowy,False,Tuesday,True,107,71
+214,5390,4709,Colgate Mouthwash,Mouthwash,8,5.0,2024-02-02,4166,New Amy,470,37,217,5353,2,44,Other,36389,Platinum,Mobile Payment,False,Discount,Cloudy,True,Friday,True,111,137
+215,5577,7092,Colgate Toothbrush,Toothbrush,3,2.0,2023-11-07,3194,Port Devin,479,30,289,7972,3,38,Male,24328,Silver,Credit Card,True,Discount,Sunny,True,Tuesday,False,133,64
+216,1579,9935,Colgate Toothpaste,Toothpaste,5,3.5,2024-05-16,957,North Donna,277,24,187,1771,14,19,Female,53856,Bronze,Cash,False,Discount,Sunny,True,Thursday,False,60,76
+217,6414,1289,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-06-04,2703,Lopezshire,181,32,207,9089,10,36,Male,61092,Platinum,Mobile Payment,False,None,Rainy,False,Sunday,False,74,117
+218,5737,3634,Colgate Mouthwash,Mouthwash,8,5.0,2023-12-16,8874,Shawnbury,484,39,172,1859,7,65,Male,70586,Platinum,Credit Card,True,Discount,Snowy,True,Saturday,False,52,64
+219,3461,9005,Colgate Toothbrush,Toothbrush,2,2.0,2024-01-01,4611,Nelsonchester,109,46,256,8951,6,51,Female,114558,Gold,Debit Card,False,Discount,Snowy,True,Monday,False,105,101
+220,5040,8248,Colgate Mouthwash,Mouthwash,8,5.0,2024-10-11,2119,Contrerasburgh,396,50,226,358,14,27,Male,39417,Gold,Debit Card,False,None,Rainy,False,Friday,False,135,124
+221,4991,2377,Colgate Mouthwash,Mouthwash,4,5.0,2023-03-08,9537,North Heatherburgh,432,36,260,2456,13,22,Other,44434,Platinum,Cash,True,Buy One Get One,Cloudy,True,Wednesday,True,52,95
+222,2275,7185,Colgate Toothbrush,Toothbrush,7,2.0,2023-03-29,7270,South David,203,39,202,1489,4,29,Female,79134,Silver,Credit Card,False,None,Rainy,False,Wednesday,True,87,135
+223,6379,5470,Colgate Toothbrush,Toothbrush,3,2.0,2024-05-18,7480,Tinaton,78,32,106,5944,8,26,Other,93988,Gold,Cash,False,Buy One Get One,Rainy,True,Saturday,True,106,44
+224,9472,759,Colgate Toothbrush,Toothbrush,9,2.0,2024-08-15,4691,West Christina,138,29,116,8792,12,41,Other,74751,Silver,Debit Card,True,None,Rainy,False,Thursday,False,78,73
+225,3735,9164,Colgate Toothbrush,Toothbrush,9,2.0,2024-08-08,1158,Lake Karen,284,42,118,3488,8,49,Male,75286,Bronze,Debit Card,True,Discount,Sunny,False,Thursday,False,95,115
+226,9765,1679,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-03-18,9721,Gardnerside,439,48,184,6305,8,48,Male,107440,Platinum,Credit Card,False,Buy One Get One,Cloudy,False,Monday,True,88,96
+227,4323,4622,Colgate Mouthwash,Mouthwash,1,5.0,2024-02-12,2933,North Traceyfurt,178,23,266,4478,5,44,Female,21503,Silver,Mobile Payment,True,Buy One Get One,Sunny,True,Monday,True,88,77
+228,8951,9911,Colgate Toothbrush,Toothbrush,6,2.0,2024-08-07,9804,West Martinmouth,326,46,268,488,3,43,Male,81440,Platinum,Mobile Payment,False,Buy One Get One,Sunny,True,Wednesday,True,128,121
+229,6083,1193,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-05-19,171,Joshuafurt,107,32,161,2312,5,20,Other,53904,Silver,Mobile Payment,True,Buy One Get One,Rainy,True,Sunday,False,144,44
+230,479,6168,Colgate Toothbrush,Toothbrush,2,2.0,2024-05-02,7952,East Robertmouth,359,24,247,4845,5,39,Male,109072,Silver,Cash,False,None,Snowy,True,Thursday,False,81,50
+231,1275,5215,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-03-28,7158,West Sergioville,199,33,248,153,14,18,Female,51761,Bronze,Cash,True,None,Rainy,False,Thursday,False,83,49
+232,8523,8094,Colgate Mouthwash,Mouthwash,5,5.0,2024-05-03,3365,Matthewland,309,50,134,8310,14,61,Male,96219,Silver,Cash,False,Buy One Get One,Cloudy,True,Friday,True,96,45
+233,6488,5640,Colgate Toothbrush,Toothbrush,5,2.0,2024-12-20,7192,Holmesmouth,357,47,171,6829,2,30,Other,102382,Gold,Mobile Payment,False,Discount,Cloudy,True,Friday,True,122,65
+234,6255,8200,Colgate Mouthwash,Mouthwash,5,5.0,2023-01-13,7111,Lake Nathan,463,32,116,7491,3,24,Other,100855,Platinum,Mobile Payment,True,Discount,Snowy,True,Friday,True,68,127
+235,86,6176,Colgate Mouthwash,Mouthwash,9,5.0,2024-03-26,5198,Leeview,208,35,276,9485,14,31,Female,54625,Silver,Mobile Payment,True,None,Sunny,True,Tuesday,False,133,90
+236,4196,4469,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-04-04,4573,North Lauren,109,23,165,7055,7,63,Male,28486,Platinum,Cash,False,Discount,Rainy,False,Tuesday,True,132,131
+237,4669,6895,Colgate Mouthwash,Mouthwash,7,5.0,2023-07-05,9916,Port Cindytown,155,37,137,8416,4,57,Female,114053,Gold,Cash,True,None,Cloudy,True,Wednesday,False,104,124
+238,8386,8047,Colgate Toothbrush,Toothbrush,10,2.0,2023-05-26,4649,Port Michael,83,41,175,1894,7,62,Other,79159,Bronze,Credit Card,False,None,Cloudy,True,Friday,True,116,102
+239,2665,1737,Colgate Mouthwash,Mouthwash,8,5.0,2024-02-15,1638,Aguilarton,73,41,235,8230,7,57,Female,100282,Platinum,Debit Card,True,Discount,Cloudy,False,Thursday,False,121,104
+240,81,7551,Colgate Mouthwash,Mouthwash,5,5.0,2024-03-28,2566,Jennifermouth,185,21,202,9445,10,51,Male,119272,Bronze,Debit Card,False,Buy One Get One,Rainy,False,Thursday,True,128,66
+241,6712,6709,Colgate Mouthwash,Mouthwash,7,5.0,2024-02-11,297,Ianfurt,364,25,279,2606,13,67,Other,104576,Bronze,Mobile Payment,False,Buy One Get One,Sunny,True,Sunday,False,99,134
+242,8269,8386,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-06-22,1857,Robertsonton,330,47,227,9875,9,29,Female,45873,Gold,Mobile Payment,False,None,Snowy,True,Saturday,True,109,92
+243,1862,4731,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-03-15,4275,East Michael,475,35,236,3148,7,29,Female,72245,Bronze,Debit Card,True,Buy One Get One,Rainy,False,Friday,True,114,126
+244,4847,5018,Colgate Toothpaste,Toothpaste,5,3.5,2024-06-14,5216,Alyssamouth,273,44,196,1389,3,30,Male,33717,Bronze,Credit Card,False,None,Rainy,False,Friday,False,109,102
+245,181,216,Colgate Toothbrush,Toothbrush,4,2.0,2023-11-23,5737,Lake Joseph,385,27,228,225,7,24,Male,98139,Gold,Mobile Payment,False,Buy One Get One,Rainy,False,Thursday,False,87,84
+246,3462,1837,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-05-09,1047,East Cynthia,429,24,100,1692,12,49,Male,23358,Platinum,Cash,False,None,Snowy,False,Tuesday,True,51,86
+247,5205,169,Colgate Toothpaste,Toothpaste,5,3.5,2024-11-06,5656,Angelatown,489,41,213,347,14,27,Male,60201,Platinum,Mobile Payment,True,None,Cloudy,True,Wednesday,False,148,107
+248,9596,5047,Colgate Mouthwash,Mouthwash,5,5.0,2023-08-19,5791,Watkinsbury,222,31,279,4339,6,22,Other,47523,Platinum,Cash,False,Discount,Rainy,False,Saturday,True,55,101
+249,1419,6423,Colgate Toothbrush,Toothbrush,5,2.0,2023-10-24,1525,Lake Christopher,99,49,194,1528,3,44,Female,118501,Gold,Cash,True,Buy One Get One,Sunny,False,Tuesday,True,115,42
+250,7745,5246,Colgate Toothbrush,Toothbrush,9,2.0,2023-02-09,1611,West Brentmouth,130,25,165,6923,12,20,Male,85539,Platinum,Credit Card,True,Discount,Cloudy,True,Thursday,False,63,113
+251,4334,2371,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-05-30,449,Roberttown,440,39,140,6800,14,24,Male,32788,Bronze,Credit Card,False,Buy One Get One,Cloudy,True,Tuesday,False,91,88
+252,5050,5830,Colgate Mouthwash,Mouthwash,4,5.0,2023-08-01,2674,North Hollybury,55,40,300,3779,4,39,Female,88943,Platinum,Debit Card,False,Discount,Rainy,False,Tuesday,True,128,96
+253,9140,2481,Colgate Mouthwash,Mouthwash,9,5.0,2023-04-12,4434,New Mariachester,108,41,119,4690,2,67,Female,52022,Bronze,Credit Card,True,Buy One Get One,Snowy,True,Wednesday,True,92,79
+254,5998,9532,Colgate Toothbrush,Toothbrush,6,2.0,2023-02-20,6540,Port Chris,445,37,293,2875,7,53,Female,53962,Platinum,Cash,True,Buy One Get One,Sunny,False,Monday,False,82,80
+255,2415,6757,Colgate Toothbrush,Toothbrush,5,2.0,2024-04-17,4064,South Veronicaview,211,34,139,7353,14,67,Male,46586,Platinum,Cash,True,None,Rainy,False,Wednesday,True,55,40
+256,8780,9241,Colgate Mouthwash,Mouthwash,6,5.0,2024-03-30,2130,Toddtown,307,32,191,2279,10,42,Male,84853,Platinum,Debit Card,True,Buy One Get One,Snowy,False,Saturday,False,123,82
+257,6147,8733,Colgate Toothbrush,Toothbrush,8,2.0,2023-12-15,2504,East Jessica,463,34,228,9682,9,24,Male,64165,Platinum,Debit Card,True,Buy One Get One,Snowy,False,Friday,False,89,106
+258,9627,4502,Colgate Mouthwash,Mouthwash,5,5.0,2023-06-04,4348,Kramerborough,288,21,144,521,9,41,Female,25626,Platinum,Cash,False,None,Sunny,True,Sunday,False,64,134
+259,3878,7501,Colgate Toothbrush,Toothbrush,4,2.0,2023-05-09,9241,South Kimberly,220,49,152,6040,3,39,Male,115677,Gold,Cash,False,None,Snowy,True,Tuesday,False,108,82
+260,525,3878,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-11-07,7914,Butlerborough,117,25,146,2493,5,21,Female,117316,Gold,Debit Card,False,None,Snowy,True,Tuesday,False,110,69
+261,8304,3270,Colgate Toothbrush,Toothbrush,7,2.0,2023-12-10,8894,Evansburgh,134,41,196,3573,2,25,Other,67081,Platinum,Mobile Payment,False,Buy One Get One,Snowy,False,Sunday,True,55,47
+262,8778,1922,Colgate Toothpaste,Toothpaste,1,3.5,2023-09-12,6303,Kellyville,354,25,185,3844,5,39,Other,67051,Platinum,Credit Card,False,Discount,Rainy,True,Tuesday,True,64,78
+263,4436,4014,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-04-22,5437,Cookechester,257,21,297,734,9,61,Female,49759,Platinum,Cash,True,None,Rainy,False,Monday,False,127,115
+264,1784,701,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-02-28,5006,Cooperland,86,25,120,1855,8,36,Female,23345,Gold,Cash,True,None,Snowy,False,Wednesday,False,103,64
+265,9412,8723,Colgate Toothpaste,Toothpaste,6,3.5,2024-07-07,1705,Juanview,123,46,205,9603,14,64,Female,96904,Silver,Mobile Payment,False,None,Rainy,True,Sunday,True,63,135
+266,2022,493,Colgate Mouthwash,Mouthwash,8,5.0,2023-11-23,7970,Port Michaelmouth,393,50,232,2038,12,40,Male,86643,Silver,Debit Card,True,Discount,Rainy,True,Thursday,False,77,130
+267,2588,5944,Colgate Whitening Strips,Teeth Whitening,7,25.0,2024-04-30,4203,West Jamestown,165,29,188,904,2,20,Female,105203,Silver,Debit Card,False,Buy One Get One,Rainy,True,Tuesday,True,84,73
+268,6511,7460,Colgate Toothpaste,Toothpaste,2,3.5,2024-04-26,7997,Port Daisy,291,47,102,4973,12,57,Other,62922,Bronze,Cash,True,Discount,Sunny,False,Friday,True,108,88
+269,2965,5384,Colgate Toothpaste,Toothpaste,6,3.5,2023-04-01,7384,West Randallview,278,33,156,1082,12,26,Other,48560,Platinum,Mobile Payment,False,Buy One Get One,Snowy,True,Saturday,True,54,78
+270,3940,1003,Colgate Mouthwash,Mouthwash,5,5.0,2024-12-06,4400,Youngland,65,27,241,8089,7,19,Male,64288,Platinum,Mobile Payment,False,Discount,Cloudy,True,Friday,False,106,117
+271,3198,2379,Colgate Toothpaste,Toothpaste,5,3.5,2023-06-27,7959,Port Gregorymouth,476,48,178,4112,11,41,Other,38948,Bronze,Mobile Payment,True,Buy One Get One,Rainy,False,Tuesday,True,59,107
+272,5606,4297,Colgate Toothbrush,Toothbrush,9,2.0,2023-07-14,1252,Jorgefurt,461,38,156,3524,3,61,Other,108812,Platinum,Credit Card,True,None,Rainy,False,Friday,False,109,82
+273,1637,4259,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-08-04,4463,Herreraburgh,221,37,194,8756,11,44,Other,24145,Platinum,Mobile Payment,False,Discount,Sunny,True,Sunday,True,52,129
+274,8107,7931,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-11-07,477,Smithland,449,32,282,6568,4,70,Male,76289,Platinum,Mobile Payment,False,None,Rainy,True,Thursday,True,65,47
+275,5271,9293,Colgate Toothbrush,Toothbrush,6,2.0,2023-01-11,208,Johnsonville,435,20,139,2767,12,43,Male,25705,Gold,Mobile Payment,False,Discount,Cloudy,False,Wednesday,False,109,40
+276,1072,7272,Colgate Toothpaste,Toothpaste,6,3.5,2024-10-24,2224,West Audreyfurt,353,23,180,5749,3,36,Other,117728,Silver,Credit Card,False,Discount,Cloudy,False,Thursday,True,74,85
+277,2857,7471,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-03-23,6319,Chaveztown,107,45,263,1739,6,26,Other,59474,Silver,Mobile Payment,True,Discount,Sunny,True,Thursday,False,132,126
+278,970,5589,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-08-09,9181,Port Ericmouth,125,40,255,4777,8,40,Other,83212,Platinum,Debit Card,False,Discount,Rainy,False,Friday,True,135,41
+279,1899,6128,Colgate Toothpaste,Toothpaste,3,3.5,2024-08-01,5608,North Monicatown,477,49,114,9710,6,47,Other,37633,Bronze,Mobile Payment,True,None,Cloudy,True,Thursday,False,105,44
+280,3569,4287,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-05-21,3110,Cruzmouth,164,20,238,1136,2,64,Other,29711,Bronze,Cash,False,Buy One Get One,Sunny,False,Sunday,True,74,52
+281,7957,6199,Colgate Mouthwash,Mouthwash,8,5.0,2024-12-13,4133,Justinstad,64,26,140,9366,5,65,Other,44866,Gold,Credit Card,False,Discount,Rainy,True,Friday,True,98,126
+282,1138,9195,Colgate Toothbrush,Toothbrush,6,2.0,2024-02-23,7278,South Ann,134,34,159,5523,3,41,Other,21429,Silver,Debit Card,False,None,Sunny,False,Friday,True,56,55
+283,4501,3747,Colgate Toothbrush,Toothbrush,10,2.0,2024-04-05,5856,Brownshire,131,38,254,8093,5,53,Male,97983,Gold,Cash,True,Buy One Get One,Snowy,False,Friday,True,79,75
+284,6665,8280,Colgate Toothbrush,Toothbrush,10,2.0,2024-04-23,8786,West Michelleton,301,44,300,7266,6,63,Male,37482,Gold,Mobile Payment,True,None,Cloudy,True,Tuesday,True,58,99
+285,11,2651,Colgate Toothpaste,Toothpaste,9,3.5,2023-04-07,4153,Hensonbury,345,33,184,3292,3,23,Other,49619,Gold,Cash,True,Buy One Get One,Snowy,True,Friday,True,127,83
+286,7884,8163,Colgate Toothbrush,Toothbrush,9,2.0,2023-03-29,8056,Port Mariaport,80,31,289,284,3,53,Male,49094,Bronze,Debit Card,True,Buy One Get One,Cloudy,True,Wednesday,True,112,126
+287,380,1156,Colgate Mouthwash,Mouthwash,2,5.0,2024-03-24,1145,West Pamela,445,35,299,8385,3,36,Male,69997,Bronze,Credit Card,True,Discount,Sunny,True,Sunday,False,150,57
+288,2975,8316,Colgate Toothbrush,Toothbrush,2,2.0,2023-11-23,8503,Caldwellmouth,412,37,277,5628,9,32,Other,49331,Gold,Debit Card,True,Discount,Snowy,False,Thursday,True,121,59
+289,1420,5129,Colgate Toothpaste,Toothpaste,2,3.5,2024-09-05,6227,Roychester,384,22,144,512,3,68,Male,62300,Gold,Credit Card,True,None,Cloudy,False,Thursday,True,131,69
+290,4567,2473,Colgate Toothpaste,Toothpaste,9,3.5,2024-04-28,395,Yeseniafurt,219,24,249,4546,10,41,Male,37081,Silver,Debit Card,False,Buy One Get One,Sunny,True,Sunday,True,94,47
+291,2042,4798,Colgate Toothpaste,Toothpaste,4,3.5,2024-05-06,976,Staceyhaven,333,30,105,1012,10,64,Other,89506,Gold,Credit Card,True,Discount,Sunny,True,Monday,True,113,111
+292,8479,795,Colgate Mouthwash,Mouthwash,6,5.0,2024-04-27,4091,New Barbarashire,107,40,143,3646,13,32,Male,85285,Bronze,Cash,True,None,Snowy,False,Saturday,False,105,126
+293,9231,5543,Colgate Toothpaste,Toothpaste,1,3.5,2023-10-24,72,Harrisshire,427,32,224,3947,14,62,Male,42640,Platinum,Mobile Payment,True,None,Cloudy,False,Tuesday,True,68,68
+294,8736,6491,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-09-24,8691,East Jennifer,239,34,263,2973,3,27,Male,111027,Silver,Mobile Payment,True,Discount,Sunny,False,Tuesday,True,137,72
+295,7661,7324,Colgate Toothpaste,Toothpaste,5,3.5,2023-04-17,7564,Kimberlyfurt,55,47,185,4746,3,24,Female,107494,Silver,Debit Card,False,None,Snowy,True,Monday,False,60,125
+296,4659,4599,Colgate Mouthwash,Mouthwash,1,5.0,2023-08-13,8725,Ericksonchester,438,49,137,4672,7,37,Male,111831,Silver,Debit Card,True,Discount,Sunny,True,Sunday,True,64,51
+297,5537,3115,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-05-07,8123,West Pamelabury,400,21,245,9350,13,27,Male,104104,Bronze,Mobile Payment,True,None,Cloudy,True,Tuesday,False,131,99
+298,2414,4286,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-08-20,6396,New Joelland,378,50,300,7591,7,36,Other,53751,Bronze,Cash,False,Discount,Snowy,True,Sunday,False,114,90
+299,3776,2777,Colgate Toothbrush,Toothbrush,10,2.0,2023-07-12,8975,New Gary,90,50,195,148,12,26,Other,100999,Gold,Debit Card,False,None,Rainy,True,Wednesday,False,112,93
+300,6546,5150,Colgate Toothpaste,Toothpaste,9,3.5,2023-10-20,8349,Lake Loriville,168,31,290,9311,4,22,Male,45375,Bronze,Credit Card,True,None,Rainy,False,Friday,True,68,102
+301,1917,6493,Colgate Toothbrush,Toothbrush,10,2.0,2024-01-31,1156,Johnborough,155,50,248,5551,8,67,Female,117513,Gold,Debit Card,False,None,Sunny,False,Wednesday,True,90,88
+302,8691,6446,Colgate Toothbrush,Toothbrush,9,2.0,2024-07-20,1672,Judyville,231,28,121,3493,10,46,Other,71430,Bronze,Mobile Payment,True,Buy One Get One,Snowy,True,Saturday,True,108,92
+303,6555,1428,Colgate Toothpaste,Toothpaste,10,3.5,2024-04-07,983,Robinsonfort,339,26,199,815,2,20,Other,65808,Gold,Cash,True,None,Sunny,False,Sunday,True,111,53
+304,8674,68,Colgate Mouthwash,Mouthwash,10,5.0,2023-09-29,4483,Lake Matthewberg,84,22,121,1178,6,57,Male,68092,Platinum,Credit Card,True,Discount,Snowy,True,Friday,True,50,136
+305,4931,9730,Colgate Toothbrush,Toothbrush,9,2.0,2024-09-13,1407,Melissaborough,439,23,101,7451,2,30,Female,110441,Gold,Debit Card,False,Buy One Get One,Cloudy,False,Friday,True,98,98
+306,1800,9655,Colgate Mouthwash,Mouthwash,1,5.0,2023-06-06,939,Johnsonchester,366,30,200,9512,12,19,Other,50593,Gold,Cash,True,None,Snowy,True,Tuesday,False,145,54
+307,7557,8229,Colgate Toothbrush,Toothbrush,2,2.0,2024-02-20,2916,Houstonfort,209,40,142,6364,13,52,Female,35465,Platinum,Mobile Payment,False,Buy One Get One,Rainy,False,Tuesday,False,130,90
+308,4286,6364,Colgate Toothpaste,Toothpaste,8,3.5,2023-12-22,7951,Huynhport,308,25,133,8872,12,55,Other,76783,Bronze,Cash,True,Discount,Snowy,False,Friday,True,60,45
+309,6333,3304,Colgate Toothpaste,Toothpaste,3,3.5,2024-10-24,9178,Port Jasonland,298,42,150,5416,6,27,Other,61582,Platinum,Mobile Payment,False,Discount,Snowy,True,Thursday,True,56,113
+310,9605,6944,Colgate Mouthwash,Mouthwash,2,5.0,2024-06-18,9568,New Robinhaven,357,33,273,8103,12,54,Male,90536,Bronze,Credit Card,False,Discount,Rainy,False,Tuesday,True,141,90
+311,3852,7520,Colgate Toothpaste,Toothpaste,9,3.5,2024-08-30,9454,Lake Gregory,428,29,144,2804,7,44,Female,106964,Platinum,Credit Card,True,None,Cloudy,True,Friday,True,74,43
+312,7333,3663,Colgate Toothbrush,Toothbrush,7,2.0,2024-05-15,5896,West Marymouth,346,27,280,2134,10,23,Male,48031,Platinum,Debit Card,False,None,Sunny,True,Wednesday,False,150,107
+313,4338,2410,Colgate Toothpaste,Toothpaste,6,3.5,2023-04-30,5143,Larryview,171,25,250,9323,2,38,Male,97552,Platinum,Credit Card,False,None,Sunny,False,Sunday,True,58,61
+314,2099,1338,Colgate Mouthwash,Mouthwash,4,5.0,2024-06-18,1028,Port Mary,219,49,159,3031,3,22,Other,119009,Platinum,Cash,False,None,Cloudy,True,Tuesday,True,94,139
+315,3301,2781,Colgate Toothpaste,Toothpaste,10,3.5,2024-10-23,5232,North Julie,364,46,182,1715,12,19,Male,73210,Gold,Debit Card,True,Buy One Get One,Cloudy,True,Wednesday,False,72,56
+316,4087,9845,Colgate Toothpaste,Toothpaste,1,3.5,2023-05-15,2316,East David,90,39,196,8356,8,67,Male,75768,Platinum,Cash,True,Buy One Get One,Rainy,False,Monday,True,137,62
+317,3679,141,Colgate Toothpaste,Toothpaste,7,3.5,2024-09-02,8165,Fowlerhaven,454,35,270,4264,3,54,Other,90381,Bronze,Cash,True,Discount,Cloudy,False,Monday,False,143,69
+318,7755,2882,Colgate Toothbrush,Toothbrush,2,2.0,2023-04-09,7782,Lake Amanda,248,34,127,5187,5,23,Female,82456,Platinum,Cash,False,Buy One Get One,Sunny,True,Sunday,False,107,103
+319,2041,3145,Colgate Toothpaste,Toothpaste,3,3.5,2023-09-22,6588,Victorialand,140,41,170,7176,9,19,Male,72840,Silver,Mobile Payment,True,Buy One Get One,Cloudy,False,Friday,False,85,131
+320,8255,6764,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-05-03,8209,East Russellfort,96,30,292,4502,8,66,Other,68366,Gold,Mobile Payment,True,Discount,Sunny,False,Friday,False,93,45
+321,5664,6696,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-02-15,2438,Joshuachester,192,23,286,7839,5,54,Female,38194,Silver,Mobile Payment,False,Buy One Get One,Cloudy,True,Wednesday,True,145,55
+322,7908,7212,Colgate Toothpaste,Toothpaste,2,3.5,2024-03-06,9377,Lake Michaelville,69,35,270,9838,12,34,Male,76623,Platinum,Mobile Payment,True,Buy One Get One,Cloudy,True,Wednesday,True,122,99
+323,5513,783,Colgate Mouthwash,Mouthwash,4,5.0,2023-11-01,4365,New Kathrynside,467,43,155,8483,3,58,Female,109056,Gold,Cash,False,Buy One Get One,Rainy,False,Wednesday,False,100,80
+324,5107,7264,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-03-12,8061,West Timothy,433,31,250,5497,8,46,Female,111056,Bronze,Cash,False,Buy One Get One,Rainy,True,Tuesday,False,116,115
+325,8082,5355,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-02-21,9739,Lake Matthew,156,41,106,2943,11,62,Other,100203,Silver,Cash,True,Discount,Cloudy,False,Wednesday,True,141,54
+326,5142,5770,Colgate Toothbrush,Toothbrush,7,2.0,2024-08-31,9910,Lake William,404,36,289,8928,2,53,Male,49916,Gold,Mobile Payment,False,Discount,Rainy,False,Saturday,True,145,41
+327,3932,399,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-06-26,5139,Oconnellview,224,21,299,7080,10,70,Female,114837,Silver,Mobile Payment,False,Buy One Get One,Sunny,False,Monday,False,125,63
+328,9540,2068,Colgate Mouthwash,Mouthwash,9,5.0,2023-04-05,5039,New Rogerstad,52,23,177,3334,8,26,Female,115289,Platinum,Cash,False,Buy One Get One,Snowy,False,Wednesday,False,83,66
+329,3947,2133,Colgate Toothpaste,Toothpaste,10,3.5,2024-10-29,6294,Robinview,225,32,246,7312,6,63,Female,74663,Silver,Cash,True,Discount,Sunny,False,Tuesday,True,99,109
+330,374,3381,Colgate Toothbrush,Toothbrush,8,2.0,2024-04-14,9843,New Meganport,286,45,108,9527,6,57,Male,107756,Gold,Cash,False,None,Cloudy,False,Sunday,False,81,128
+331,9361,2533,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-09-28,513,Jacobburgh,389,38,264,8946,13,35,Male,42915,Gold,Mobile Payment,True,None,Sunny,True,Thursday,False,74,41
+332,5302,103,Colgate Mouthwash,Mouthwash,6,5.0,2024-10-15,4572,East Nicholas,439,45,217,679,9,43,Female,23405,Silver,Mobile Payment,False,None,Rainy,True,Tuesday,False,69,100
+333,7512,3190,Colgate Toothbrush,Toothbrush,5,2.0,2024-11-03,5618,Dominguezport,64,34,149,8444,4,55,Male,46732,Platinum,Cash,False,Buy One Get One,Snowy,False,Sunday,True,127,112
+334,3630,1586,Colgate Mouthwash,Mouthwash,7,5.0,2023-05-15,8200,Randyport,439,46,111,3904,8,52,Other,83952,Gold,Mobile Payment,False,None,Rainy,False,Monday,False,95,68
+335,9010,687,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-02-01,7267,Scottmouth,452,29,236,5361,9,28,Male,60865,Silver,Mobile Payment,False,None,Cloudy,False,Thursday,True,54,112
+336,7253,7799,Colgate Toothpaste,Toothpaste,3,3.5,2023-06-21,9028,South Sarahstad,259,29,102,6050,5,63,Female,21862,Platinum,Debit Card,True,Discount,Rainy,False,Wednesday,False,116,53
+337,1640,5984,Colgate Toothpaste,Toothpaste,7,3.5,2024-12-07,6800,Davidfort,497,43,170,8440,7,20,Male,65670,Silver,Mobile Payment,False,None,Sunny,True,Saturday,False,77,45
+338,243,7519,Colgate Mouthwash,Mouthwash,4,5.0,2025-01-02,7676,New Cameron,67,36,162,4556,13,31,Other,42680,Platinum,Debit Card,True,Buy One Get One,Cloudy,True,Thursday,True,101,119
+339,4378,9435,Colgate Mouthwash,Mouthwash,1,5.0,2024-07-09,3685,Jesseland,241,34,270,7592,6,42,Male,90802,Platinum,Cash,False,Buy One Get One,Cloudy,True,Tuesday,True,132,98
+340,2723,9997,Colgate Toothpaste,Toothpaste,3,3.5,2024-11-23,1639,West Richardbury,298,48,104,8380,7,25,Female,92291,Platinum,Debit Card,False,Discount,Rainy,False,Saturday,False,138,61
+341,9704,5724,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-01-07,4879,Craigberg,145,38,252,4362,10,23,Female,27323,Platinum,Cash,True,Discount,Cloudy,True,Sunday,True,65,133
+342,5733,7776,Colgate Toothbrush,Toothbrush,2,2.0,2024-12-16,8042,Mollystad,404,34,187,5876,4,69,Other,56770,Gold,Mobile Payment,False,None,Cloudy,False,Monday,True,89,81
+343,5216,5924,Colgate Toothpaste,Toothpaste,6,3.5,2024-04-04,5388,Port Marieburgh,268,42,168,8295,2,44,Male,37085,Gold,Debit Card,True,None,Rainy,False,Thursday,True,110,92
+344,4894,5171,Colgate Mouthwash,Mouthwash,10,5.0,2024-04-01,8266,East Stephaniehaven,492,38,287,9833,5,33,Male,91422,Gold,Debit Card,True,None,Cloudy,False,Monday,False,112,75
+345,111,3845,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-04-29,1280,West Monicaberg,440,50,102,8386,7,18,Male,24369,Platinum,Debit Card,True,None,Sunny,True,Monday,True,127,97
+346,994,8413,Colgate Mouthwash,Mouthwash,6,5.0,2025-01-07,602,Gonzalezview,353,38,261,4638,4,26,Female,113186,Platinum,Debit Card,False,Buy One Get One,Cloudy,False,Tuesday,True,137,88
+347,3046,9176,Colgate Toothpaste,Toothpaste,2,3.5,2024-10-14,695,Devinfort,92,41,101,9368,4,36,Female,58766,Silver,Cash,False,Buy One Get One,Snowy,True,Monday,True,61,138
+348,1765,3632,Colgate Toothbrush,Toothbrush,6,2.0,2024-11-01,1861,Lake Tylerside,418,49,115,9551,4,50,Other,49516,Bronze,Mobile Payment,True,Discount,Sunny,True,Friday,False,63,49
+349,7668,8976,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-04-26,7623,New Christinechester,214,23,235,583,11,22,Male,33887,Bronze,Mobile Payment,True,Discount,Snowy,True,Wednesday,True,89,138
+350,9383,1977,Colgate Toothpaste,Toothpaste,1,3.5,2023-09-19,8578,North Melindaside,408,25,179,3176,2,51,Other,27196,Silver,Debit Card,True,None,Snowy,True,Tuesday,False,71,83
+351,2162,6387,Colgate Toothpaste,Toothpaste,1,3.5,2023-12-06,5064,Curtisstad,477,38,148,7277,9,39,Female,86442,Platinum,Debit Card,False,Buy One Get One,Cloudy,True,Wednesday,True,71,43
+352,4082,5265,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-08-24,6573,Debbieshire,489,38,106,9864,11,31,Female,77717,Silver,Mobile Payment,True,Discount,Sunny,True,Saturday,True,79,139
+353,4737,5481,Colgate Toothbrush,Toothbrush,4,2.0,2024-01-16,5203,Erichaven,493,50,228,7389,5,51,Other,67345,Platinum,Credit Card,True,Discount,Cloudy,True,Tuesday,False,112,78
+354,1108,6300,Colgate Toothbrush,Toothbrush,5,2.0,2024-03-24,2067,Lewisborough,134,37,122,594,12,32,Other,107470,Silver,Debit Card,False,Discount,Rainy,True,Sunday,False,138,107
+355,3638,3504,Colgate Toothbrush,Toothbrush,8,2.0,2023-02-18,6223,Stevenville,101,42,253,2065,13,67,Other,21794,Bronze,Debit Card,True,Buy One Get One,Rainy,True,Saturday,True,54,68
+356,3141,2313,Colgate Toothpaste,Toothpaste,2,3.5,2023-01-24,1771,Port Jenniferstad,234,26,297,7042,8,64,Male,28493,Gold,Mobile Payment,False,Buy One Get One,Snowy,False,Tuesday,True,137,124
+357,2599,1311,Colgate Toothbrush,Toothbrush,5,2.0,2024-10-06,4835,New Casey,412,32,116,5095,7,65,Other,105147,Platinum,Credit Card,True,None,Rainy,True,Sunday,True,78,94
+358,308,4121,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-04-14,6868,Lake Johnton,100,28,288,3497,5,64,Other,111159,Silver,Cash,True,Discount,Rainy,True,Friday,False,75,53
+359,8982,6496,Colgate Toothbrush,Toothbrush,3,2.0,2024-12-25,1121,North Kristin,207,50,250,4839,3,37,Male,80681,Platinum,Debit Card,False,None,Sunny,False,Wednesday,False,109,94
+360,8472,3914,Colgate Toothpaste,Toothpaste,9,3.5,2024-08-28,9847,Cynthiaside,261,45,137,1190,9,57,Male,98467,Platinum,Mobile Payment,False,Buy One Get One,Sunny,False,Wednesday,False,66,41
+361,5653,4193,Colgate Toothbrush,Toothbrush,1,2.0,2024-11-20,8575,East Tina,87,49,106,692,10,43,Other,77271,Gold,Credit Card,False,Buy One Get One,Sunny,True,Wednesday,True,117,62
+362,7381,512,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-07-31,654,East Lisa,433,44,196,2675,11,67,Other,67204,Platinum,Mobile Payment,False,None,Cloudy,True,Wednesday,True,87,50
+363,2290,2524,Colgate Mouthwash,Mouthwash,10,5.0,2023-09-10,6575,Chandlerborough,138,41,292,3865,9,49,Female,103451,Silver,Mobile Payment,True,Discount,Snowy,False,Sunday,True,53,129
+364,129,6843,Colgate Mouthwash,Mouthwash,5,5.0,2024-04-25,3338,New Amandachester,432,45,198,6055,9,35,Female,52833,Gold,Credit Card,True,None,Rainy,True,Thursday,True,80,92
+365,9270,6245,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-11-27,667,Charlesshire,104,43,144,3194,8,38,Male,86981,Bronze,Debit Card,False,Discount,Sunny,True,Wednesday,True,147,104
+366,6232,2189,Colgate Toothpaste,Toothpaste,6,3.5,2023-07-18,1823,New Christopher,436,24,158,1917,2,28,Male,20833,Bronze,Debit Card,False,Buy One Get One,Snowy,True,Tuesday,True,60,53
+367,9065,9063,Colgate Mouthwash,Mouthwash,1,5.0,2023-05-21,8055,Nathanielport,310,34,188,8810,8,54,Female,75561,Bronze,Cash,False,None,Rainy,False,Sunday,False,104,54
+368,524,2284,Colgate Mouthwash,Mouthwash,4,5.0,2023-07-31,2744,East Michael,147,20,186,3370,13,20,Other,110564,Gold,Mobile Payment,True,None,Cloudy,True,Monday,False,93,106
+369,2181,2914,Colgate Mouthwash,Mouthwash,2,5.0,2023-08-12,5975,West Josephport,368,24,160,6720,3,41,Male,55997,Silver,Credit Card,False,Discount,Sunny,True,Saturday,False,125,82
+370,5820,2420,Colgate Toothbrush,Toothbrush,8,2.0,2024-05-24,8063,Port Colton,221,42,296,9916,4,60,Other,41791,Bronze,Mobile Payment,True,None,Snowy,False,Friday,True,102,49
+371,865,1177,Colgate Toothpaste,Toothpaste,8,3.5,2023-03-08,5535,Davidshire,257,38,276,2711,7,57,Other,109039,Gold,Credit Card,True,Discount,Sunny,False,Wednesday,False,133,44
+372,575,7466,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-07-11,7881,Dodsonmouth,220,23,203,3525,14,22,Other,79428,Gold,Credit Card,True,None,Sunny,True,Tuesday,False,84,108
+373,2226,7856,Colgate Toothbrush,Toothbrush,7,2.0,2024-09-07,5425,Barreraland,106,24,177,4799,9,47,Other,97593,Gold,Mobile Payment,True,Buy One Get One,Cloudy,False,Saturday,True,115,130
+374,696,2485,Colgate Toothbrush,Toothbrush,6,2.0,2024-02-24,2976,Port Cassandra,194,46,167,4075,7,34,Male,95432,Gold,Mobile Payment,False,Buy One Get One,Cloudy,True,Saturday,False,120,60
+375,921,8672,Colgate Mouthwash,Mouthwash,1,5.0,2024-03-24,6861,Thomasland,406,37,144,8861,9,18,Male,63882,Platinum,Debit Card,False,None,Cloudy,False,Sunday,False,140,117
+376,9045,1599,Colgate Toothbrush,Toothbrush,2,2.0,2023-10-01,7880,Gravesfurt,278,45,103,2775,12,33,Male,101997,Bronze,Credit Card,False,Discount,Rainy,True,Sunday,False,131,132
+377,8914,788,Colgate Toothbrush,Toothbrush,7,2.0,2023-08-18,5942,New Levi,107,20,197,2371,13,65,Female,51179,Bronze,Credit Card,False,Discount,Snowy,True,Friday,False,133,114
+378,5621,4861,Colgate Mouthwash,Mouthwash,9,5.0,2024-12-18,3283,New Jenniferville,206,38,172,433,6,19,Male,91489,Gold,Debit Card,False,Buy One Get One,Snowy,True,Wednesday,False,56,53
+379,1824,8358,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-12-26,5225,Jacobston,69,50,165,6068,13,25,Male,85380,Gold,Mobile Payment,False,Discount,Cloudy,False,Tuesday,False,67,70
+380,72,4421,Colgate Toothbrush,Toothbrush,6,2.0,2023-01-18,6503,Mariachester,463,20,230,7139,13,29,Female,37936,Gold,Mobile Payment,False,Discount,Sunny,False,Wednesday,True,140,124
+381,2827,6887,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-06-25,1311,Millerview,365,48,194,6222,14,42,Other,28371,Bronze,Credit Card,True,Discount,Sunny,False,Tuesday,False,103,73
+382,1111,2488,Colgate Toothpaste,Toothpaste,8,3.5,2024-04-24,9288,New Nancy,310,30,172,2774,8,46,Female,23055,Silver,Credit Card,False,Buy One Get One,Snowy,True,Wednesday,False,113,135
+383,378,612,Colgate Toothbrush,Toothbrush,1,2.0,2023-11-16,35,Olsonfurt,321,44,145,5204,2,68,Male,99271,Platinum,Mobile Payment,True,Discount,Cloudy,True,Thursday,True,134,105
+384,6166,1267,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-05-26,3240,East Alisonshire,394,36,110,7613,14,39,Female,47676,Bronze,Debit Card,False,None,Rainy,True,Sunday,False,135,108
+385,3247,7705,Colgate Toothbrush,Toothbrush,10,2.0,2023-09-17,9,Munozstad,459,29,299,5953,7,29,Female,20062,Silver,Mobile Payment,False,Discount,Cloudy,True,Sunday,False,94,97
+386,8698,3466,Colgate Toothbrush,Toothbrush,5,2.0,2025-01-07,1405,North Michaelland,492,38,155,7801,5,33,Female,69891,Silver,Mobile Payment,True,Buy One Get One,Rainy,True,Tuesday,False,147,90
+387,580,4385,Colgate Mouthwash,Mouthwash,9,5.0,2024-01-21,1276,West Anthonytown,186,21,150,7485,2,58,Other,89486,Silver,Cash,True,Discount,Snowy,True,Sunday,False,111,140
+388,36,8288,Colgate Toothpaste,Toothpaste,2,3.5,2024-05-16,5958,Port Jonathan,243,32,176,4449,13,28,Other,47598,Bronze,Mobile Payment,False,None,Sunny,True,Thursday,True,123,123
+389,9866,8741,Colgate Toothbrush,Toothbrush,7,2.0,2024-05-13,2086,East Sharonland,383,28,107,3004,4,25,Female,111349,Bronze,Mobile Payment,False,Discount,Cloudy,False,Monday,False,147,63
+390,6666,8634,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-05-13,6122,Laurenhaven,335,45,122,4542,5,61,Female,44047,Silver,Cash,True,Discount,Rainy,False,Saturday,False,141,108
+391,8063,2151,Colgate Toothbrush,Toothbrush,4,2.0,2023-07-06,4344,Moorestad,477,33,300,5105,14,39,Female,100217,Silver,Cash,True,None,Cloudy,False,Thursday,True,113,140
+392,7149,9081,Colgate Toothpaste,Toothpaste,5,3.5,2024-05-19,364,South Gregory,271,35,113,4681,8,29,Male,109466,Platinum,Mobile Payment,True,Discount,Rainy,True,Sunday,False,139,73
+393,1537,3280,Colgate Mouthwash,Mouthwash,10,5.0,2025-01-05,47,Robertsfort,166,37,150,4384,2,28,Male,33212,Gold,Cash,True,Discount,Cloudy,True,Sunday,True,144,80
+394,2015,4573,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-06-24,6546,Armstrongville,82,46,102,8429,12,30,Other,89701,Bronze,Mobile Payment,False,Buy One Get One,Cloudy,False,Monday,False,74,46
+395,5064,5994,Colgate Toothpaste,Toothpaste,9,3.5,2024-09-23,6308,New Charles,384,43,109,6603,2,22,Male,71659,Gold,Debit Card,True,Buy One Get One,Sunny,True,Monday,False,90,133
+396,6397,7492,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-03-28,4648,East Scott,202,50,231,9914,11,19,Other,114400,Gold,Mobile Payment,False,None,Rainy,False,Thursday,False,125,91
+397,6941,4062,Colgate Toothbrush,Toothbrush,5,2.0,2023-06-15,3905,Carmenstad,161,40,255,3946,11,54,Male,95414,Silver,Cash,True,Discount,Sunny,True,Thursday,True,148,94
+398,2694,1204,Colgate Mouthwash,Mouthwash,4,5.0,2023-05-08,7873,Stephanieborough,258,26,210,6246,3,29,Other,70510,Platinum,Debit Card,False,Discount,Cloudy,True,Monday,False,135,128
+399,3118,2515,Colgate Toothpaste,Toothpaste,2,3.5,2024-09-14,6863,Olsonland,58,34,167,9314,5,35,Other,39665,Bronze,Credit Card,False,None,Sunny,True,Saturday,False,139,95
+400,9491,9715,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-09-26,965,East Bradleychester,187,21,212,3242,12,37,Other,58120,Gold,Mobile Payment,True,Discount,Cloudy,False,Tuesday,True,93,48
+401,7166,5318,Colgate Toothpaste,Toothpaste,7,3.5,2024-09-22,6353,Lake Juanmouth,451,49,256,9424,14,41,Other,99183,Platinum,Credit Card,False,Buy One Get One,Snowy,False,Sunday,False,131,52
+402,4030,5901,Colgate Toothpaste,Toothpaste,10,3.5,2023-07-19,6007,Lake Joseport,195,48,207,6579,9,20,Female,30568,Platinum,Credit Card,False,Discount,Sunny,False,Wednesday,False,129,93
+403,1335,605,Colgate Mouthwash,Mouthwash,10,5.0,2024-11-17,4060,Johnhaven,399,43,169,7089,12,36,Other,75597,Platinum,Cash,True,Buy One Get One,Sunny,False,Sunday,False,53,77
+404,7396,2685,Colgate Mouthwash,Mouthwash,10,5.0,2023-09-07,2041,Gomezburgh,148,38,118,6166,13,51,Male,51421,Silver,Credit Card,False,Discount,Rainy,False,Thursday,False,139,106
+405,4352,718,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-01-06,5165,Turnerfort,126,50,260,4614,4,33,Female,73461,Silver,Credit Card,False,Buy One Get One,Cloudy,False,Saturday,True,129,79
+406,2958,5188,Colgate Mouthwash,Mouthwash,2,5.0,2023-02-21,1402,Ericton,177,40,247,7166,2,43,Other,74861,Platinum,Cash,True,Buy One Get One,Sunny,False,Tuesday,True,94,93
+407,5456,2995,Colgate Mouthwash,Mouthwash,3,5.0,2023-03-17,9412,South Christina,488,35,189,6242,7,22,Other,85945,Gold,Debit Card,False,Buy One Get One,Rainy,True,Friday,False,137,61
+408,9711,2930,Colgate Toothbrush,Toothbrush,2,2.0,2024-11-10,3950,Terrellshire,367,43,196,6885,13,25,Other,36068,Silver,Credit Card,False,Discount,Sunny,True,Sunday,True,96,124
+409,1638,8210,Colgate Mouthwash,Mouthwash,7,5.0,2023-01-21,5829,West Johnview,459,42,202,9991,14,28,Male,64503,Platinum,Debit Card,True,None,Snowy,True,Saturday,True,122,84
+410,8689,5831,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-07-14,6061,Allenhaven,321,29,181,1521,9,25,Other,23039,Platinum,Cash,False,None,Rainy,True,Sunday,False,118,45
+411,5946,2584,Colgate Mouthwash,Mouthwash,10,5.0,2024-06-06,1648,South Gregoryview,402,27,249,143,4,39,Other,47084,Bronze,Debit Card,True,None,Cloudy,False,Thursday,True,128,140
+412,8573,6996,Colgate Toothpaste,Toothpaste,7,3.5,2023-04-17,9699,South Jenniferstad,72,23,289,2718,4,54,Other,80191,Gold,Credit Card,False,Discount,Cloudy,False,Monday,False,81,107
+413,8905,9616,Colgate Toothbrush,Toothbrush,9,2.0,2024-09-13,6581,Nicoleburgh,494,22,174,2584,14,46,Male,58220,Platinum,Mobile Payment,True,None,Sunny,True,Friday,True,97,52
+414,1313,8284,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-10-15,2544,Sharpshire,192,41,221,2245,6,40,Other,47454,Silver,Cash,True,Discount,Rainy,False,Tuesday,True,51,82
+415,3541,3577,Colgate Toothbrush,Toothbrush,2,2.0,2024-03-20,1269,Landryville,161,50,115,7606,4,59,Other,54499,Platinum,Mobile Payment,True,Buy One Get One,Snowy,True,Wednesday,True,121,97
+416,2285,7908,Colgate Toothpaste,Toothpaste,7,3.5,2023-11-30,2608,Sharonberg,421,48,167,6158,13,50,Female,32693,Gold,Mobile Payment,True,Buy One Get One,Cloudy,False,Thursday,False,122,108
+417,669,6508,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-05-01,6450,North Ryan,211,49,193,6676,3,44,Female,100632,Bronze,Mobile Payment,False,None,Snowy,False,Wednesday,False,53,112
+418,4575,6828,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-05-24,8078,Allisonhaven,120,42,276,6349,6,52,Female,90201,Gold,Mobile Payment,True,Buy One Get One,Cloudy,True,Wednesday,False,117,124
+419,5187,3380,Colgate Toothbrush,Toothbrush,10,2.0,2023-07-16,5463,Whiteheadchester,296,43,280,3588,5,31,Other,46037,Gold,Cash,True,Buy One Get One,Cloudy,True,Sunday,False,82,47
+420,4162,5913,Colgate Toothbrush,Toothbrush,5,2.0,2024-06-14,629,Douglasport,351,31,284,1229,4,46,Male,116522,Silver,Debit Card,True,Discount,Rainy,True,Friday,False,108,99
+421,8438,5341,Colgate Mouthwash,Mouthwash,5,5.0,2023-02-17,2270,East Cristinaside,148,40,123,3872,9,32,Male,58135,Silver,Cash,False,Discount,Cloudy,False,Friday,False,102,118
+422,9844,2359,Colgate Toothbrush,Toothbrush,4,2.0,2023-03-08,7653,North Lisa,82,30,181,3730,14,68,Other,79398,Platinum,Cash,True,None,Rainy,False,Wednesday,True,118,61
+423,1499,5184,Colgate Toothbrush,Toothbrush,9,2.0,2024-10-21,2765,Rodriguezshire,75,29,224,2397,8,36,Male,30835,Bronze,Credit Card,False,None,Snowy,False,Monday,True,75,65
+424,5132,6985,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-10-13,9067,Tinafort,80,45,260,6205,13,18,Male,110310,Platinum,Credit Card,True,None,Sunny,True,Friday,False,137,72
+425,9838,5269,Colgate Toothbrush,Toothbrush,4,2.0,2024-03-30,9806,Duncanfort,278,22,122,131,6,21,Male,71338,Silver,Cash,False,Buy One Get One,Sunny,False,Saturday,False,77,131
+426,6075,9946,Colgate Toothbrush,Toothbrush,9,2.0,2023-05-08,7065,Ariastown,453,41,300,1148,3,27,Other,41863,Gold,Debit Card,False,Buy One Get One,Sunny,False,Monday,True,78,47
+427,6658,9956,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-11-18,2515,South Bonniehaven,236,49,214,3373,2,29,Female,116599,Bronze,Mobile Payment,True,Buy One Get One,Cloudy,False,Monday,True,90,107
+428,104,7309,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-04-19,1362,East Tracy,143,33,155,9035,6,37,Female,47950,Silver,Debit Card,True,Buy One Get One,Snowy,True,Wednesday,False,126,68
+429,8356,2813,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-06-24,3256,Lake Johnland,129,22,245,5295,12,60,Male,83892,Bronze,Cash,True,None,Cloudy,False,Monday,False,94,44
+430,8885,2916,Colgate Mouthwash,Mouthwash,10,5.0,2023-09-18,6612,West Cynthia,481,36,212,1181,5,38,Other,103082,Silver,Cash,True,Buy One Get One,Sunny,False,Monday,False,86,42
+431,8221,9392,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-03-05,1742,Ashleyborough,315,29,121,4857,4,33,Female,89422,Silver,Debit Card,True,None,Sunny,True,Sunday,True,85,60
+432,7693,2712,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-01-25,9995,Port Sonyahaven,295,33,118,7777,4,25,Male,59752,Bronze,Mobile Payment,True,None,Cloudy,True,Wednesday,True,121,109
+433,2058,5743,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-10-22,3106,Krystalhaven,149,34,295,3509,12,69,Female,35764,Bronze,Credit Card,False,Buy One Get One,Sunny,False,Sunday,False,89,107
+434,4160,9548,Colgate Toothpaste,Toothpaste,10,3.5,2023-03-09,4137,Rodriguezburgh,341,37,254,7404,6,33,Other,59072,Platinum,Cash,False,Discount,Sunny,False,Thursday,True,63,83
+435,717,4411,Colgate Mouthwash,Mouthwash,5,5.0,2023-04-27,9641,Jerrytown,495,36,220,3712,2,33,Male,75115,Platinum,Cash,True,Buy One Get One,Rainy,True,Thursday,True,62,59
+436,1570,9697,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-08-17,5841,East Sherry,362,26,150,5272,5,59,Male,56288,Silver,Cash,True,Buy One Get One,Sunny,True,Thursday,False,147,122
+437,553,2453,Colgate Toothbrush,Toothbrush,6,2.0,2023-05-26,6752,South Robertamouth,386,37,120,2049,3,65,Other,54683,Bronze,Mobile Payment,True,Discount,Rainy,False,Friday,False,145,140
+438,5876,3058,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-03-31,6592,West Taylor,158,41,269,2504,5,54,Other,90089,Platinum,Debit Card,True,None,Snowy,False,Sunday,True,110,126
+439,2316,8607,Colgate Mouthwash,Mouthwash,1,5.0,2023-02-14,2121,West Connie,457,44,109,3050,2,27,Female,47438,Platinum,Credit Card,True,None,Snowy,False,Tuesday,False,129,118
+440,9202,4061,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-09-17,3332,Williamburgh,200,40,136,8225,3,44,Female,109248,Silver,Credit Card,True,None,Snowy,False,Sunday,False,111,116
+441,5515,7622,Colgate Toothpaste,Toothpaste,5,3.5,2023-07-28,4128,Lisabury,387,31,177,6814,7,54,Male,52243,Platinum,Credit Card,False,None,Sunny,False,Friday,True,115,44
+442,241,5033,Colgate Toothbrush,Toothbrush,3,2.0,2024-05-22,5012,Pamelamouth,64,31,241,9560,9,22,Male,117888,Bronze,Credit Card,False,None,Sunny,False,Wednesday,True,147,50
+443,8774,1049,Colgate Toothbrush,Toothbrush,6,2.0,2024-05-04,6571,Stewartmouth,472,33,194,7833,9,67,Male,109251,Gold,Credit Card,False,Buy One Get One,Cloudy,False,Saturday,True,100,66
+444,869,5148,Colgate Toothpaste,Toothpaste,7,3.5,2024-10-31,2057,East Philip,134,28,255,2109,11,18,Male,36550,Platinum,Credit Card,True,Buy One Get One,Sunny,False,Thursday,False,80,77
+445,8252,3387,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-09-22,2187,West Karenville,264,37,241,5242,13,54,Male,38216,Platinum,Cash,False,Discount,Sunny,True,Sunday,True,140,133
+446,1714,5548,Colgate Mouthwash,Mouthwash,10,5.0,2023-10-24,1633,Douglasburgh,404,35,263,7026,8,56,Other,115286,Gold,Debit Card,True,Discount,Cloudy,True,Tuesday,True,100,140
+447,128,8007,Colgate Toothpaste,Toothpaste,4,3.5,2023-07-30,6397,Jeffreyville,358,38,106,8047,9,54,Other,29638,Platinum,Cash,True,Discount,Sunny,False,Sunday,False,138,124
+448,8411,4478,Colgate Toothbrush,Toothbrush,5,2.0,2024-12-13,3705,Laurenfurt,156,23,168,8155,14,35,Other,52169,Gold,Mobile Payment,True,Buy One Get One,Snowy,True,Friday,True,72,63
+449,1594,4879,Colgate Mouthwash,Mouthwash,2,5.0,2024-01-18,9217,West Samanthaville,409,49,265,24,2,19,Male,36170,Bronze,Mobile Payment,True,Buy One Get One,Sunny,True,Thursday,False,75,73
+450,2451,3857,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-01-30,9982,South Ian,409,40,257,7870,2,54,Female,112620,Platinum,Credit Card,True,Buy One Get One,Sunny,True,Monday,False,120,97
+451,2286,6698,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-11-10,7379,Debbiemouth,301,40,100,6811,12,57,Male,55969,Bronze,Mobile Payment,False,None,Cloudy,True,Sunday,True,121,84
+452,8928,2081,Colgate Toothbrush,Toothbrush,6,2.0,2023-03-29,883,North Rebeccamouth,406,37,163,8930,4,48,Other,116661,Bronze,Cash,True,Buy One Get One,Cloudy,False,Wednesday,True,134,137
+453,5857,3220,Colgate Toothbrush,Toothbrush,4,2.0,2023-03-15,8427,Diazton,300,20,121,3609,13,49,Other,101374,Gold,Cash,True,Discount,Rainy,True,Wednesday,False,111,73
+454,8482,203,Colgate Toothpaste,Toothpaste,8,3.5,2023-04-09,5813,Zamoraview,442,42,262,4541,10,21,Other,117852,Gold,Debit Card,True,None,Snowy,True,Sunday,False,111,66
+455,9130,1016,Colgate Toothpaste,Toothpaste,7,3.5,2023-11-26,3737,Erinport,171,21,146,7244,4,20,Other,82269,Gold,Mobile Payment,False,Buy One Get One,Cloudy,True,Sunday,False,135,82
+456,2686,2565,Colgate Mouthwash,Mouthwash,1,5.0,2024-01-02,3913,West Josephmouth,155,37,135,3323,8,57,Other,83568,Gold,Credit Card,True,None,Snowy,False,Tuesday,False,82,115
+457,1572,5419,Colgate Toothbrush,Toothbrush,9,2.0,2024-05-22,4565,Lake Mirandaborough,477,39,149,1550,7,47,Female,77050,Gold,Cash,True,Discount,Sunny,True,Wednesday,False,143,137
+458,9448,5808,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-08-09,578,New Herbertshire,188,49,117,9097,6,29,Female,49812,Bronze,Cash,True,None,Cloudy,True,Wednesday,True,60,77
+459,6124,6568,Colgate Toothpaste,Toothpaste,6,3.5,2023-03-30,7740,Josechester,420,29,238,9461,13,68,Other,113242,Bronze,Debit Card,True,Discount,Sunny,False,Thursday,True,129,52
+460,7634,7996,Colgate Mouthwash,Mouthwash,10,5.0,2024-09-03,336,Samanthashire,385,38,181,7978,6,19,Female,88275,Silver,Debit Card,False,Discount,Sunny,True,Tuesday,True,119,94
+461,7334,3216,Colgate Toothpaste,Toothpaste,7,3.5,2023-07-22,1242,Toddshire,67,27,232,7029,3,63,Other,106106,Silver,Mobile Payment,False,None,Cloudy,True,Saturday,False,77,43
+462,1197,3582,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-08-17,8782,Katieton,124,50,154,4049,2,46,Female,79672,Silver,Cash,True,Discount,Cloudy,True,Saturday,True,64,100
+463,4800,9378,Colgate Toothpaste,Toothpaste,2,3.5,2024-08-07,2938,East Scott,491,41,111,5498,2,48,Other,94852,Bronze,Cash,False,Discount,Rainy,False,Wednesday,False,97,64
+464,3378,4442,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-08-26,4470,North Teresashire,347,27,273,1442,10,46,Female,116049,Gold,Cash,True,Discount,Sunny,True,Monday,True,90,94
+465,9930,597,Colgate Toothpaste,Toothpaste,9,3.5,2023-12-25,6100,Bethanychester,451,40,290,8032,5,34,Male,41630,Bronze,Cash,False,Buy One Get One,Snowy,False,Monday,False,105,99
+466,1939,845,Colgate Toothpaste,Toothpaste,1,3.5,2023-07-26,5224,Smithside,465,36,129,6125,4,62,Female,116163,Silver,Mobile Payment,False,Discount,Snowy,False,Wednesday,True,129,68
+467,9533,9709,Colgate Toothpaste,Toothpaste,6,3.5,2023-02-17,6733,Jenniferville,399,26,223,3591,6,28,Female,43648,Gold,Credit Card,True,None,Cloudy,True,Friday,True,52,129
+468,8027,6004,Colgate Mouthwash,Mouthwash,2,5.0,2023-03-20,207,West Carol,402,22,107,9834,9,38,Other,101089,Platinum,Mobile Payment,False,None,Sunny,False,Monday,True,103,97
+469,6120,410,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-12-21,9848,Jacobhaven,280,36,114,9511,5,24,Female,33639,Silver,Mobile Payment,True,None,Rainy,False,Saturday,True,80,94
+470,847,223,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-07-11,8001,Goodwinmouth,183,36,104,1726,13,57,Male,99020,Gold,Debit Card,True,Buy One Get One,Rainy,True,Tuesday,False,132,121
+471,9624,1144,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-08-11,9291,South Jermaineton,202,29,197,7044,7,54,Male,59093,Bronze,Cash,False,None,Rainy,False,Sunday,False,125,68
+472,2119,2919,Colgate Toothbrush,Toothbrush,7,2.0,2023-02-03,350,Walshtown,483,21,132,4711,8,42,Other,119008,Platinum,Mobile Payment,True,Discount,Cloudy,True,Friday,True,130,90
+473,7805,5172,Colgate Toothpaste,Toothpaste,9,3.5,2024-11-21,5889,Perezbury,99,31,231,1326,2,29,Female,71352,Bronze,Debit Card,True,Discount,Rainy,True,Thursday,False,106,50
+474,693,112,Colgate Mouthwash,Mouthwash,6,5.0,2024-10-11,1065,Amyburgh,327,32,186,8581,10,24,Male,55312,Silver,Cash,False,Discount,Snowy,False,Friday,False,83,134
+475,8142,4978,Colgate Toothpaste,Toothpaste,5,3.5,2023-11-11,6760,Lake Jasmineport,173,37,272,8762,2,49,Male,116966,Platinum,Cash,True,Discount,Snowy,False,Saturday,True,69,54
+476,5567,30,Colgate Toothbrush,Toothbrush,1,2.0,2024-02-22,3266,Garzaburgh,289,24,288,9599,5,19,Female,77353,Bronze,Credit Card,False,Discount,Rainy,True,Thursday,True,96,121
+477,5464,2139,Colgate Toothpaste,Toothpaste,4,3.5,2023-05-15,806,Debramouth,330,24,212,4126,12,26,Female,90528,Platinum,Mobile Payment,False,Buy One Get One,Rainy,False,Monday,False,144,138
+478,6903,6808,Colgate Toothpaste,Toothpaste,10,3.5,2023-01-24,2734,Henryhaven,500,39,187,481,7,18,Female,97710,Platinum,Cash,False,None,Cloudy,False,Tuesday,False,142,57
+479,3906,5783,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-12-02,9821,South Brenda,89,41,214,2885,6,58,Other,33007,Platinum,Cash,False,None,Sunny,False,Saturday,True,123,57
+480,2037,1524,Colgate Toothbrush,Toothbrush,10,2.0,2024-02-11,3995,Lisafurt,266,41,136,8447,10,69,Female,90403,Platinum,Cash,False,Discount,Rainy,False,Sunday,False,111,111
+481,2246,2538,Colgate Mouthwash,Mouthwash,4,5.0,2023-09-22,8203,Lake Jeffrey,55,48,157,8260,10,70,Other,118664,Platinum,Credit Card,True,Buy One Get One,Sunny,False,Friday,True,117,57
+482,4134,9934,Colgate Toothpaste,Toothpaste,4,3.5,2023-08-03,5408,East Brian,75,49,124,9588,8,55,Female,54282,Platinum,Debit Card,True,None,Cloudy,True,Thursday,False,133,43
+483,1206,7303,Colgate Toothbrush,Toothbrush,1,2.0,2024-03-28,1137,Gilmorestad,498,35,193,5413,7,41,Female,45505,Bronze,Mobile Payment,False,Discount,Sunny,True,Thursday,False,61,54
+484,5757,1755,Colgate Mouthwash,Mouthwash,7,5.0,2024-09-27,4,Brownstad,472,45,293,2508,14,65,Other,64429,Platinum,Mobile Payment,True,Buy One Get One,Snowy,False,Friday,True,131,131
+485,2443,3086,Colgate Mouthwash,Mouthwash,9,5.0,2023-05-11,584,Lake Aliciaport,244,41,212,4787,7,44,Male,85199,Platinum,Credit Card,False,Discount,Sunny,False,Thursday,True,90,86
+486,9128,8656,Colgate Toothbrush,Toothbrush,2,2.0,2024-06-04,9942,South Sheryl,489,33,230,5536,6,49,Other,58174,Bronze,Mobile Payment,True,None,Sunny,False,Tuesday,True,85,137
+487,2113,5197,Colgate Toothbrush,Toothbrush,1,2.0,2023-01-31,1268,West Mike,126,36,230,6030,9,20,Male,106370,Silver,Mobile Payment,True,Buy One Get One,Snowy,False,Tuesday,False,133,52
+488,120,1600,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-11-09,555,Jennifermouth,304,27,203,9228,9,56,Female,118326,Platinum,Mobile Payment,False,Buy One Get One,Cloudy,False,Saturday,True,71,70
+489,9420,6625,Colgate Toothpaste,Toothpaste,5,3.5,2024-11-24,6544,Daviston,279,50,125,558,10,47,Female,38880,Bronze,Credit Card,False,Discount,Rainy,True,Sunday,False,66,78
+490,621,9307,Colgate Toothpaste,Toothpaste,2,3.5,2023-08-16,3622,Nataliefurt,272,44,177,8188,7,51,Female,110785,Bronze,Credit Card,False,Discount,Cloudy,False,Wednesday,False,149,61
+491,3322,501,Colgate Mouthwash,Mouthwash,10,5.0,2024-04-12,2983,Annhaven,422,33,110,3657,12,30,Male,67491,Silver,Mobile Payment,True,Discount,Sunny,False,Friday,False,112,93
+492,7951,8416,Colgate Toothpaste,Toothpaste,4,3.5,2023-12-20,6775,Simsborough,285,30,223,5679,13,32,Female,63805,Silver,Mobile Payment,False,Buy One Get One,Sunny,False,Wednesday,False,88,65
+493,8639,8281,Colgate Toothpaste,Toothpaste,4,3.5,2023-01-26,6437,Port Christinefurt,328,32,281,2063,13,38,Male,78830,Platinum,Debit Card,True,Discount,Cloudy,True,Thursday,True,90,128
+494,9554,7015,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-07-20,6602,Staciefurt,87,40,114,8663,3,21,Female,42137,Bronze,Credit Card,False,None,Sunny,False,Saturday,True,50,116
+495,2260,1307,Colgate Mouthwash,Mouthwash,3,5.0,2023-09-18,2376,Porterfort,80,26,175,7381,10,30,Other,95601,Platinum,Mobile Payment,True,Buy One Get One,Snowy,True,Monday,True,52,120
+496,7001,2758,Colgate Toothbrush,Toothbrush,7,2.0,2024-12-08,8304,Melissaburgh,267,27,145,1827,3,58,Other,39326,Platinum,Debit Card,False,Discount,Cloudy,False,Sunday,True,72,62
+497,6608,2141,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-05-19,1584,Lake Thomas,349,37,213,2320,12,28,Female,109878,Bronze,Credit Card,True,Buy One Get One,Snowy,False,Sunday,False,77,49
+498,2388,9,Colgate Mouthwash,Mouthwash,10,5.0,2024-01-20,9513,New Wendy,265,30,164,2627,10,22,Other,111244,Platinum,Credit Card,True,Discount,Cloudy,True,Saturday,False,64,139
+499,3794,2871,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-12-10,6290,Jamesburgh,197,39,144,8376,9,20,Female,92507,Bronze,Cash,True,Discount,Rainy,False,Sunday,False,61,114
+500,7262,148,Colgate Toothbrush,Toothbrush,4,2.0,2023-09-25,6215,West Brandon,384,34,193,1502,14,66,Female,89417,Platinum,Credit Card,False,Buy One Get One,Cloudy,True,Monday,False,146,115
+501,1159,9024,Colgate Mouthwash,Mouthwash,4,5.0,2023-10-27,2730,Lauraland,343,26,135,7398,9,60,Female,54057,Platinum,Mobile Payment,True,Buy One Get One,Rainy,False,Friday,True,97,83
+502,1251,6969,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-05-06,1593,Millerstad,53,40,106,2477,12,43,Male,38310,Bronze,Debit Card,False,Buy One Get One,Snowy,True,Monday,False,83,85
+503,8651,5717,Colgate Mouthwash,Mouthwash,6,5.0,2023-03-25,434,East Robertmouth,225,44,138,2412,4,32,Female,116327,Gold,Credit Card,False,Discount,Cloudy,True,Saturday,False,73,103
+504,2312,6394,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-03-07,5899,Boydberg,184,34,277,7701,4,39,Male,57851,Silver,Cash,False,Discount,Snowy,True,Thursday,True,111,108
+505,6650,4895,Colgate Toothpaste,Toothpaste,2,3.5,2023-03-24,6625,Burtonbury,208,48,264,3348,11,53,Female,23741,Platinum,Debit Card,False,Buy One Get One,Rainy,True,Friday,False,52,44
+506,7532,2408,Colgate Mouthwash,Mouthwash,4,5.0,2024-06-06,184,Hayesland,95,39,171,4617,6,27,Male,24761,Platinum,Credit Card,True,Discount,Snowy,True,Thursday,False,81,77
+507,1198,7406,Colgate Toothbrush,Toothbrush,5,2.0,2024-05-08,7291,Jacksonburgh,488,50,262,5650,12,50,Male,94091,Gold,Mobile Payment,True,Buy One Get One,Sunny,False,Wednesday,False,129,68
+508,5932,7712,Colgate Toothpaste,Toothpaste,3,3.5,2023-12-31,6776,Lake Edward,239,43,145,3145,7,18,Male,41691,Platinum,Debit Card,True,Discount,Snowy,True,Sunday,False,72,46
+509,6775,9831,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-12-14,2058,Edwardton,160,23,189,6049,10,34,Other,105819,Platinum,Debit Card,True,Discount,Sunny,True,Thursday,False,63,128
+510,1901,8473,Colgate Toothbrush,Toothbrush,6,2.0,2024-04-02,7038,Matthewstad,171,48,133,645,12,41,Other,113288,Bronze,Credit Card,True,Buy One Get One,Sunny,True,Tuesday,False,129,44
+511,1454,7246,Colgate Mouthwash,Mouthwash,6,5.0,2023-08-21,5810,Lake Craig,170,32,103,7090,4,57,Male,57314,Gold,Debit Card,True,None,Sunny,False,Monday,True,55,47
+512,4697,5787,Colgate Toothbrush,Toothbrush,3,2.0,2024-10-05,2105,Lake Joycestad,485,39,107,9452,6,34,Male,69627,Silver,Credit Card,True,None,Snowy,False,Saturday,True,80,105
+513,7495,5846,Colgate Toothpaste,Toothpaste,6,3.5,2024-09-22,5982,Angelaville,212,48,233,1800,2,58,Female,49095,Silver,Mobile Payment,True,None,Sunny,True,Sunday,True,77,124
+514,9481,6009,Colgate Mouthwash,Mouthwash,9,5.0,2024-11-13,4859,Sydneyborough,372,20,236,5627,11,27,Female,21565,Bronze,Cash,True,Buy One Get One,Sunny,True,Wednesday,False,105,70
+515,7181,6257,Colgate Toothpaste,Toothpaste,10,3.5,2024-01-23,8763,Thomasview,168,50,142,5860,14,30,Female,77538,Gold,Debit Card,False,None,Sunny,False,Tuesday,True,53,115
+516,5520,8368,Colgate Mouthwash,Mouthwash,9,5.0,2023-08-16,3185,New Suemouth,451,40,246,2494,14,53,Female,32956,Bronze,Mobile Payment,False,Discount,Snowy,False,Wednesday,True,91,103
+517,2405,8888,Colgate Toothpaste,Toothpaste,6,3.5,2024-09-11,9310,Taylorbury,414,50,290,3232,5,37,Female,82806,Gold,Mobile Payment,False,None,Sunny,False,Wednesday,True,72,41
+518,4891,8940,Colgate Toothbrush,Toothbrush,9,2.0,2024-11-26,8645,Lake Alexis,463,36,281,8598,3,41,Female,105501,Silver,Debit Card,False,None,Sunny,True,Tuesday,False,65,93
+519,2574,6241,Colgate Toothpaste,Toothpaste,7,3.5,2024-06-14,456,East Nataliestad,51,40,227,166,5,18,Female,51913,Bronze,Mobile Payment,True,Discount,Snowy,True,Friday,True,127,67
+520,9660,8957,Colgate Mouthwash,Mouthwash,4,5.0,2023-06-05,657,Stokesmouth,188,50,230,6436,6,58,Other,45086,Platinum,Cash,False,Discount,Cloudy,False,Monday,True,119,135
+521,8864,6905,Colgate Mouthwash,Mouthwash,1,5.0,2023-08-11,5786,New Scott,471,27,163,5055,4,59,Male,41787,Platinum,Cash,False,Buy One Get One,Cloudy,False,Friday,True,127,42
+522,8243,3920,Colgate Toothpaste,Toothpaste,5,3.5,2023-01-16,2321,Jamesport,414,49,251,8719,11,41,Other,71620,Silver,Cash,True,Buy One Get One,Rainy,False,Monday,False,134,132
+523,9715,6307,Colgate Toothbrush,Toothbrush,4,2.0,2024-12-06,4157,South Erin,182,38,199,5555,12,65,Female,62210,Platinum,Cash,False,Discount,Cloudy,False,Friday,True,140,99
+524,6388,8438,Colgate Toothpaste,Toothpaste,7,3.5,2024-01-18,5426,West Paul,345,32,209,6541,12,45,Other,61502,Bronze,Debit Card,False,Discount,Sunny,True,Thursday,False,137,94
+525,2216,2215,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-01-23,7984,Evansview,473,37,244,7785,8,43,Female,59866,Platinum,Cash,True,None,Snowy,True,Monday,False,96,105
+526,3209,2345,Colgate Toothpaste,Toothpaste,1,3.5,2023-05-26,6971,New Jasonberg,130,24,190,9250,10,63,Other,70267,Bronze,Debit Card,False,Discount,Sunny,False,Friday,True,52,67
+527,1682,2627,Colgate Whitening Strips,Teeth Whitening,7,25.0,2024-08-15,1991,Reginatown,232,39,267,522,4,37,Other,92160,Platinum,Credit Card,False,Discount,Cloudy,False,Thursday,False,135,138
+528,9138,5456,Colgate Mouthwash,Mouthwash,6,5.0,2023-05-14,2711,Timothyport,205,30,212,5231,4,62,Male,51959,Gold,Cash,False,None,Rainy,False,Sunday,True,58,67
+529,4976,6941,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-05-31,3907,New Alexandraside,238,45,193,5848,2,44,Male,66162,Silver,Cash,False,Buy One Get One,Sunny,True,Friday,True,104,41
+530,5,8452,Colgate Toothbrush,Toothbrush,3,2.0,2024-11-15,1858,Kevinbury,140,29,106,2753,6,45,Female,85284,Gold,Credit Card,False,Buy One Get One,Sunny,True,Friday,False,51,51
+531,8641,575,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-06-02,7061,West Michael,214,47,294,7782,8,32,Other,31707,Gold,Mobile Payment,False,None,Rainy,False,Friday,False,92,69
+532,8652,4957,Colgate Mouthwash,Mouthwash,8,5.0,2024-02-27,5879,Moralesstad,497,35,128,7762,7,50,Male,30083,Silver,Cash,True,None,Sunny,True,Tuesday,False,115,139
+533,6485,6816,Colgate Mouthwash,Mouthwash,1,5.0,2024-04-07,7382,Burnettburgh,462,38,160,9925,10,51,Male,63807,Bronze,Credit Card,False,Discount,Rainy,False,Sunday,False,133,86
+534,3269,107,Colgate Mouthwash,Mouthwash,10,5.0,2024-05-30,6352,Marshallhaven,62,38,255,1534,6,21,Female,80566,Platinum,Cash,True,Discount,Cloudy,False,Thursday,True,146,50
+535,6530,7045,Colgate Toothpaste,Toothpaste,2,3.5,2023-03-12,22,Hannahton,427,26,215,8676,10,65,Other,70682,Platinum,Cash,True,Discount,Rainy,True,Sunday,False,108,51
+536,3013,5007,Colgate Mouthwash,Mouthwash,10,5.0,2023-11-19,8434,Collinsberg,387,22,103,5253,9,34,Male,57888,Gold,Mobile Payment,True,None,Snowy,True,Sunday,False,83,71
+537,7600,8482,Colgate Toothbrush,Toothbrush,2,2.0,2024-05-11,4662,New Sarachester,406,46,222,6021,13,40,Male,33928,Silver,Credit Card,False,None,Sunny,False,Saturday,True,59,87
+538,7055,7864,Colgate Toothbrush,Toothbrush,8,2.0,2024-02-13,195,Martinezstad,191,36,219,1013,8,25,Other,69659,Gold,Cash,True,Discount,Snowy,True,Tuesday,False,103,55
+539,7328,5217,Colgate Toothbrush,Toothbrush,5,2.0,2024-08-17,5492,Chanhaven,429,40,159,1684,8,34,Female,114416,Gold,Credit Card,False,None,Sunny,True,Saturday,True,72,93
+540,1000,3165,Colgate Toothpaste,Toothpaste,8,3.5,2024-11-19,6095,Vazquezchester,279,28,113,4248,6,57,Female,56430,Gold,Debit Card,False,None,Snowy,False,Tuesday,True,114,128
+541,1852,5872,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-02-18,8997,Port Timothyton,393,36,116,9142,6,64,Other,92770,Bronze,Credit Card,True,Discount,Cloudy,False,Saturday,True,80,128
+542,541,8810,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-03-18,7538,Aguilarshire,269,41,269,2467,5,46,Male,78317,Silver,Cash,True,Buy One Get One,Sunny,True,Saturday,False,52,46
+543,5232,9960,Colgate Toothbrush,Toothbrush,9,2.0,2024-11-16,9069,Wardland,93,49,141,7676,10,59,Female,89402,Silver,Credit Card,False,Buy One Get One,Rainy,False,Saturday,False,119,61
+544,272,1693,Colgate Toothpaste,Toothpaste,8,3.5,2023-08-03,368,Josephfurt,88,42,195,8599,11,25,Other,87384,Silver,Mobile Payment,True,Discount,Snowy,False,Thursday,True,99,51
+545,5663,2709,Colgate Toothpaste,Toothpaste,9,3.5,2024-06-26,8171,New Jennifer,361,20,288,9922,6,53,Male,89528,Platinum,Debit Card,False,Discount,Cloudy,True,Wednesday,True,130,137
+546,5526,2562,Colgate Whitening Strips,Teeth Whitening,7,25.0,2024-11-14,107,Bellberg,90,23,299,1990,5,35,Other,97738,Bronze,Cash,True,Buy One Get One,Snowy,True,Thursday,False,136,127
+547,8092,4136,Colgate Toothbrush,Toothbrush,7,2.0,2023-03-24,2781,Barbarachester,109,44,146,5677,13,31,Other,101837,Bronze,Cash,True,Discount,Cloudy,False,Friday,False,98,54
+548,8044,7796,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-11-05,7145,South Wendy,402,21,211,6606,10,35,Male,31962,Silver,Credit Card,True,None,Cloudy,False,Sunday,False,141,99
+549,5938,9989,Colgate Toothpaste,Toothpaste,8,3.5,2024-01-07,9972,South Davidfort,319,31,227,412,6,46,Female,44177,Platinum,Mobile Payment,True,None,Sunny,True,Sunday,True,50,111
+550,5570,2095,Colgate Mouthwash,Mouthwash,4,5.0,2024-04-04,4204,Villarrealfurt,470,23,117,9189,5,65,Other,111950,Gold,Cash,False,Discount,Snowy,False,Thursday,False,102,80
+551,5917,8667,Colgate Toothbrush,Toothbrush,9,2.0,2023-12-01,7664,Jonesshire,296,38,134,4933,13,53,Other,103225,Gold,Cash,True,Buy One Get One,Rainy,False,Friday,True,133,50
+552,2127,1686,Colgate Mouthwash,Mouthwash,1,5.0,2023-02-10,1797,Gonzalezchester,202,46,291,2152,4,69,Female,99921,Gold,Debit Card,False,Discount,Snowy,True,Friday,True,106,67
+553,5350,7767,Colgate Mouthwash,Mouthwash,2,5.0,2024-11-27,3123,Port Jacqueline,203,50,229,6604,9,67,Female,68043,Gold,Debit Card,True,Discount,Cloudy,False,Wednesday,False,87,104
+554,7651,233,Colgate Mouthwash,Mouthwash,3,5.0,2024-03-05,595,South Stacey,396,46,185,9738,6,62,Male,23470,Silver,Cash,False,Buy One Get One,Sunny,False,Tuesday,False,148,60
+555,4420,2096,Colgate Toothbrush,Toothbrush,9,2.0,2023-12-02,1259,Solisshire,268,26,294,8061,4,61,Male,37675,Silver,Cash,True,Buy One Get One,Snowy,True,Saturday,True,112,57
+556,645,8934,Colgate Toothbrush,Toothbrush,6,2.0,2023-07-09,1283,Lake Danielle,299,29,247,8914,6,52,Male,69623,Platinum,Cash,False,Buy One Get One,Rainy,True,Sunday,True,96,79
+557,9444,8779,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-10-29,5313,Port Benjamin,280,21,270,7706,10,64,Female,42527,Platinum,Credit Card,True,Buy One Get One,Snowy,False,Sunday,False,50,102
+558,4621,1643,Colgate Mouthwash,Mouthwash,1,5.0,2024-03-26,4092,Browningbury,420,40,120,5469,7,70,Female,27259,Platinum,Credit Card,False,None,Cloudy,True,Tuesday,False,75,111
+559,3340,2609,Colgate Mouthwash,Mouthwash,2,5.0,2024-06-03,3654,New Amanda,156,38,168,5613,11,67,Male,104308,Silver,Mobile Payment,True,Buy One Get One,Cloudy,True,Monday,False,85,92
+560,8681,7465,Colgate Mouthwash,Mouthwash,5,5.0,2023-10-22,2348,Gatesmouth,469,42,198,1742,14,22,Female,61235,Gold,Credit Card,True,None,Cloudy,False,Sunday,False,96,111
+561,9799,9451,Colgate Mouthwash,Mouthwash,5,5.0,2024-02-28,8156,Jeffreyside,74,47,259,4847,5,56,Female,94626,Platinum,Mobile Payment,False,Discount,Snowy,False,Wednesday,False,122,108
+562,4743,7374,Colgate Mouthwash,Mouthwash,3,5.0,2023-06-06,5201,South Deborah,386,49,226,6680,2,37,Female,57796,Silver,Cash,False,None,Cloudy,True,Tuesday,True,54,118
+563,5507,6765,Colgate Toothpaste,Toothpaste,9,3.5,2023-08-19,3533,Port Thomasberg,296,34,114,1226,4,70,Male,112831,Bronze,Debit Card,False,Discount,Rainy,True,Saturday,True,129,94
+564,4129,6598,Colgate Toothbrush,Toothbrush,4,2.0,2024-08-05,8048,North Kara,318,32,199,9618,9,60,Other,65588,Silver,Mobile Payment,False,Discount,Snowy,True,Monday,True,149,74
+565,6277,9803,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-06-01,1845,Manntown,456,35,111,9778,3,19,Male,46326,Gold,Cash,False,Discount,Sunny,True,Thursday,False,63,110
+566,1462,6440,Colgate Toothpaste,Toothpaste,4,3.5,2024-06-25,5421,West Raymondfurt,292,33,178,9806,7,18,Male,94004,Platinum,Credit Card,False,Discount,Cloudy,False,Tuesday,True,143,58
+567,1581,5520,Colgate Mouthwash,Mouthwash,10,5.0,2024-07-29,2729,Alexandershire,314,32,287,5739,14,38,Male,102004,Platinum,Cash,False,Buy One Get One,Cloudy,False,Monday,True,137,86
+568,6353,5120,Colgate Toothbrush,Toothbrush,4,2.0,2024-07-28,1378,West Robert,297,47,195,7308,3,60,Female,104255,Platinum,Mobile Payment,False,None,Cloudy,True,Sunday,False,68,140
+569,9043,7512,Colgate Mouthwash,Mouthwash,5,5.0,2024-08-09,901,Port Jessica,70,29,105,1576,9,60,Male,72117,Gold,Debit Card,False,Discount,Snowy,False,Friday,True,54,48
+570,8223,9662,Colgate Toothbrush,Toothbrush,9,2.0,2024-11-06,1569,Gregorymouth,255,34,241,7088,9,57,Other,81646,Gold,Mobile Payment,False,None,Rainy,False,Wednesday,True,87,108
+571,5935,8588,Colgate Mouthwash,Mouthwash,5,5.0,2024-07-04,9418,Port Patrickshire,88,47,229,579,6,57,Female,67006,Platinum,Credit Card,False,Discount,Sunny,False,Thursday,False,64,105
+572,2959,6519,Colgate Toothpaste,Toothpaste,1,3.5,2024-04-14,237,Jacquelinefort,234,30,219,2517,6,19,Female,96202,Silver,Mobile Payment,True,None,Rainy,True,Sunday,True,138,118
+573,529,9120,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-08-12,9976,East Kristiland,391,20,270,7441,6,33,Female,35235,Platinum,Credit Card,False,Buy One Get One,Cloudy,True,Saturday,False,137,112
+574,4496,7427,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-12-20,3636,Sandramouth,303,33,161,2749,12,66,Male,63756,Gold,Cash,True,Discount,Rainy,False,Wednesday,True,84,95
+575,8733,5703,Colgate Toothpaste,Toothpaste,3,3.5,2024-09-12,8937,Garnerside,311,22,107,4996,2,35,Female,106610,Gold,Cash,False,Buy One Get One,Sunny,False,Thursday,False,61,45
+576,2639,2467,Colgate Toothpaste,Toothpaste,2,3.5,2024-05-17,9084,Lake Robert,253,36,125,4949,10,69,Other,82187,Platinum,Credit Card,True,Buy One Get One,Sunny,True,Friday,True,138,115
+577,9052,7035,Colgate Toothbrush,Toothbrush,7,2.0,2023-10-15,9156,Williamsstad,121,32,203,431,11,36,Female,90014,Silver,Cash,False,None,Rainy,False,Sunday,False,69,74
+578,8865,1028,Colgate Mouthwash,Mouthwash,6,5.0,2024-11-23,6049,Moralesside,144,27,151,1618,4,48,Female,115718,Platinum,Debit Card,False,Buy One Get One,Snowy,True,Saturday,False,65,42
+579,2456,2202,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-02-27,891,New Maryburgh,180,36,210,8109,4,60,Female,46306,Platinum,Credit Card,False,Buy One Get One,Cloudy,False,Monday,True,114,52
+580,3226,7196,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-09-27,8741,Lake Andrea,231,36,294,5322,8,42,Other,75014,Gold,Debit Card,True,None,Snowy,False,Wednesday,False,79,82
+581,4158,5089,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-10-30,9019,West Ashleyview,233,20,188,5301,9,64,Other,76411,Platinum,Credit Card,False,Discount,Rainy,True,Monday,False,147,60
+582,2662,9385,Colgate Mouthwash,Mouthwash,6,5.0,2024-12-18,3898,Port Kevinshire,144,21,289,9996,13,63,Male,94502,Gold,Mobile Payment,False,Discount,Rainy,False,Wednesday,True,105,114
+583,7491,2561,Colgate Toothpaste,Toothpaste,10,3.5,2023-05-28,7548,Michaelachester,150,29,247,825,3,25,Other,47554,Gold,Cash,False,Discount,Rainy,False,Sunday,True,51,116
+584,4035,13,Colgate Mouthwash,Mouthwash,1,5.0,2023-09-23,7213,East Julie,97,31,282,8252,8,64,Male,68108,Bronze,Credit Card,True,Buy One Get One,Rainy,True,Saturday,True,149,77
+585,32,8991,Colgate Toothpaste,Toothpaste,2,3.5,2023-06-29,7296,Port Michael,208,40,147,8869,2,19,Other,32390,Platinum,Mobile Payment,False,Buy One Get One,Sunny,True,Thursday,True,83,101
+586,1293,8489,Colgate Whitening Strips,Teeth Whitening,4,25.0,2024-01-11,7700,Harrellport,269,30,135,4397,10,35,Male,55570,Silver,Mobile Payment,True,None,Snowy,False,Thursday,False,123,137
+587,8452,1351,Colgate Mouthwash,Mouthwash,6,5.0,2023-06-25,3459,Mitchellhaven,328,31,245,555,11,65,Male,64993,Bronze,Mobile Payment,False,Discount,Sunny,True,Sunday,True,149,119
+588,468,959,Colgate Mouthwash,Mouthwash,8,5.0,2024-02-11,4768,North Mariachester,256,26,182,1712,13,65,Female,26229,Silver,Mobile Payment,False,Discount,Rainy,True,Sunday,True,126,67
+589,4506,133,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-08-11,982,North Kathy,451,24,273,9464,10,29,Male,89353,Platinum,Credit Card,True,None,Sunny,False,Friday,False,90,65
+590,7699,1346,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-07-19,4762,East Anna,75,47,267,9439,10,61,Female,110132,Platinum,Credit Card,True,None,Cloudy,True,Wednesday,False,102,54
+591,4001,3636,Colgate Mouthwash,Mouthwash,1,5.0,2024-10-21,1007,South Jamieshire,371,43,225,9419,13,62,Female,30874,Bronze,Credit Card,True,Buy One Get One,Cloudy,True,Monday,True,52,53
+592,9734,204,Colgate Mouthwash,Mouthwash,1,5.0,2024-10-17,3496,Port Michael,97,48,177,6749,12,59,Other,34441,Gold,Cash,True,None,Sunny,False,Thursday,True,84,89
+593,8263,7079,Colgate Mouthwash,Mouthwash,10,5.0,2023-06-07,7729,North Robertfort,198,40,103,8623,12,26,Male,49155,Platinum,Mobile Payment,False,Discount,Rainy,False,Wednesday,False,127,78
+594,7310,2169,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-08-06,1565,East Maryberg,429,46,250,3489,12,43,Female,105309,Bronze,Credit Card,True,Discount,Cloudy,False,Tuesday,False,140,117
+595,8564,4079,Colgate Mouthwash,Mouthwash,7,5.0,2023-10-11,9011,Lake Scott,125,21,145,8166,11,39,Other,113031,Platinum,Debit Card,False,Buy One Get One,Cloudy,False,Wednesday,False,150,133
+596,1674,4967,Colgate Toothpaste,Toothpaste,3,3.5,2023-10-03,6436,Lake Dianeport,270,30,173,1192,11,45,Male,79208,Silver,Cash,True,Buy One Get One,Sunny,True,Tuesday,True,123,54
+597,4291,4392,Colgate Toothpaste,Toothpaste,8,3.5,2023-03-16,3349,Lake Melissa,347,25,258,7269,7,53,Female,45443,Silver,Cash,True,Buy One Get One,Snowy,False,Thursday,False,72,136
+598,8883,7201,Colgate Toothpaste,Toothpaste,9,3.5,2024-07-30,9339,Perryfurt,391,21,156,7702,5,45,Male,72688,Silver,Cash,False,Buy One Get One,Rainy,True,Tuesday,False,73,111
+599,5383,3640,Colgate Toothbrush,Toothbrush,6,2.0,2024-03-30,7824,Lake Jennifer,189,29,295,2201,11,59,Female,84656,Bronze,Cash,False,Discount,Cloudy,False,Saturday,True,138,134
+600,2939,2447,Colgate Toothpaste,Toothpaste,4,3.5,2023-03-12,140,Brightmouth,232,34,228,6237,4,23,Other,101150,Bronze,Mobile Payment,False,Buy One Get One,Snowy,False,Sunday,False,115,137
+601,5958,9983,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-11-15,2507,Bentonfurt,190,43,178,1710,3,33,Female,58972,Bronze,Debit Card,True,None,Snowy,True,Friday,True,118,42
+602,2251,5582,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-12-19,2002,Lake Donna,361,20,196,4923,3,39,Female,55845,Platinum,Debit Card,True,None,Sunny,True,Tuesday,False,86,49
+603,6319,7792,Colgate Toothbrush,Toothbrush,8,2.0,2024-11-08,5101,South Katherineborough,182,32,206,5596,14,48,Other,62168,Platinum,Debit Card,True,Buy One Get One,Rainy,True,Friday,True,125,122
+604,5219,675,Colgate Mouthwash,Mouthwash,9,5.0,2024-12-13,8931,Kellyport,70,21,125,8832,2,30,Other,52140,Platinum,Mobile Payment,False,Discount,Sunny,True,Friday,True,52,78
+605,5601,3056,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-11-26,5442,South Brian,82,47,239,7410,7,68,Other,34827,Gold,Debit Card,True,Discount,Sunny,True,Tuesday,True,83,73
+606,6470,7477,Colgate Toothpaste,Toothpaste,9,3.5,2024-10-09,6613,Thomaschester,416,49,118,9664,12,59,Male,52153,Gold,Credit Card,True,Discount,Rainy,False,Wednesday,False,129,138
+607,345,333,Colgate Toothpaste,Toothpaste,9,3.5,2024-05-14,9135,West Lisamouth,60,47,232,4656,6,23,Male,72456,Gold,Credit Card,False,Buy One Get One,Rainy,False,Tuesday,False,134,116
+608,2862,5096,Colgate Mouthwash,Mouthwash,9,5.0,2024-06-21,7547,Leonardbury,94,35,144,8271,5,57,Other,79086,Bronze,Mobile Payment,False,Discount,Cloudy,True,Friday,True,65,129
+609,611,6413,Colgate Toothbrush,Toothbrush,7,2.0,2023-11-02,242,Cohenville,431,46,211,1237,4,30,Other,104006,Bronze,Cash,False,None,Sunny,False,Thursday,False,112,132
+610,1375,2853,Colgate Toothbrush,Toothbrush,7,2.0,2023-05-31,3167,Stevenland,243,42,113,7583,8,60,Other,29104,Bronze,Debit Card,False,Buy One Get One,Rainy,False,Wednesday,False,112,138
+611,9536,4245,Colgate Toothbrush,Toothbrush,2,2.0,2023-10-04,3325,North Cassandra,96,36,275,2426,8,38,Female,92010,Silver,Mobile Payment,False,Discount,Cloudy,True,Wednesday,True,89,119
+612,5441,549,Colgate Toothpaste,Toothpaste,8,3.5,2024-09-06,5400,Reyeschester,227,31,121,7505,6,26,Female,80931,Gold,Credit Card,False,None,Snowy,True,Friday,True,142,115
+613,6676,78,Colgate Toothbrush,Toothbrush,5,2.0,2023-07-27,1204,South Cheryl,297,31,262,3570,10,48,Other,22614,Platinum,Cash,False,Buy One Get One,Sunny,True,Thursday,True,74,90
+614,5317,8629,Colgate Toothbrush,Toothbrush,6,2.0,2024-02-22,7645,Hawkinsshire,228,48,235,6440,9,43,Other,92482,Gold,Credit Card,True,Buy One Get One,Snowy,True,Thursday,False,105,88
+615,1924,4383,Colgate Toothpaste,Toothpaste,4,3.5,2024-05-11,9238,Kellyview,70,22,126,2948,4,49,Other,47700,Bronze,Credit Card,True,Buy One Get One,Snowy,True,Saturday,False,87,95
+616,2806,2736,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-04-11,4436,East Carolmouth,302,28,152,4946,8,58,Female,44202,Gold,Credit Card,True,None,Sunny,True,Thursday,False,107,110
+617,3574,3856,Colgate Toothbrush,Toothbrush,6,2.0,2023-03-07,4079,East Michael,168,20,159,5147,6,62,Female,89092,Bronze,Credit Card,True,Discount,Snowy,True,Tuesday,True,137,139
+618,2410,8919,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-06-18,2265,West Ritachester,56,47,167,4111,14,35,Male,65673,Gold,Cash,True,Discount,Rainy,False,Tuesday,True,60,70
+619,5316,55,Colgate Toothpaste,Toothpaste,3,3.5,2023-04-22,5116,East Jademouth,475,20,112,9749,14,53,Other,45126,Bronze,Mobile Payment,True,None,Cloudy,True,Saturday,True,92,80
+620,8808,8029,Colgate Toothpaste,Toothpaste,9,3.5,2024-12-25,4675,Lake Ann,131,37,277,1427,2,50,Other,64798,Silver,Credit Card,True,Buy One Get One,Sunny,False,Wednesday,False,90,128
+621,6308,4807,Colgate Toothpaste,Toothpaste,4,3.5,2024-07-02,3842,New Jeanne,111,26,204,6002,6,57,Male,80633,Bronze,Cash,False,None,Snowy,False,Tuesday,True,84,98
+622,3529,4916,Colgate Toothbrush,Toothbrush,4,2.0,2024-01-30,231,West Kimberly,470,34,113,5170,3,49,Male,78242,Bronze,Mobile Payment,False,Buy One Get One,Sunny,False,Tuesday,True,118,76
+623,4399,6253,Colgate Toothbrush,Toothbrush,6,2.0,2023-05-13,9907,Harveyshire,290,37,289,982,8,53,Other,110734,Bronze,Debit Card,True,None,Sunny,True,Saturday,False,51,123
+624,178,6627,Colgate Toothbrush,Toothbrush,2,2.0,2023-04-06,6746,Lake Valerie,294,31,159,2001,2,55,Other,48775,Bronze,Debit Card,False,Discount,Cloudy,True,Thursday,False,105,105
+625,9336,9543,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-10-23,1904,Burtonville,112,27,195,7704,13,38,Male,88308,Bronze,Mobile Payment,False,Discount,Snowy,False,Monday,False,103,61
+626,2108,2795,Colgate Toothbrush,Toothbrush,4,2.0,2023-07-13,5032,East Jonathanborough,314,35,300,4814,11,40,Male,29252,Gold,Debit Card,False,None,Sunny,True,Thursday,False,108,80
+627,6091,9036,Colgate Toothbrush,Toothbrush,6,2.0,2024-12-13,3020,Lake Joefort,264,40,272,1088,12,49,Male,21194,Silver,Mobile Payment,False,Buy One Get One,Rainy,True,Friday,True,147,133
+628,6099,3437,Colgate Toothpaste,Toothpaste,4,3.5,2024-07-12,1822,North Lindseyshire,177,31,242,9192,13,38,Other,61606,Gold,Cash,False,Buy One Get One,Snowy,False,Friday,False,145,134
+629,5414,5626,Colgate Mouthwash,Mouthwash,5,5.0,2023-04-01,698,New Richardport,472,46,105,9328,2,29,Female,42133,Bronze,Debit Card,False,Buy One Get One,Cloudy,True,Saturday,True,120,113
+630,3880,7938,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-04-04,2425,Kylefurt,395,28,128,538,3,50,Female,70697,Bronze,Cash,True,Buy One Get One,Sunny,False,Tuesday,True,102,109
+631,9310,7713,Colgate Mouthwash,Mouthwash,7,5.0,2024-11-03,4200,East Kristinaville,279,22,276,1410,13,52,Female,113926,Gold,Debit Card,True,Discount,Cloudy,True,Sunday,True,58,70
+632,1095,2904,Colgate Toothbrush,Toothbrush,2,2.0,2023-10-20,4416,Melindaberg,250,32,110,1083,7,47,Male,33695,Bronze,Cash,False,Buy One Get One,Sunny,False,Friday,True,149,126
+633,9822,2159,Colgate Whitening Strips,Teeth Whitening,8,25.0,2025-01-10,7300,Port Olivia,76,36,218,7109,8,30,Male,38776,Silver,Cash,False,None,Rainy,False,Friday,True,145,55
+634,9576,4613,Colgate Toothbrush,Toothbrush,4,2.0,2023-08-13,284,Natashashire,373,45,219,6128,12,30,Male,115137,Silver,Debit Card,False,Buy One Get One,Cloudy,False,Sunday,True,138,107
+635,9149,9915,Colgate Toothpaste,Toothpaste,4,3.5,2023-09-13,5788,Lake Sandraland,53,41,242,1588,6,38,Other,62658,Bronze,Debit Card,True,Buy One Get One,Sunny,False,Wednesday,True,120,136
+636,6982,8628,Colgate Whitening Strips,Teeth Whitening,8,25.0,2024-04-14,9932,Leeburgh,140,33,216,5184,11,52,Female,22682,Platinum,Debit Card,False,Discount,Cloudy,True,Sunday,False,133,87
+637,7724,8568,Colgate Mouthwash,Mouthwash,10,5.0,2024-04-20,2625,West James,369,30,164,454,7,39,Other,61103,Bronze,Credit Card,True,Buy One Get One,Rainy,False,Saturday,True,52,51
+638,7848,7245,Colgate Mouthwash,Mouthwash,9,5.0,2023-01-24,5601,Tabithatown,335,34,290,9397,7,55,Female,59193,Platinum,Mobile Payment,True,None,Cloudy,False,Tuesday,False,135,123
+639,7972,6495,Colgate Toothpaste,Toothpaste,3,3.5,2023-12-04,3296,South Michelleport,101,20,180,2673,9,25,Other,57901,Bronze,Debit Card,True,None,Snowy,True,Monday,True,110,58
+640,8952,5189,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-07-22,6650,Lake Anthonymouth,367,41,225,9345,3,49,Female,45733,Platinum,Mobile Payment,False,None,Snowy,True,Saturday,True,72,75
+641,1797,2556,Colgate Toothbrush,Toothbrush,7,2.0,2024-05-11,1180,Laurenside,452,28,215,6441,3,40,Other,26237,Silver,Credit Card,True,None,Rainy,True,Saturday,True,93,107
+642,1636,720,Colgate Mouthwash,Mouthwash,4,5.0,2024-09-13,2802,Michaelville,282,21,168,2030,13,53,Other,97654,Gold,Cash,False,None,Snowy,True,Friday,True,88,86
+643,7688,2294,Colgate Mouthwash,Mouthwash,7,5.0,2024-09-05,6143,Lake Randallfort,495,43,113,8409,2,41,Female,102665,Silver,Debit Card,False,Buy One Get One,Sunny,False,Thursday,False,104,78
+644,7338,8157,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-11-19,4163,Petermouth,192,39,167,4173,11,51,Other,47491,Bronze,Cash,False,Discount,Cloudy,True,Tuesday,True,103,140
+645,3403,408,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-01-17,8125,Lake Stephaniestad,376,23,298,1625,9,70,Female,119959,Platinum,Cash,False,Discount,Cloudy,True,Tuesday,False,58,45
+646,8294,3294,Colgate Mouthwash,Mouthwash,9,5.0,2023-03-08,8359,Laurenhaven,461,50,182,2649,2,66,Male,108860,Platinum,Debit Card,True,None,Rainy,True,Wednesday,False,122,131
+647,9176,8274,Colgate Mouthwash,Mouthwash,9,5.0,2024-08-09,816,Fredport,82,25,147,1529,14,62,Other,22914,Platinum,Credit Card,False,None,Sunny,True,Friday,False,54,89
+648,2842,7373,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-09-01,8320,New Amber,82,37,239,752,6,46,Other,91279,Platinum,Cash,False,Buy One Get One,Sunny,True,Friday,False,141,61
+649,1915,4234,Colgate Toothpaste,Toothpaste,4,3.5,2023-11-16,404,Julieborough,336,30,191,5066,10,32,Female,87662,Platinum,Cash,False,Discount,Snowy,True,Thursday,False,134,74
+650,6501,2381,Colgate Mouthwash,Mouthwash,1,5.0,2023-07-22,9670,Weeksberg,458,23,286,361,5,49,Other,110153,Silver,Cash,False,Buy One Get One,Rainy,False,Saturday,True,56,114
+651,2690,869,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-08-02,4405,Marktown,179,31,116,5367,11,68,Male,32125,Bronze,Credit Card,True,Buy One Get One,Rainy,True,Friday,True,103,86
+652,9873,4730,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-10-20,4896,Katieport,340,37,129,4503,4,63,Female,82653,Silver,Mobile Payment,True,None,Snowy,True,Sunday,False,103,65
+653,9668,2129,Colgate Toothbrush,Toothbrush,2,2.0,2024-12-12,7136,Schultzchester,128,23,296,7374,5,32,Other,83210,Bronze,Debit Card,False,None,Sunny,True,Thursday,False,86,140
+654,7537,5168,Colgate Mouthwash,Mouthwash,8,5.0,2024-07-07,5897,Henryview,167,39,295,6204,8,66,Other,33578,Platinum,Cash,False,None,Cloudy,True,Sunday,True,124,137
+655,6589,1072,Colgate Toothbrush,Toothbrush,8,2.0,2023-03-29,507,Kylestad,387,24,252,3106,12,53,Other,68256,Platinum,Credit Card,False,None,Rainy,True,Wednesday,True,51,75
+656,1089,9808,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-01-11,8497,Goldenton,384,31,235,2160,14,29,Female,23227,Platinum,Cash,False,Buy One Get One,Cloudy,True,Thursday,False,78,65
+657,2509,4526,Colgate Mouthwash,Mouthwash,10,5.0,2023-11-09,4985,Smithport,68,36,106,6919,3,56,Other,55805,Bronze,Mobile Payment,True,Discount,Rainy,False,Thursday,True,149,67
+658,5075,4926,Colgate Toothbrush,Toothbrush,3,2.0,2023-12-24,1979,South Matthewberg,168,20,186,8849,2,61,Male,62570,Gold,Cash,True,None,Snowy,True,Sunday,False,127,133
+659,3763,172,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-03-24,2280,Brendanfurt,110,25,280,2939,8,37,Male,105668,Platinum,Cash,False,Discount,Sunny,True,Friday,True,57,67
+660,2974,6095,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-12-09,4932,Williamsborough,249,23,289,1946,2,42,Other,74620,Silver,Credit Card,False,None,Sunny,False,Saturday,False,146,103
+661,7125,8674,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-02-25,6243,North Jonathanview,428,45,245,1314,2,63,Other,66539,Platinum,Credit Card,True,Buy One Get One,Snowy,False,Saturday,True,135,107
+662,8096,1117,Colgate Toothpaste,Toothpaste,6,3.5,2023-11-11,8598,Edgarland,67,47,156,8972,6,60,Other,48790,Bronze,Cash,False,None,Sunny,True,Saturday,True,131,133
+663,5704,9906,Colgate Toothbrush,Toothbrush,1,2.0,2024-01-06,4167,East Laurachester,436,27,282,1658,3,19,Other,94129,Gold,Debit Card,False,None,Sunny,False,Saturday,True,88,77
+664,4897,833,Colgate Toothpaste,Toothpaste,4,3.5,2023-02-03,2185,Johnborough,309,49,252,1330,10,56,Male,34174,Platinum,Credit Card,False,Buy One Get One,Rainy,False,Friday,False,107,75
+665,2098,7401,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-08-19,9389,Donaldhaven,429,33,203,9851,11,50,Male,51004,Bronze,Debit Card,True,Buy One Get One,Rainy,False,Saturday,True,79,110
+666,2070,6365,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-03-20,5710,Boydmouth,141,23,100,3102,3,56,Other,70111,Bronze,Cash,False,Buy One Get One,Sunny,False,Monday,False,52,69
+667,8219,8226,Colgate Toothbrush,Toothbrush,5,2.0,2024-08-01,6383,West Patrick,221,46,286,36,12,31,Male,76861,Bronze,Credit Card,True,Discount,Snowy,True,Thursday,False,73,56
+668,2558,1012,Colgate Mouthwash,Mouthwash,10,5.0,2023-09-16,5823,Antoniomouth,303,43,245,165,2,41,Other,59771,Bronze,Cash,True,Discount,Sunny,True,Saturday,True,66,49
+669,6455,6569,Colgate Mouthwash,Mouthwash,5,5.0,2023-11-16,3790,Dwayneside,283,46,134,5998,6,62,Male,53085,Platinum,Debit Card,True,Discount,Sunny,False,Thursday,True,72,102
+670,1813,8196,Colgate Mouthwash,Mouthwash,3,5.0,2023-05-01,8815,West Martha,351,38,152,7878,8,19,Male,92874,Gold,Cash,False,Buy One Get One,Cloudy,False,Monday,False,121,127
+671,979,1832,Colgate Toothbrush,Toothbrush,8,2.0,2024-12-06,8791,Lake Michaelchester,201,38,242,8893,4,51,Female,40449,Silver,Mobile Payment,False,Discount,Snowy,True,Friday,True,76,80
+672,6540,6141,Colgate Toothpaste,Toothpaste,7,3.5,2023-07-17,8819,Lake Victorborough,332,31,127,9962,12,50,Male,112499,Silver,Mobile Payment,True,None,Sunny,False,Monday,True,68,110
+673,8409,156,Colgate Toothpaste,Toothpaste,3,3.5,2024-07-19,8922,Brownland,340,39,176,5890,10,30,Female,67952,Platinum,Debit Card,True,Buy One Get One,Cloudy,False,Friday,True,119,74
+674,3594,8805,Colgate Toothpaste,Toothpaste,4,3.5,2023-07-07,7141,Jordanfurt,118,49,291,4372,14,68,Other,40811,Silver,Cash,True,Discount,Rainy,True,Friday,True,140,49
+675,5819,6590,Colgate Mouthwash,Mouthwash,1,5.0,2023-10-04,3125,Port Williambury,440,37,176,2588,9,31,Female,119366,Gold,Mobile Payment,True,Buy One Get One,Rainy,False,Wednesday,True,62,70
+676,8870,3724,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-03-16,7266,Williamtown,125,50,200,7544,2,24,Male,109425,Bronze,Credit Card,True,Buy One Get One,Snowy,False,Thursday,True,61,74
+677,754,7691,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-07-12,6105,Port Brian,378,36,166,8666,2,33,Female,45897,Platinum,Credit Card,False,Buy One Get One,Snowy,True,Wednesday,True,147,40
+678,9,851,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-04-24,1824,Lake Susan,312,35,259,9131,4,53,Male,21991,Silver,Mobile Payment,True,Discount,Rainy,True,Monday,True,62,133
+679,3414,4114,Colgate Mouthwash,Mouthwash,5,5.0,2023-10-08,6802,Josestad,272,36,268,5365,3,45,Male,80607,Silver,Mobile Payment,True,None,Cloudy,True,Sunday,True,111,111
+680,3812,5153,Colgate Toothbrush,Toothbrush,10,2.0,2023-12-13,2829,Evansshire,338,33,266,1937,12,30,Other,103335,Platinum,Debit Card,False,Discount,Rainy,True,Wednesday,True,65,46
+681,9394,5855,Colgate Mouthwash,Mouthwash,6,5.0,2024-03-26,2937,West Drew,76,36,230,5578,9,44,Other,107731,Platinum,Cash,True,Discount,Snowy,True,Tuesday,True,112,121
+682,2884,7905,Colgate Toothbrush,Toothbrush,10,2.0,2024-02-15,5114,Harringtonburgh,129,27,246,859,14,27,Male,63411,Gold,Cash,True,Buy One Get One,Rainy,False,Thursday,True,98,67
+683,4702,537,Colgate Toothbrush,Toothbrush,7,2.0,2023-02-18,4084,Mullinsbury,273,23,178,7254,12,62,Male,41078,Silver,Mobile Payment,True,Buy One Get One,Cloudy,False,Saturday,False,95,74
+684,9443,4166,Colgate Mouthwash,Mouthwash,6,5.0,2024-03-15,6193,Lopezstad,124,42,205,3136,10,47,Other,96380,Bronze,Mobile Payment,False,Buy One Get One,Cloudy,False,Friday,False,125,121
+685,9934,2452,Colgate Mouthwash,Mouthwash,7,5.0,2024-07-11,3196,West John,177,47,172,4897,4,28,Other,46006,Gold,Credit Card,True,Discount,Rainy,False,Thursday,True,92,77
+686,2164,7098,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-11-26,634,Mcdonaldville,411,46,172,9387,7,34,Other,88983,Platinum,Cash,True,Buy One Get One,Snowy,True,Tuesday,False,61,83
+687,1280,4772,Colgate Toothpaste,Toothpaste,5,3.5,2024-10-08,6272,South Bridgetbury,445,38,180,1669,8,21,Female,108248,Silver,Debit Card,False,Buy One Get One,Cloudy,False,Tuesday,False,133,47
+688,2485,2267,Colgate Mouthwash,Mouthwash,1,5.0,2023-08-07,5692,Higginsberg,491,38,234,3693,5,41,Male,21253,Bronze,Cash,False,Buy One Get One,Rainy,True,Monday,False,143,92
+689,3230,7609,Colgate Toothpaste,Toothpaste,3,3.5,2023-10-06,3832,Michaeltown,282,35,187,6690,4,43,Other,78953,Gold,Credit Card,True,Buy One Get One,Rainy,False,Friday,True,140,122
+690,6952,7812,Colgate Mouthwash,Mouthwash,6,5.0,2023-06-06,4679,Jamestown,171,32,240,914,6,46,Other,46279,Silver,Mobile Payment,False,Buy One Get One,Sunny,True,Tuesday,False,99,134
+691,5892,4859,Colgate Toothbrush,Toothbrush,3,2.0,2023-10-12,7202,Morganhaven,469,33,189,7339,9,25,Female,70956,Platinum,Mobile Payment,True,None,Snowy,False,Thursday,False,67,47
+692,5914,4910,Colgate Toothpaste,Toothpaste,9,3.5,2023-08-10,8810,Wilcoxland,117,21,209,8152,4,33,Other,108095,Gold,Credit Card,True,None,Rainy,False,Thursday,True,68,69
+693,6738,6517,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-09-11,6146,Katherineland,300,44,157,6449,9,63,Female,41028,Gold,Cash,False,Discount,Rainy,False,Wednesday,False,51,110
+694,9896,2233,Colgate Toothpaste,Toothpaste,8,3.5,2024-01-06,9363,Munozmouth,418,20,144,2595,3,35,Female,90134,Gold,Credit Card,False,None,Sunny,True,Saturday,True,76,140
+695,2836,6708,Colgate Mouthwash,Mouthwash,5,5.0,2024-12-26,2208,Port Michaelshire,491,42,157,5918,6,52,Female,59902,Gold,Credit Card,False,Discount,Sunny,True,Thursday,True,96,135
+696,2205,9757,Colgate Mouthwash,Mouthwash,5,5.0,2023-10-17,6810,East Taratown,142,34,212,5364,3,53,Male,61207,Gold,Mobile Payment,True,Discount,Rainy,True,Tuesday,False,126,99
+697,9025,747,Colgate Toothbrush,Toothbrush,9,2.0,2023-12-11,5968,North Roger,354,44,111,43,11,54,Male,78982,Platinum,Debit Card,False,Discount,Rainy,False,Monday,True,74,66
+698,6866,6819,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-05-03,4829,Christinetown,492,36,116,8728,5,25,Other,99458,Gold,Credit Card,False,Buy One Get One,Rainy,True,Friday,False,107,70
+699,4917,4667,Colgate Toothbrush,Toothbrush,2,2.0,2024-10-14,273,South Scott,140,49,294,830,14,21,Other,93908,Silver,Credit Card,False,Buy One Get One,Sunny,True,Monday,False,89,131
+700,9998,3771,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-04-27,4328,Josephberg,437,49,190,1823,13,52,Male,52050,Gold,Credit Card,True,Discount,Cloudy,True,Saturday,False,70,99
+701,532,793,Colgate Mouthwash,Mouthwash,7,5.0,2023-12-07,6428,East Judithtown,139,22,204,2783,12,54,Other,100701,Platinum,Mobile Payment,True,Buy One Get One,Cloudy,True,Thursday,True,102,82
+702,4017,5664,Colgate Mouthwash,Mouthwash,9,5.0,2023-10-22,9827,Natashaville,329,20,215,2913,4,32,Male,85826,Platinum,Debit Card,False,None,Sunny,True,Sunday,True,133,60
+703,5341,5021,Colgate Toothpaste,Toothpaste,6,3.5,2023-12-09,9480,West Brian,315,38,196,4792,11,68,Female,88142,Bronze,Mobile Payment,True,Discount,Rainy,True,Saturday,False,142,64
+704,7880,603,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-02-11,4459,Bruceside,302,24,175,3259,14,46,Male,55637,Gold,Cash,False,Buy One Get One,Snowy,False,Sunday,True,92,77
+705,9471,1045,Colgate Toothbrush,Toothbrush,2,2.0,2023-06-07,4049,East Alexander,463,38,271,5040,10,54,Female,114877,Bronze,Credit Card,False,None,Sunny,False,Wednesday,True,101,42
+706,2248,3087,Colgate Toothpaste,Toothpaste,9,3.5,2023-09-27,6862,Evansshire,211,25,178,4729,6,28,Male,36267,Gold,Mobile Payment,False,Discount,Snowy,False,Wednesday,True,84,123
+707,1012,6587,Colgate Toothbrush,Toothbrush,9,2.0,2024-07-28,7953,East Shirley,133,25,212,686,10,37,Male,42528,Bronze,Debit Card,True,None,Rainy,False,Sunday,True,108,83
+708,2371,6438,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-01-31,8242,Veronicaland,51,36,128,8314,13,24,Female,81024,Bronze,Debit Card,False,None,Rainy,True,Tuesday,True,81,66
+709,3068,7741,Colgate Toothbrush,Toothbrush,1,2.0,2023-04-10,3418,Roseborough,208,23,238,2439,7,41,Male,103432,Silver,Mobile Payment,True,Buy One Get One,Sunny,False,Monday,False,132,50
+710,9073,2170,Colgate Mouthwash,Mouthwash,2,5.0,2024-10-22,1177,Veronicatown,90,25,116,8186,9,68,Female,24116,Bronze,Debit Card,False,Buy One Get One,Sunny,False,Tuesday,True,81,106
+711,1619,578,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-07-30,4599,South Richard,356,49,153,1200,10,47,Female,49412,Bronze,Mobile Payment,True,Discount,Rainy,True,Tuesday,True,50,86
+712,7259,3157,Colgate Mouthwash,Mouthwash,10,5.0,2024-09-21,7233,East Georgemouth,155,34,174,7454,3,61,Male,79676,Gold,Debit Card,True,Discount,Rainy,False,Saturday,False,70,65
+713,9003,9477,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-10-03,1481,Catherineport,484,35,148,6406,14,43,Male,52928,Silver,Credit Card,True,Discount,Sunny,True,Tuesday,True,143,123
+714,7868,4821,Colgate Mouthwash,Mouthwash,4,5.0,2023-12-02,9598,New Cindy,254,25,141,2984,5,22,Female,40650,Gold,Debit Card,False,None,Cloudy,True,Saturday,True,86,119
+715,5175,7570,Colgate Mouthwash,Mouthwash,5,5.0,2023-09-21,8703,West Larryborough,112,32,282,2970,12,51,Male,85134,Silver,Mobile Payment,False,Discount,Sunny,False,Thursday,False,96,76
+716,5042,8522,Colgate Toothbrush,Toothbrush,5,2.0,2023-01-12,460,Port Randall,495,41,254,8852,8,37,Female,55429,Bronze,Mobile Payment,False,Discount,Sunny,False,Thursday,False,121,103
+717,8469,1573,Colgate Toothbrush,Toothbrush,9,2.0,2024-10-23,9164,West Jamesville,487,44,151,4782,11,24,Male,107616,Gold,Debit Card,True,None,Snowy,False,Wednesday,True,78,139
+718,7590,3635,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-12-09,7586,North Michael,112,37,166,5039,14,48,Male,40099,Gold,Credit Card,False,Discount,Cloudy,True,Saturday,True,88,85
+719,8116,8214,Colgate Toothbrush,Toothbrush,10,2.0,2024-09-07,3782,Marshton,286,22,117,9713,6,46,Female,66042,Platinum,Debit Card,False,Discount,Sunny,False,Saturday,True,136,105
+720,3686,1996,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-06-27,8936,Colemanview,119,41,167,1935,8,42,Male,36010,Platinum,Cash,False,Buy One Get One,Snowy,False,Tuesday,True,129,108
+721,3106,1060,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-09-01,6718,New Noahhaven,209,22,263,4488,3,32,Male,92474,Silver,Mobile Payment,True,Buy One Get One,Cloudy,True,Friday,True,100,83
+722,19,4710,Colgate Toothpaste,Toothpaste,6,3.5,2023-11-21,5389,North Deborah,325,32,143,4633,2,60,Female,35476,Platinum,Debit Card,False,Discount,Cloudy,False,Tuesday,True,110,58
+723,7156,7643,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-12-17,7014,Rogerberg,295,26,124,3302,6,52,Male,60469,Platinum,Mobile Payment,False,None,Snowy,True,Sunday,True,126,66
+724,6216,6778,Colgate Mouthwash,Mouthwash,8,5.0,2024-02-04,4188,Carrollhaven,141,25,145,5959,5,18,Male,50347,Gold,Cash,False,Buy One Get One,Rainy,False,Sunday,True,56,70
+725,9133,227,Colgate Mouthwash,Mouthwash,7,5.0,2024-07-20,383,Cruztown,356,47,182,2427,2,47,Female,46962,Platinum,Credit Card,False,Discount,Snowy,True,Saturday,False,70,108
+726,4285,4892,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-12-26,3005,New Ashleytown,459,29,268,7991,11,51,Male,24723,Gold,Credit Card,False,Buy One Get One,Sunny,False,Tuesday,False,70,124
+727,8171,1352,Colgate Toothpaste,Toothpaste,8,3.5,2023-08-21,1829,Port Alyssaland,177,40,103,2387,9,43,Other,104265,Platinum,Mobile Payment,True,None,Rainy,False,Monday,True,140,99
+728,2432,3587,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-10-13,8418,West Jennifermouth,429,23,217,3642,13,51,Female,20713,Platinum,Mobile Payment,False,Discount,Cloudy,False,Friday,False,92,61
+729,1671,1662,Colgate Mouthwash,Mouthwash,1,5.0,2024-06-24,9533,New Wesley,411,29,113,9428,9,50,Female,26576,Silver,Cash,True,None,Rainy,False,Monday,True,128,140
+730,3211,200,Colgate Mouthwash,Mouthwash,7,5.0,2024-12-11,1655,Sarahstad,103,26,152,2754,11,68,Female,21700,Platinum,Cash,False,Buy One Get One,Rainy,False,Wednesday,False,115,131
+731,6207,7580,Colgate Toothpaste,Toothpaste,3,3.5,2024-01-09,4582,West Sharonbury,489,39,277,1758,7,54,Other,73477,Bronze,Mobile Payment,False,None,Cloudy,False,Tuesday,False,149,94
+732,9652,6912,Colgate Mouthwash,Mouthwash,4,5.0,2023-07-05,4099,Lake Andrew,77,42,201,6112,13,19,Male,68987,Gold,Credit Card,True,Discount,Rainy,False,Wednesday,True,65,77
+733,3325,446,Colgate Toothbrush,Toothbrush,6,2.0,2024-06-16,1279,New Harrymouth,456,31,229,1004,14,53,Other,63475,Gold,Credit Card,True,None,Snowy,False,Sunday,False,89,127
+734,1137,4940,Colgate Toothpaste,Toothpaste,10,3.5,2023-11-26,6211,Davisland,250,50,129,600,4,55,Female,97893,Platinum,Debit Card,False,Discount,Rainy,True,Sunday,False,63,71
+735,8935,8646,Colgate Toothbrush,Toothbrush,10,2.0,2023-06-10,2087,South Matthewville,407,41,119,6904,3,39,Other,53767,Platinum,Mobile Payment,False,None,Snowy,False,Saturday,True,124,97
+736,7921,8338,Colgate Toothbrush,Toothbrush,7,2.0,2024-03-05,5049,Dylanville,390,30,222,4875,14,51,Other,34202,Silver,Mobile Payment,False,Discount,Snowy,False,Tuesday,True,132,50
+737,9775,7897,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-07-26,2378,Port Christopher,109,21,183,5153,7,66,Other,72074,Bronze,Credit Card,False,None,Snowy,False,Wednesday,False,113,111
+738,5391,331,Colgate Toothbrush,Toothbrush,6,2.0,2024-04-09,9469,Lake Mary,256,40,284,5048,3,21,Male,102052,Gold,Mobile Payment,True,Discount,Rainy,False,Tuesday,False,126,120
+739,3437,3542,Colgate Mouthwash,Mouthwash,1,5.0,2025-01-07,3502,Andrewborough,341,35,259,7273,5,58,Female,94822,Platinum,Credit Card,True,Buy One Get One,Rainy,True,Tuesday,False,121,81
+740,3252,3700,Colgate Whitening Strips,Teeth Whitening,4,25.0,2024-01-31,3275,East Keithshire,367,46,253,151,4,33,Female,47423,Gold,Cash,False,Discount,Rainy,True,Wednesday,False,122,97
+741,7795,6801,Colgate Toothbrush,Toothbrush,1,2.0,2023-05-16,8087,Martinezchester,278,42,264,5169,2,34,Female,39895,Silver,Credit Card,False,Discount,Snowy,True,Tuesday,True,101,105
+742,7858,6003,Colgate Toothbrush,Toothbrush,6,2.0,2023-07-05,3881,Timland,299,49,194,9117,2,35,Male,113909,Silver,Mobile Payment,False,None,Rainy,False,Wednesday,False,84,50
+743,4762,5500,Colgate Toothpaste,Toothpaste,4,3.5,2023-04-02,8547,Kirbyhaven,460,30,179,9856,2,51,Female,89112,Silver,Mobile Payment,True,Discount,Cloudy,False,Sunday,True,120,62
+744,3538,7256,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-07-04,1428,East Michaelbury,268,41,247,5233,12,56,Female,52694,Bronze,Cash,True,Buy One Get One,Rainy,False,Thursday,False,148,102
+745,2363,4559,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-08-05,6925,Port Markshire,456,33,258,2997,6,57,Male,91496,Bronze,Credit Card,True,Buy One Get One,Rainy,True,Saturday,False,98,108
+746,6152,554,Colgate Toothpaste,Toothpaste,9,3.5,2023-10-22,4738,South Jasonchester,479,50,186,2061,11,21,Other,42067,Bronze,Debit Card,False,Buy One Get One,Cloudy,False,Sunday,False,121,81
+747,5953,4803,Colgate Mouthwash,Mouthwash,9,5.0,2024-05-18,6490,South Reginaldstad,159,41,155,9985,11,23,Female,113994,Platinum,Mobile Payment,True,Buy One Get One,Snowy,False,Saturday,False,67,43
+748,4785,3534,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-07-20,1471,Popeport,304,49,105,9086,7,38,Male,32083,Platinum,Credit Card,True,Discount,Rainy,False,Saturday,False,66,82
+749,3293,2997,Colgate Whitening Strips,Teeth Whitening,2,25.0,2024-11-03,7552,Hansenmouth,500,27,276,9639,8,51,Female,91895,Platinum,Debit Card,True,Discount,Rainy,True,Sunday,True,150,118
+750,276,5504,Colgate Mouthwash,Mouthwash,4,5.0,2023-01-15,2107,Underwoodshire,149,28,130,2761,13,43,Other,110647,Platinum,Debit Card,False,Discount,Sunny,True,Sunday,True,82,66
+751,986,515,Colgate Toothbrush,Toothbrush,7,2.0,2023-07-11,8017,Julieborough,276,25,180,6833,5,51,Other,44001,Gold,Cash,False,Buy One Get One,Snowy,True,Tuesday,True,89,92
+752,8534,5927,Colgate Mouthwash,Mouthwash,9,5.0,2024-06-08,5789,Port Jenniferside,145,32,119,2452,12,40,Other,90462,Platinum,Credit Card,True,Buy One Get One,Snowy,False,Saturday,False,133,84
+753,8537,1138,Colgate Toothpaste,Toothpaste,10,3.5,2024-09-05,3745,Rodriguezland,453,34,242,6658,8,29,Female,40700,Gold,Debit Card,True,Buy One Get One,Sunny,False,Thursday,True,141,81
+754,1498,7146,Colgate Mouthwash,Mouthwash,3,5.0,2023-10-20,6864,Harmonhaven,216,26,191,9467,2,22,Female,87897,Gold,Debit Card,True,Discount,Snowy,True,Friday,True,93,130
+755,2973,2974,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-07-13,1560,Hallstad,402,43,131,2684,3,46,Female,31463,Bronze,Credit Card,True,None,Sunny,True,Saturday,True,73,84
+756,1480,10,Colgate Mouthwash,Mouthwash,5,5.0,2023-11-01,7282,Jeffreytown,492,40,185,7147,8,36,Male,45860,Gold,Cash,True,Discount,Rainy,True,Wednesday,True,73,90
+757,1356,9148,Colgate Mouthwash,Mouthwash,5,5.0,2024-02-13,8722,West Taylor,78,35,199,1955,11,32,Male,76877,Platinum,Credit Card,False,Buy One Get One,Snowy,False,Tuesday,True,67,62
+758,7306,9041,Colgate Mouthwash,Mouthwash,9,5.0,2023-07-01,9629,West Christineshire,112,33,294,9481,2,69,Other,94852,Platinum,Mobile Payment,True,Discount,Rainy,True,Saturday,True,144,126
+759,5049,4181,Colgate Toothbrush,Toothbrush,6,2.0,2023-11-03,5744,Francomouth,388,38,277,8691,10,49,Female,64410,Gold,Cash,False,Discount,Rainy,False,Friday,True,96,72
+760,8161,4322,Colgate Toothbrush,Toothbrush,1,2.0,2024-09-21,4789,Clarkton,304,24,165,371,12,60,Other,49132,Bronze,Cash,False,Discount,Cloudy,True,Saturday,True,146,120
+761,7599,722,Colgate Toothpaste,Toothpaste,4,3.5,2023-07-20,9007,South Stephenport,471,26,136,2239,11,39,Other,30279,Gold,Debit Card,False,None,Sunny,False,Thursday,True,56,94
+762,2730,8121,Colgate Toothpaste,Toothpaste,2,3.5,2024-10-12,2190,Keithfurt,117,29,265,714,14,36,Other,21664,Platinum,Credit Card,False,Discount,Sunny,False,Saturday,True,110,79
+763,3199,8391,Colgate Toothpaste,Toothpaste,8,3.5,2024-06-10,6616,Rhondashire,91,33,291,5142,10,58,Other,24333,Bronze,Debit Card,False,Buy One Get One,Sunny,False,Monday,False,59,87
+764,8135,8512,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-01-23,7284,Norrisfurt,130,24,190,4440,7,56,Female,44992,Bronze,Debit Card,False,Buy One Get One,Cloudy,True,Tuesday,False,128,81
+765,2386,8670,Colgate Toothpaste,Toothpaste,2,3.5,2024-11-04,9674,East Kevinshire,275,41,216,7731,11,30,Female,65469,Silver,Cash,False,Discount,Rainy,True,Monday,True,57,124
+766,63,9950,Colgate Toothbrush,Toothbrush,8,2.0,2024-01-18,9882,North Elizabeth,245,21,298,2436,4,27,Male,56467,Bronze,Mobile Payment,True,Discount,Snowy,True,Thursday,True,113,124
+767,4218,3923,Colgate Mouthwash,Mouthwash,8,5.0,2023-10-17,7116,Port Dale,169,20,111,9624,12,38,Other,42450,Gold,Debit Card,True,Discount,Sunny,False,Tuesday,False,73,50
+768,5342,7118,Colgate Toothpaste,Toothpaste,10,3.5,2023-07-24,3773,East Stacie,317,33,107,4232,9,41,Male,92791,Platinum,Mobile Payment,True,Discount,Rainy,True,Monday,False,91,138
+769,5631,1240,Colgate Toothbrush,Toothbrush,6,2.0,2024-04-14,3589,Hendersonbury,285,29,225,6213,10,49,Other,115352,Silver,Mobile Payment,True,None,Snowy,False,Sunday,False,63,83
+770,5093,8787,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-08-14,9552,Gomezchester,309,39,148,5489,3,55,Female,21538,Platinum,Mobile Payment,True,Buy One Get One,Sunny,True,Wednesday,True,69,49
+771,6505,6513,Colgate Toothpaste,Toothpaste,10,3.5,2024-06-14,5223,South Jessicaland,467,39,255,9440,13,37,Other,96357,Silver,Cash,False,None,Sunny,True,Friday,True,71,82
+772,6033,8209,Colgate Toothpaste,Toothpaste,9,3.5,2024-09-01,5521,West Sean,179,47,246,3612,12,66,Male,72058,Silver,Cash,True,Buy One Get One,Sunny,False,Sunday,True,77,137
+773,2161,6102,Colgate Toothbrush,Toothbrush,9,2.0,2024-03-28,8032,Gardnerton,106,24,195,9320,10,42,Female,55535,Platinum,Mobile Payment,False,Discount,Cloudy,True,Thursday,False,72,113
+774,9630,6531,Colgate Toothbrush,Toothbrush,7,2.0,2024-12-24,9915,West Kenneth,478,50,275,5196,10,57,Male,67932,Platinum,Mobile Payment,False,None,Cloudy,True,Tuesday,False,52,110
+775,2487,1055,Colgate Whitening Strips,Teeth Whitening,1,25.0,2025-01-10,7476,West Coryfurt,293,31,272,9735,12,53,Female,48783,Gold,Debit Card,False,Buy One Get One,Cloudy,False,Friday,True,145,52
+776,1593,7497,Colgate Toothbrush,Toothbrush,10,2.0,2023-06-23,4761,Hesterview,436,46,288,6028,3,23,Female,57776,Bronze,Mobile Payment,False,None,Snowy,False,Friday,True,54,97
+777,7421,101,Colgate Toothpaste,Toothpaste,10,3.5,2024-08-10,423,Sarahbury,153,40,279,5116,11,36,Female,28198,Platinum,Mobile Payment,True,Buy One Get One,Snowy,False,Saturday,True,138,95
+778,2843,7566,Colgate Toothpaste,Toothpaste,2,3.5,2024-04-12,4600,Port Jessica,119,40,259,3228,12,50,Other,96333,Bronze,Cash,False,Buy One Get One,Sunny,False,Friday,False,106,48
+779,4485,3812,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-10-06,9630,Lisashire,150,33,171,4991,10,42,Female,50389,Silver,Debit Card,True,Discount,Snowy,True,Friday,False,62,104
+780,4835,6477,Colgate Toothpaste,Toothpaste,10,3.5,2024-05-26,4978,Pricetown,454,49,141,4611,12,45,Other,51183,Platinum,Credit Card,True,Buy One Get One,Sunny,True,Sunday,False,141,114
+781,3248,7805,Colgate Toothbrush,Toothbrush,8,2.0,2024-05-29,6614,New Anthony,212,45,120,5494,4,20,Female,27410,Silver,Mobile Payment,True,Buy One Get One,Snowy,True,Wednesday,False,121,122
+782,7728,9951,Colgate Toothpaste,Toothpaste,1,3.5,2024-12-01,7344,South Brian,153,32,219,6105,5,52,Male,111412,Bronze,Mobile Payment,True,None,Sunny,False,Sunday,True,91,123
+783,5159,9357,Colgate Mouthwash,Mouthwash,7,5.0,2023-01-13,459,North Patricia,465,27,255,6378,7,34,Female,48022,Gold,Credit Card,True,Buy One Get One,Rainy,True,Friday,True,139,79
+784,8853,5064,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-10-10,3001,Andreaport,389,40,253,737,6,26,Female,86570,Gold,Debit Card,False,Buy One Get One,Cloudy,True,Tuesday,True,115,135
+785,8629,490,Colgate Toothbrush,Toothbrush,6,2.0,2023-01-31,6794,South Latoya,417,50,220,5507,4,24,Female,55698,Bronze,Credit Card,False,None,Sunny,False,Tuesday,False,110,49
+786,7983,3618,Colgate Mouthwash,Mouthwash,3,5.0,2023-10-06,9592,Butlerview,367,29,262,6798,14,29,Male,94993,Silver,Credit Card,True,None,Sunny,False,Friday,True,100,58
+787,1001,2246,Colgate Toothpaste,Toothpaste,8,3.5,2023-05-05,5422,Port Brendastad,371,21,294,1984,13,58,Female,44804,Bronze,Mobile Payment,True,Discount,Rainy,True,Friday,True,116,128
+788,1269,4176,Colgate Mouthwash,Mouthwash,2,5.0,2023-07-23,6984,Ericstad,484,29,171,8434,3,52,Female,107027,Platinum,Cash,True,None,Rainy,True,Sunday,True,138,57
+789,9903,4750,Colgate Mouthwash,Mouthwash,6,5.0,2024-04-05,9866,South Alex,71,44,160,4500,5,19,Female,88171,Silver,Mobile Payment,True,None,Sunny,False,Friday,False,135,113
+790,3918,6146,Colgate Toothbrush,Toothbrush,5,2.0,2023-05-18,6663,Hinesland,386,46,155,7156,7,27,Male,55588,Platinum,Cash,False,None,Cloudy,True,Thursday,False,96,138
+791,4407,8075,Colgate Toothpaste,Toothpaste,6,3.5,2024-11-25,1420,North Christopher,237,35,271,5741,9,27,Male,39322,Silver,Credit Card,True,Discount,Sunny,False,Monday,True,104,94
+792,9069,9996,Colgate Toothbrush,Toothbrush,10,2.0,2024-07-16,9144,Greenberg,243,31,106,1962,11,24,Male,22382,Bronze,Mobile Payment,True,None,Cloudy,False,Tuesday,False,132,139
+793,5961,3122,Colgate Toothpaste,Toothpaste,6,3.5,2024-02-17,7906,Riveramouth,234,42,151,4090,8,68,Other,68530,Gold,Debit Card,True,Buy One Get One,Sunny,True,Saturday,True,100,57
+794,1407,2692,Colgate Mouthwash,Mouthwash,10,5.0,2024-11-25,5877,Arnoldberg,472,27,266,909,4,30,Male,96837,Gold,Credit Card,False,Buy One Get One,Snowy,False,Monday,False,101,40
+795,7112,4438,Colgate Mouthwash,Mouthwash,2,5.0,2024-05-12,4664,Graybury,69,42,293,7984,10,56,Male,22503,Gold,Mobile Payment,True,None,Snowy,False,Sunday,False,69,81
+796,7704,6799,Colgate Whitening Strips,Teeth Whitening,8,25.0,2023-01-11,627,New George,64,36,117,5241,3,20,Other,26461,Gold,Credit Card,False,Buy One Get One,Cloudy,False,Wednesday,True,99,96
+797,4812,9258,Colgate Toothbrush,Toothbrush,7,2.0,2024-08-19,7446,East Eric,363,38,111,3703,11,63,Other,26794,Bronze,Cash,True,Discount,Sunny,True,Monday,True,90,73
+798,3760,2891,Colgate Toothbrush,Toothbrush,7,2.0,2024-02-24,4168,Jonesmouth,145,48,232,533,6,22,Female,119367,Platinum,Credit Card,False,Buy One Get One,Sunny,True,Saturday,False,117,133
+799,8984,4734,Colgate Mouthwash,Mouthwash,9,5.0,2023-12-21,1623,North Brenda,109,36,222,5212,12,60,Female,35565,Platinum,Mobile Payment,False,None,Cloudy,False,Thursday,True,97,46
+800,3273,5100,Colgate Toothpaste,Toothpaste,5,3.5,2023-04-01,4997,Donnaville,178,39,139,2086,3,33,Male,49174,Bronze,Credit Card,False,Discount,Cloudy,False,Saturday,False,117,107
+801,1190,3761,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-01-26,2341,Gonzalezmouth,321,36,137,8765,11,59,Female,93713,Gold,Debit Card,True,Discount,Snowy,False,Friday,True,133,55
+802,3260,1465,Colgate Toothpaste,Toothpaste,8,3.5,2023-10-27,5611,Gomezborough,448,36,127,475,2,48,Other,54914,Gold,Credit Card,True,Buy One Get One,Rainy,False,Friday,True,140,106
+803,1615,4834,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-06-02,3733,Mendozafort,109,38,251,8561,14,19,Male,92097,Bronze,Cash,False,Discount,Rainy,False,Friday,True,133,112
+804,2518,9086,Colgate Mouthwash,Mouthwash,4,5.0,2024-09-25,7031,Woodfurt,97,38,223,8850,12,25,Male,42292,Gold,Debit Card,False,None,Snowy,True,Wednesday,True,74,100
+805,7414,8320,Colgate Mouthwash,Mouthwash,2,5.0,2024-06-07,2759,Ebonytown,299,40,232,5987,13,36,Male,118766,Silver,Cash,True,Discount,Cloudy,False,Friday,False,94,44
+806,1273,1071,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-05-30,8726,Morgantown,454,33,232,2841,10,48,Other,52172,Platinum,Debit Card,True,Discount,Rainy,False,Thursday,False,56,99
+807,3510,8228,Colgate Toothbrush,Toothbrush,7,2.0,2023-06-18,6797,South Christopher,410,49,132,8940,5,45,Female,106381,Gold,Mobile Payment,False,Discount,Snowy,False,Sunday,True,93,70
+808,7061,616,Colgate Toothbrush,Toothbrush,3,2.0,2024-01-06,9803,Liuchester,302,50,205,3797,5,24,Female,30565,Gold,Cash,False,Discount,Cloudy,True,Saturday,False,148,94
+809,399,1823,Colgate Toothpaste,Toothpaste,3,3.5,2024-08-17,306,New Tonichester,131,25,258,12,5,33,Other,78533,Bronze,Debit Card,True,None,Snowy,True,Saturday,False,111,75
+810,3610,7300,Colgate Toothpaste,Toothpaste,4,3.5,2024-12-17,5130,Andersonchester,136,30,143,8983,7,44,Female,35637,Silver,Mobile Payment,False,Discount,Snowy,False,Tuesday,False,58,86
+811,8512,7735,Colgate Mouthwash,Mouthwash,5,5.0,2023-02-10,1234,South Stephentown,414,44,300,4394,3,56,Female,63029,Gold,Mobile Payment,True,Discount,Cloudy,False,Friday,False,94,124
+812,6110,3305,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-06-25,8384,East Suzanne,189,47,292,3662,3,63,Female,85327,Silver,Credit Card,True,Buy One Get One,Cloudy,True,Tuesday,True,114,107
+813,7977,7502,Colgate Toothpaste,Toothpaste,8,3.5,2023-12-27,9082,West Alison,57,37,150,9927,3,60,Female,59046,Silver,Debit Card,False,Discount,Sunny,False,Wednesday,False,51,121
+814,9890,2493,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-09-29,7491,Yoderfort,128,50,189,3919,11,23,Other,92960,Silver,Mobile Payment,True,Buy One Get One,Cloudy,False,Friday,True,64,118
+815,1661,7297,Colgate Toothbrush,Toothbrush,5,2.0,2024-01-17,6067,New Susanmouth,426,31,133,5729,3,52,Female,112005,Silver,Debit Card,False,None,Snowy,False,Wednesday,False,90,79
+816,8959,3818,Colgate Mouthwash,Mouthwash,5,5.0,2023-12-19,6623,South Shawn,170,47,187,1532,3,55,Other,94880,Silver,Debit Card,True,Buy One Get One,Rainy,False,Tuesday,False,54,139
+817,613,6733,Colgate Toothpaste,Toothpaste,4,3.5,2024-12-03,7224,South Tarashire,455,25,199,5750,8,38,Other,91728,Silver,Debit Card,True,Buy One Get One,Sunny,False,Tuesday,True,86,112
+818,3997,4691,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-11-06,6037,Port Jacquelineberg,143,44,123,5409,6,39,Male,77964,Platinum,Credit Card,True,Discount,Cloudy,False,Wednesday,True,150,69
+819,740,4682,Colgate Toothbrush,Toothbrush,7,2.0,2023-01-30,875,Lake Victor,70,20,239,4830,3,68,Male,61527,Bronze,Cash,True,Buy One Get One,Snowy,True,Monday,False,96,80
+820,3892,8912,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-05-18,6523,Dayfort,171,37,146,7691,12,41,Female,113585,Bronze,Cash,False,Discount,Cloudy,False,Thursday,False,122,117
+821,964,8760,Colgate Toothpaste,Toothpaste,2,3.5,2024-05-14,7006,Lake Lukeport,195,39,224,350,6,56,Female,58718,Gold,Debit Card,True,None,Snowy,False,Tuesday,False,75,106
+822,9537,555,Colgate Toothbrush,Toothbrush,1,2.0,2023-05-24,2305,Daniellefurt,474,31,153,2229,13,30,Male,80744,Bronze,Debit Card,False,None,Sunny,True,Wednesday,False,97,117
+823,8054,6120,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-05-17,4482,East Beverlyview,128,37,283,4175,2,18,Male,83875,Gold,Credit Card,True,Discount,Cloudy,False,Wednesday,False,62,64
+824,537,7453,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-04-01,8323,New Jessica,80,31,167,3307,6,66,Other,37090,Silver,Cash,True,Buy One Get One,Snowy,True,Saturday,True,93,113
+825,7719,8067,Colgate Toothbrush,Toothbrush,5,2.0,2024-03-22,1902,Stephanieville,338,49,236,9690,5,37,Other,75144,Bronze,Mobile Payment,False,Discount,Rainy,True,Friday,True,73,63
+826,6854,923,Colgate Toothpaste,Toothpaste,7,3.5,2024-06-20,1257,Abigailmouth,396,41,281,1445,12,39,Other,71189,Silver,Cash,True,None,Rainy,True,Thursday,False,110,110
+827,889,5409,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-09-13,8445,New Lori,66,29,254,4267,2,54,Other,113559,Bronze,Mobile Payment,False,Buy One Get One,Rainy,False,Wednesday,True,74,120
+828,4038,7057,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-07-10,7732,Jacksonmouth,370,32,234,3491,8,37,Female,86492,Gold,Credit Card,False,Discount,Sunny,True,Monday,False,88,70
+829,2761,2527,Colgate Toothpaste,Toothpaste,4,3.5,2023-04-28,5579,Emilyport,294,36,140,7132,4,67,Male,57851,Bronze,Mobile Payment,True,None,Rainy,False,Friday,False,85,46
+830,3891,9580,Colgate Mouthwash,Mouthwash,10,5.0,2024-03-01,9329,Jadeland,209,26,225,3692,14,67,Female,54801,Gold,Cash,False,Buy One Get One,Rainy,False,Friday,True,137,124
+831,5262,1871,Colgate Mouthwash,Mouthwash,4,5.0,2023-11-02,8415,Bettyville,66,38,111,6427,8,18,Male,54162,Gold,Debit Card,True,Buy One Get One,Rainy,False,Thursday,False,133,72
+832,2650,4068,Colgate Toothpaste,Toothpaste,5,3.5,2023-05-07,6350,Alyssahaven,375,36,187,9752,6,64,Male,80598,Bronze,Debit Card,True,None,Sunny,True,Sunday,True,73,108
+833,9059,6330,Colgate Toothpaste,Toothpaste,2,3.5,2023-11-19,9967,North Natalie,454,41,186,4101,12,24,Male,56771,Bronze,Credit Card,True,Buy One Get One,Snowy,False,Sunday,True,91,55
+834,4539,5418,Colgate Mouthwash,Mouthwash,9,5.0,2024-11-17,8232,Larrybury,326,35,180,4998,5,46,Male,108502,Bronze,Mobile Payment,False,None,Snowy,False,Sunday,False,138,76
+835,5800,5765,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-09-17,6151,North Diana,160,28,124,3029,6,50,Female,77012,Silver,Cash,False,Buy One Get One,Snowy,True,Sunday,True,84,139
+836,16,8058,Colgate Toothpaste,Toothpaste,10,3.5,2024-01-23,571,South Travis,312,23,269,5257,11,51,Other,103514,Bronze,Cash,True,Buy One Get One,Rainy,True,Tuesday,False,115,140
+837,7486,2428,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-01-25,6024,Smithville,225,26,122,873,7,27,Male,71539,Gold,Credit Card,False,None,Rainy,True,Thursday,False,92,120
+838,6158,737,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-03-12,8091,Wadeton,189,24,292,2638,11,45,Other,49672,Bronze,Debit Card,True,Discount,Rainy,True,Sunday,True,59,104
+839,6551,2221,Colgate Mouthwash,Mouthwash,6,5.0,2023-01-30,1839,Nguyenland,63,48,292,6239,11,59,Other,101092,Gold,Cash,False,None,Sunny,False,Monday,True,75,80
+840,6993,2183,Colgate Toothbrush,Toothbrush,2,2.0,2023-03-23,2163,North Rebecca,144,41,153,3205,14,38,Male,101261,Silver,Mobile Payment,True,Discount,Rainy,False,Thursday,True,148,129
+841,1726,7676,Colgate Toothpaste,Toothpaste,7,3.5,2024-12-05,483,South Adam,136,32,208,1819,13,28,Male,97416,Gold,Mobile Payment,False,None,Sunny,False,Thursday,True,131,96
+842,8789,1476,Colgate Mouthwash,Mouthwash,4,5.0,2023-07-03,1835,East Erik,395,35,252,7576,13,22,Male,112467,Platinum,Credit Card,False,Buy One Get One,Cloudy,False,Monday,False,120,74
+843,1289,6122,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-09-16,4065,West Jeremyhaven,474,37,246,3260,10,32,Other,96455,Bronze,Credit Card,True,Buy One Get One,Sunny,False,Monday,True,92,84
+844,4599,2707,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-10-22,8958,Lake Ericmouth,334,46,121,3744,8,68,Male,98413,Bronze,Cash,True,None,Cloudy,False,Sunday,False,125,68
+845,7390,913,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-02-13,8112,East Adrian,458,30,230,1649,2,51,Female,44317,Bronze,Debit Card,False,Discount,Sunny,True,Tuesday,False,142,121
+846,5668,8514,Colgate Toothpaste,Toothpaste,3,3.5,2023-01-19,3710,East Carla,424,49,160,2336,9,29,Other,58281,Gold,Mobile Payment,False,None,Snowy,False,Thursday,False,60,41
+847,4523,9850,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-01-24,1636,New Ryan,235,45,270,6979,2,50,Male,67338,Bronze,Debit Card,False,Discount,Snowy,False,Tuesday,False,124,125
+848,9515,2833,Colgate Mouthwash,Mouthwash,3,5.0,2024-01-25,3239,South Larryport,490,27,172,5930,14,38,Male,106744,Silver,Mobile Payment,False,Discount,Cloudy,False,Thursday,True,94,119
+849,2441,8874,Colgate Toothbrush,Toothbrush,5,2.0,2023-08-13,496,New Johnville,348,44,155,7803,7,61,Female,33580,Silver,Debit Card,False,None,Cloudy,True,Sunday,False,52,110
+850,6365,3325,Colgate Toothbrush,Toothbrush,6,2.0,2024-05-04,3510,Pierceshire,80,41,151,8910,9,65,Other,64477,Platinum,Mobile Payment,True,None,Cloudy,False,Saturday,True,67,76
+851,6461,6891,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-10-22,9437,North Josephport,446,20,167,6563,5,50,Male,91597,Gold,Credit Card,False,None,Sunny,False,Sunday,False,107,74
+852,8102,4072,Colgate Toothpaste,Toothpaste,8,3.5,2023-08-19,458,New Joshua,366,39,134,9613,4,36,Female,97887,Silver,Debit Card,True,None,Sunny,True,Saturday,False,130,46
+853,1152,986,Colgate Whitening Strips,Teeth Whitening,7,25.0,2024-07-07,7589,West Paulafurt,435,38,265,9546,10,20,Other,109130,Silver,Debit Card,True,Discount,Snowy,True,Sunday,True,70,135
+854,5840,6547,Colgate Toothpaste,Toothpaste,3,3.5,2024-04-11,5328,Stevensontown,53,49,290,6426,8,37,Other,106875,Platinum,Mobile Payment,True,Discount,Sunny,False,Thursday,False,150,66
+855,3577,7554,Colgate Mouthwash,Mouthwash,5,5.0,2024-07-17,1524,East Courtney,471,32,150,4730,2,33,Male,89741,Silver,Mobile Payment,True,Discount,Rainy,False,Wednesday,True,52,104
+856,5226,7845,Colgate Toothpaste,Toothpaste,10,3.5,2023-09-25,3938,Walkerhaven,203,23,175,8971,3,56,Male,111938,Platinum,Debit Card,True,None,Cloudy,True,Monday,True,101,115
+857,4488,4227,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-02-03,6003,Jamesfort,222,34,223,3833,9,42,Female,102968,Gold,Debit Card,True,None,Snowy,True,Saturday,True,53,81
+858,6429,8898,Colgate Mouthwash,Mouthwash,5,5.0,2025-01-01,4102,Grahamhaven,196,22,278,9694,9,70,Female,60838,Silver,Debit Card,True,None,Sunny,True,Wednesday,True,132,62
+859,7434,7825,Colgate Toothpaste,Toothpaste,7,3.5,2023-07-24,7841,Danielside,363,21,292,2350,13,24,Other,69041,Silver,Cash,False,Buy One Get One,Rainy,True,Monday,False,57,50
+860,325,3459,Colgate Mouthwash,Mouthwash,6,5.0,2023-12-30,704,Lauratown,69,20,120,6918,14,38,Male,105494,Platinum,Debit Card,True,None,Sunny,False,Saturday,False,122,70
+861,3494,3981,Colgate Toothpaste,Toothpaste,5,3.5,2023-01-22,8067,Trevinoshire,318,48,300,6820,13,23,Female,82812,Gold,Mobile Payment,True,Discount,Rainy,False,Sunday,False,84,64
+862,2294,9442,Colgate Toothpaste,Toothpaste,3,3.5,2024-02-05,2204,New Paulstad,406,42,123,7913,12,44,Other,49847,Bronze,Mobile Payment,False,None,Rainy,False,Monday,False,142,82
+863,6728,8117,Colgate Mouthwash,Mouthwash,8,5.0,2023-12-15,9095,North Robertview,305,28,151,9261,13,50,Other,21236,Bronze,Credit Card,False,None,Snowy,False,Friday,False,59,131
+864,9523,6913,Colgate Toothbrush,Toothbrush,8,2.0,2024-01-24,6222,Lake David,153,20,198,9459,6,26,Other,81368,Silver,Debit Card,True,Discount,Rainy,False,Wednesday,True,121,126
+865,7444,2346,Colgate Toothbrush,Toothbrush,9,2.0,2024-04-08,4094,Aliciaville,99,44,291,6475,14,36,Other,111659,Platinum,Cash,True,Discount,Cloudy,True,Monday,False,91,138
+866,1278,8884,Colgate Mouthwash,Mouthwash,5,5.0,2023-06-15,5703,Johnsonfurt,88,32,233,1378,9,68,Other,87475,Gold,Cash,True,None,Snowy,False,Thursday,True,65,118
+867,102,2740,Colgate Toothbrush,Toothbrush,7,2.0,2024-09-28,9917,Lake Destiny,298,42,117,4457,6,51,Male,70788,Bronze,Credit Card,False,Discount,Rainy,True,Saturday,True,88,123
+868,601,7152,Colgate Whitening Strips,Teeth Whitening,4,25.0,2024-09-06,9644,Lake Michael,497,35,262,7326,10,39,Other,64398,Gold,Debit Card,False,None,Rainy,True,Friday,False,107,63
+869,3930,7659,Colgate Mouthwash,Mouthwash,2,5.0,2023-08-25,6892,Davieschester,314,32,212,5575,8,55,Female,42581,Silver,Mobile Payment,True,Discount,Snowy,False,Friday,False,53,78
+870,3312,1161,Colgate Mouthwash,Mouthwash,1,5.0,2024-07-18,2502,Robertshire,141,49,287,808,9,63,Male,82501,Gold,Cash,False,None,Rainy,True,Thursday,False,57,91
+871,7443,9900,Colgate Toothpaste,Toothpaste,7,3.5,2024-11-20,2513,Christophershire,168,25,274,3631,9,55,Other,46452,Silver,Mobile Payment,False,Discount,Snowy,True,Wednesday,False,117,83
+872,6929,1634,Colgate Mouthwash,Mouthwash,10,5.0,2024-05-13,864,New Lindseychester,350,24,223,4783,14,66,Male,45554,Gold,Mobile Payment,False,Buy One Get One,Cloudy,True,Monday,True,72,109
+873,8622,3541,Colgate Toothpaste,Toothpaste,6,3.5,2024-07-03,5035,New Christopherland,318,47,262,3289,6,25,Female,66386,Platinum,Cash,True,Buy One Get One,Sunny,True,Wednesday,True,104,100
+874,4332,8533,Colgate Mouthwash,Mouthwash,10,5.0,2024-01-01,9088,Greenville,499,21,152,8651,2,64,Male,75219,Silver,Credit Card,False,Buy One Get One,Sunny,True,Monday,False,56,95
+875,9976,1271,Colgate Mouthwash,Mouthwash,2,5.0,2024-09-21,1271,Port Virginia,313,22,117,959,14,50,Female,28266,Gold,Mobile Payment,False,Buy One Get One,Snowy,True,Saturday,False,139,81
+876,9015,5192,Colgate Mouthwash,Mouthwash,2,5.0,2023-08-14,542,Adamport,231,31,165,3477,6,54,Other,32272,Gold,Credit Card,True,Buy One Get One,Cloudy,True,Monday,False,141,92
+877,2644,2446,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-01-24,8985,Juanside,370,23,165,8190,2,46,Other,44955,Platinum,Debit Card,False,Discount,Sunny,False,Tuesday,False,59,49
+878,1591,5439,Colgate Toothpaste,Toothpaste,4,3.5,2023-06-30,2467,Bennettport,413,36,238,4712,4,59,Female,42453,Gold,Cash,True,Buy One Get One,Cloudy,False,Friday,False,72,59
+879,6571,6751,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-06-11,8351,New Patrickland,90,31,205,5873,9,43,Male,69808,Silver,Cash,False,Buy One Get One,Rainy,False,Sunday,False,67,118
+880,733,4161,Colgate Toothbrush,Toothbrush,9,2.0,2024-09-05,3537,Smithhaven,140,35,115,9776,8,63,Female,79225,Silver,Credit Card,False,Buy One Get One,Cloudy,True,Thursday,True,141,40
+881,8022,3333,Colgate Toothbrush,Toothbrush,3,2.0,2024-05-07,5617,North Christopher,50,29,222,2090,3,30,Male,95039,Gold,Cash,False,None,Rainy,True,Tuesday,False,57,107
+882,9321,6938,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-10-13,7021,North Susanview,150,49,134,4824,9,50,Other,73780,Silver,Cash,False,None,Sunny,False,Sunday,False,98,115
+883,4429,5350,Colgate Mouthwash,Mouthwash,4,5.0,2024-10-26,7471,Fullerhaven,417,23,145,3508,8,66,Female,41330,Bronze,Credit Card,False,Buy One Get One,Cloudy,True,Saturday,False,64,56
+884,2478,1130,Colgate Toothbrush,Toothbrush,4,2.0,2024-06-12,5771,Samanthahaven,377,45,155,7902,6,41,Female,66036,Silver,Credit Card,False,None,Snowy,False,Wednesday,False,140,75
+885,169,7338,Colgate Mouthwash,Mouthwash,6,5.0,2023-11-22,4487,Port Helen,103,50,191,4940,10,33,Male,115256,Silver,Debit Card,True,Discount,Cloudy,True,Wednesday,False,119,60
+886,4710,9351,Colgate Toothbrush,Toothbrush,4,2.0,2023-05-24,818,Buchananhaven,110,20,115,5279,13,40,Other,104197,Platinum,Debit Card,True,Buy One Get One,Sunny,False,Wednesday,True,58,64
+887,4331,7425,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-07-16,3751,South Courtney,210,34,242,2083,13,33,Female,34199,Gold,Cash,False,Buy One Get One,Sunny,True,Sunday,True,93,44
+888,6424,2136,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-12-18,9060,Adambury,61,36,267,2116,2,65,Other,119541,Gold,Debit Card,True,Discount,Cloudy,False,Monday,True,120,83
+889,5308,6400,Colgate Toothbrush,Toothbrush,7,2.0,2024-09-10,1894,South Charlesstad,427,28,129,3882,6,42,Male,32831,Silver,Mobile Payment,False,None,Rainy,True,Tuesday,True,82,70
+890,5626,3901,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-05-16,5323,West Thomas,194,39,188,7142,10,63,Other,71535,Gold,Mobile Payment,False,None,Sunny,True,Tuesday,False,112,46
+891,7545,293,Colgate Toothbrush,Toothbrush,1,2.0,2024-04-12,8395,Hunttown,427,49,257,8278,8,48,Male,32447,Bronze,Mobile Payment,False,None,Cloudy,False,Friday,True,150,96
+892,6821,327,Colgate Toothbrush,Toothbrush,9,2.0,2023-02-03,1977,Sandraville,467,38,285,9456,6,58,Male,78349,Platinum,Mobile Payment,True,Discount,Cloudy,True,Friday,False,75,62
+893,3752,2794,Colgate Toothbrush,Toothbrush,10,2.0,2023-03-08,5193,Nashberg,152,41,153,8597,13,53,Male,34786,Silver,Debit Card,False,Buy One Get One,Snowy,False,Wednesday,True,100,91
+894,6192,3974,Colgate Toothpaste,Toothpaste,10,3.5,2024-08-21,3608,North Elizabeth,232,49,179,8479,4,49,Male,34520,Gold,Credit Card,False,Discount,Cloudy,False,Wednesday,True,133,47
+895,4401,6849,Colgate Mouthwash,Mouthwash,6,5.0,2024-09-09,7763,West Eric,114,27,198,7885,3,59,Other,80493,Platinum,Debit Card,False,None,Cloudy,True,Monday,True,104,89
+896,7140,5438,Colgate Mouthwash,Mouthwash,5,5.0,2024-12-27,8859,West Roberta,462,25,225,4388,11,64,Other,60933,Gold,Credit Card,False,None,Snowy,False,Friday,True,75,82
+897,8462,1739,Colgate Mouthwash,Mouthwash,10,5.0,2024-10-06,360,East Marychester,263,33,131,8937,5,41,Female,60455,Platinum,Cash,True,Buy One Get One,Cloudy,False,Sunday,False,137,54
+898,7840,4717,Colgate Whitening Strips,Teeth Whitening,2,25.0,2023-09-18,7184,Joannamouth,469,43,141,9736,6,18,Female,64259,Bronze,Debit Card,False,None,Rainy,True,Monday,False,87,52
+899,8666,8735,Colgate Mouthwash,Mouthwash,4,5.0,2023-07-19,6615,East Troyside,382,43,260,8795,4,23,Male,96425,Bronze,Cash,True,None,Cloudy,False,Wednesday,True,121,98
+900,2297,4214,Colgate Toothbrush,Toothbrush,3,2.0,2024-09-03,332,New Dianehaven,171,40,253,1702,6,42,Female,40185,Bronze,Mobile Payment,False,Discount,Sunny,False,Tuesday,True,90,111
+901,6796,9012,Colgate Toothbrush,Toothbrush,2,2.0,2023-10-27,8639,East Lindseyville,258,25,151,7876,5,57,Other,92596,Bronze,Credit Card,False,None,Cloudy,True,Friday,True,74,105
+902,5439,9862,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-01-24,1096,Port Susanborough,417,50,264,8342,11,62,Other,22100,Bronze,Credit Card,True,None,Snowy,True,Tuesday,False,99,63
+903,7298,7111,Colgate Toothpaste,Toothpaste,4,3.5,2024-03-31,4374,Port Briantown,428,47,243,1195,4,27,Female,24670,Gold,Cash,True,Buy One Get One,Cloudy,False,Sunday,False,148,140
+904,567,7177,Colgate Mouthwash,Mouthwash,4,5.0,2024-03-21,919,West Cynthia,474,23,155,9275,14,30,Male,49562,Silver,Debit Card,False,None,Cloudy,False,Thursday,True,113,65
+905,3839,7693,Colgate Toothpaste,Toothpaste,1,3.5,2023-05-06,1571,West Amber,479,27,164,3723,14,30,Other,88948,Gold,Cash,False,Discount,Sunny,True,Saturday,True,110,109
+906,2349,1265,Colgate Toothpaste,Toothpaste,2,3.5,2024-08-31,121,Mendozaville,418,23,258,4965,13,47,Other,68021,Silver,Debit Card,True,Discount,Cloudy,False,Saturday,False,141,77
+907,1989,4894,Colgate Toothbrush,Toothbrush,10,2.0,2023-04-02,5722,Lake Pamelahaven,359,32,205,7912,9,30,Female,62013,Platinum,Cash,False,Buy One Get One,Sunny,False,Sunday,False,126,84
+908,6973,9728,Colgate Mouthwash,Mouthwash,4,5.0,2024-08-05,1573,South Heather,80,50,272,7633,7,27,Male,86626,Gold,Debit Card,False,Buy One Get One,Sunny,False,Monday,False,74,45
+909,914,2642,Colgate Toothpaste,Toothpaste,7,3.5,2023-06-15,3334,North Briannaburgh,393,46,263,5052,2,29,Female,52824,Silver,Mobile Payment,True,Buy One Get One,Cloudy,False,Thursday,True,113,82
+910,590,5624,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-11-08,6632,Joemouth,463,30,208,9018,5,26,Male,43026,Bronze,Mobile Payment,True,Buy One Get One,Cloudy,False,Wednesday,False,68,88
+911,3356,5958,Colgate Toothpaste,Toothpaste,10,3.5,2023-04-15,3344,Jenniferfurt,306,41,141,1884,7,57,Male,66207,Platinum,Cash,False,Buy One Get One,Cloudy,True,Saturday,False,60,68
+912,2751,9631,Colgate Toothbrush,Toothbrush,6,2.0,2024-09-11,1408,Martinmouth,163,21,265,5259,12,52,Male,36502,Bronze,Debit Card,True,Buy One Get One,Cloudy,True,Wednesday,False,75,92
+913,7516,4979,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-12-31,2432,New Kevin,291,47,295,3859,3,52,Male,88918,Platinum,Credit Card,True,Buy One Get One,Snowy,True,Tuesday,True,133,96
+914,6451,9752,Colgate Mouthwash,Mouthwash,3,5.0,2023-08-15,4150,Erinchester,171,25,226,8383,5,22,Other,44446,Gold,Mobile Payment,False,Discount,Snowy,False,Tuesday,False,120,48
+915,3877,834,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-01-14,6642,Cynthiaton,111,46,283,4587,4,21,Female,40104,Gold,Cash,False,Buy One Get One,Cloudy,False,Sunday,True,91,94
+916,722,690,Colgate Toothbrush,Toothbrush,9,2.0,2024-06-08,9603,West Brittanyhaven,112,27,235,6672,8,22,Male,91699,Silver,Credit Card,False,Discount,Sunny,False,Saturday,True,133,78
+917,1766,8775,Colgate Toothbrush,Toothbrush,4,2.0,2024-12-26,5026,Ericamouth,116,21,172,8368,8,27,Male,110269,Platinum,Debit Card,True,Buy One Get One,Sunny,True,Thursday,True,103,104
+918,9785,9893,Colgate Whitening Strips,Teeth Whitening,5,25.0,2024-01-07,3133,Joshuaberg,406,29,219,4931,11,22,Male,24664,Bronze,Debit Card,False,Buy One Get One,Snowy,False,Sunday,False,105,56
+919,7820,1774,Colgate Toothbrush,Toothbrush,6,2.0,2024-09-26,1738,Danielmouth,366,40,293,2447,8,42,Other,68451,Platinum,Mobile Payment,True,Discount,Cloudy,True,Thursday,False,107,100
+920,3194,1603,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-08-31,655,Henryland,188,49,262,8847,10,40,Female,26239,Platinum,Mobile Payment,True,Discount,Rainy,True,Thursday,False,126,121
+921,4558,8433,Colgate Toothpaste,Toothpaste,4,3.5,2023-07-25,4518,Tiffanyshire,278,46,236,9946,7,51,Other,114584,Platinum,Credit Card,False,Buy One Get One,Snowy,True,Tuesday,True,92,112
+922,9466,2156,Colgate Mouthwash,Mouthwash,9,5.0,2023-08-31,7820,Donovanfort,185,22,298,5251,6,45,Other,96936,Platinum,Mobile Payment,True,None,Rainy,True,Thursday,True,81,62
+923,3006,5865,Colgate Toothbrush,Toothbrush,7,2.0,2024-08-06,6757,Smithchester,428,30,152,2230,11,60,Female,91432,Platinum,Mobile Payment,True,None,Sunny,False,Tuesday,False,79,114
+924,5118,6556,Colgate Toothpaste,Toothpaste,4,3.5,2023-04-23,9497,Port Mariehaven,55,22,113,8672,8,64,Female,77549,Silver,Mobile Payment,False,Buy One Get One,Sunny,False,Sunday,False,143,83
+925,6234,3547,Colgate Toothpaste,Toothpaste,4,3.5,2024-05-19,6142,Richardsview,277,44,131,5486,4,57,Male,103137,Silver,Debit Card,True,Discount,Snowy,False,Sunday,True,106,63
+926,4376,2744,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-05-11,4303,Port Christophertown,362,50,283,4142,10,46,Male,52332,Bronze,Credit Card,False,None,Cloudy,False,Saturday,False,52,100
+927,3580,6347,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-03-08,1061,South David,295,28,294,4833,11,70,Male,77262,Platinum,Mobile Payment,True,Discount,Rainy,True,Friday,False,129,88
+928,7005,8345,Colgate Mouthwash,Mouthwash,9,5.0,2023-03-11,1083,South Edwin,403,26,283,6156,6,66,Other,65027,Platinum,Cash,True,Buy One Get One,Snowy,False,Saturday,False,115,83
+929,4510,5888,Colgate Mouthwash,Mouthwash,5,5.0,2024-03-20,6088,South Jennifer,425,42,112,5140,6,51,Female,72113,Platinum,Cash,False,None,Cloudy,True,Wednesday,True,59,108
+930,7574,4316,Colgate Mouthwash,Mouthwash,3,5.0,2024-09-17,3374,Daniellestad,465,33,199,8051,13,56,Female,26055,Bronze,Mobile Payment,True,Buy One Get One,Rainy,False,Tuesday,False,113,89
+931,8435,3424,Colgate Toothpaste,Toothpaste,7,3.5,2023-07-07,5348,West Albert,350,25,211,7678,8,40,Other,60805,Bronze,Credit Card,True,Buy One Get One,Rainy,True,Friday,True,76,133
+932,5783,3638,Colgate Toothpaste,Toothpaste,7,3.5,2024-02-18,7100,North Bryan,67,50,107,1131,6,48,Female,54955,Platinum,Cash,False,None,Sunny,True,Sunday,False,93,72
+933,9589,8197,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-07-04,874,Johnnytown,259,20,167,5207,14,58,Female,82866,Gold,Mobile Payment,False,None,Snowy,False,Tuesday,True,54,109
+934,8387,7422,Colgate Toothbrush,Toothbrush,4,2.0,2024-10-15,3885,Mcintoshfurt,223,33,222,8273,14,44,Other,99829,Platinum,Cash,True,None,Rainy,False,Tuesday,False,113,65
+935,3435,4843,Colgate Whitening Strips,Teeth Whitening,9,25.0,2023-05-23,2095,South David,390,30,287,8227,4,25,Other,30952,Bronze,Debit Card,False,None,Sunny,False,Tuesday,True,130,115
+936,5181,9684,Colgate Whitening Strips,Teeth Whitening,5,25.0,2023-03-05,3050,South Emily,307,29,216,7617,11,42,Female,86400,Platinum,Credit Card,True,None,Rainy,False,Sunday,False,105,57
+937,5825,4665,Colgate Whitening Strips,Teeth Whitening,9,25.0,2024-12-11,9075,Garciaborough,277,37,143,9236,8,48,Female,62832,Platinum,Mobile Payment,True,Buy One Get One,Snowy,False,Wednesday,False,72,93
+938,9120,1207,Colgate Toothpaste,Toothpaste,9,3.5,2023-09-17,2510,Lake Jodimouth,420,49,107,572,14,50,Other,29661,Silver,Mobile Payment,False,Buy One Get One,Sunny,True,Sunday,False,132,139
+939,800,9099,Colgate Toothbrush,Toothbrush,8,2.0,2023-05-19,7893,New Christophermouth,368,44,193,9685,7,48,Other,84860,Platinum,Credit Card,True,Discount,Snowy,False,Friday,True,64,111
+940,8422,9826,Colgate Toothpaste,Toothpaste,8,3.5,2023-10-30,1608,East Michaelberg,67,39,263,3439,9,52,Other,85249,Gold,Debit Card,False,None,Sunny,False,Monday,True,76,109
+941,648,5236,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-08-25,8509,South Davidberg,274,49,292,6151,6,43,Other,96145,Platinum,Mobile Payment,False,None,Snowy,False,Friday,True,86,92
+942,6240,8769,Colgate Toothbrush,Toothbrush,8,2.0,2024-07-17,7642,Beckerfort,72,42,138,855,3,51,Other,54797,Platinum,Debit Card,False,Buy One Get One,Rainy,False,Wednesday,False,100,100
+943,4213,805,Colgate Whitening Strips,Teeth Whitening,1,25.0,2023-05-18,281,Port Catherineberg,118,38,122,6060,5,39,Male,55754,Platinum,Credit Card,True,Discount,Rainy,True,Thursday,True,149,101
+944,7215,8085,Colgate Toothbrush,Toothbrush,7,2.0,2024-09-14,2719,Michaelfurt,115,24,186,8172,2,28,Male,103291,Platinum,Cash,False,Discount,Sunny,False,Saturday,True,124,120
+945,5388,1607,Colgate Whitening Strips,Teeth Whitening,10,25.0,2024-02-02,8375,Frankstad,376,27,278,6561,5,49,Male,40576,Bronze,Cash,True,Buy One Get One,Rainy,True,Friday,False,58,47
+946,337,5956,Colgate Mouthwash,Mouthwash,9,5.0,2024-07-05,3893,Christinaborough,259,40,123,8081,3,66,Male,32403,Gold,Credit Card,False,Discount,Cloudy,False,Friday,False,80,40
+947,3025,1485,Colgate Whitening Strips,Teeth Whitening,4,25.0,2024-10-13,5352,East Reneechester,327,41,142,8957,3,65,Other,46926,Gold,Mobile Payment,True,None,Cloudy,False,Sunday,False,87,87
+948,3227,5617,Colgate Mouthwash,Mouthwash,5,5.0,2023-06-14,4998,Thomaston,55,45,120,8268,2,40,Male,117797,Gold,Debit Card,False,Buy One Get One,Cloudy,False,Wednesday,True,143,119
+949,9622,2040,Colgate Mouthwash,Mouthwash,6,5.0,2023-01-31,5285,Lyonston,237,23,244,8063,10,33,Male,104774,Bronze,Debit Card,False,Discount,Snowy,False,Tuesday,False,87,106
+950,1423,4758,Colgate Mouthwash,Mouthwash,1,5.0,2023-02-03,2283,New Meganhaven,408,23,265,5774,3,24,Female,57743,Bronze,Debit Card,True,None,Cloudy,True,Friday,False,100,122
+951,3098,6060,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-02-13,7837,Nicholschester,421,49,299,6319,13,57,Female,35216,Silver,Debit Card,True,Discount,Rainy,False,Monday,True,115,119
+952,5230,4984,Colgate Toothpaste,Toothpaste,5,3.5,2024-01-05,7040,Francisview,311,36,116,2818,3,57,Other,105075,Bronze,Cash,False,Discount,Sunny,False,Friday,False,77,73
+953,8763,7194,Colgate Whitening Strips,Teeth Whitening,5,25.0,2025-01-02,6738,Jonathanfurt,497,39,220,2283,7,37,Male,90412,Platinum,Cash,False,Buy One Get One,Cloudy,True,Thursday,False,86,113
+954,4040,3104,Colgate Toothbrush,Toothbrush,5,2.0,2023-12-03,8455,South Michelleberg,186,45,220,3410,10,47,Female,65898,Silver,Mobile Payment,True,Buy One Get One,Cloudy,True,Sunday,True,133,49
+955,6516,8168,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-10-01,3448,Davisport,462,44,105,1076,4,56,Male,84900,Bronze,Credit Card,False,Discount,Rainy,True,Tuesday,False,73,42
+956,6286,4589,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-11-06,321,Kevinmouth,243,33,258,8100,9,68,Other,110898,Bronze,Credit Card,False,Buy One Get One,Sunny,True,Wednesday,False,125,103
+957,9739,5565,Colgate Toothpaste,Toothpaste,1,3.5,2024-04-27,2117,Jenniferbury,188,24,133,33,10,37,Female,114536,Bronze,Cash,False,None,Snowy,False,Saturday,False,133,98
+958,5206,7333,Colgate Mouthwash,Mouthwash,1,5.0,2023-11-15,5799,Cherylfort,162,26,101,2118,6,50,Male,53548,Bronze,Cash,False,Buy One Get One,Snowy,True,Wednesday,True,54,129
+959,3629,5768,Colgate Toothpaste,Toothpaste,3,3.5,2024-03-08,7758,Calebland,421,30,253,3268,7,50,Male,38137,Silver,Credit Card,True,Discount,Cloudy,True,Friday,True,83,57
+960,5063,3269,Colgate Whitening Strips,Teeth Whitening,6,25.0,2025-01-08,8566,Melissaport,423,36,197,445,13,54,Male,42325,Gold,Credit Card,True,None,Rainy,False,Wednesday,False,150,123
+961,7245,5430,Colgate Whitening Strips,Teeth Whitening,10,25.0,2023-10-20,4849,West Amandaport,187,48,214,2123,6,61,Female,75171,Gold,Credit Card,False,Discount,Snowy,False,Friday,True,64,100
+962,5208,3411,Colgate Toothbrush,Toothbrush,6,2.0,2023-10-02,5721,South Colin,301,24,231,7282,4,29,Male,70987,Silver,Cash,False,Discount,Cloudy,False,Monday,True,144,118
+963,5137,9680,Colgate Toothpaste,Toothpaste,2,3.5,2024-08-17,619,Bentonburgh,134,22,258,8452,4,31,Female,41989,Platinum,Mobile Payment,True,None,Cloudy,False,Saturday,True,150,53
+964,9673,179,Colgate Toothpaste,Toothpaste,2,3.5,2024-12-17,2917,East Teresaborough,271,49,206,3442,11,20,Male,86003,Platinum,Credit Card,True,None,Snowy,True,Tuesday,True,116,81
+965,8663,7506,Colgate Toothpaste,Toothpaste,4,3.5,2023-08-24,7295,Kristiborough,237,46,163,8684,6,61,Female,70708,Platinum,Mobile Payment,True,Buy One Get One,Sunny,False,Thursday,True,67,99
+966,2364,4353,Colgate Toothbrush,Toothbrush,7,2.0,2023-04-24,5176,West Cassandra,298,26,275,37,8,24,Male,83895,Bronze,Cash,False,Buy One Get One,Sunny,False,Monday,True,98,92
+967,3945,3825,Colgate Whitening Strips,Teeth Whitening,7,25.0,2023-03-15,1119,Jordanville,107,39,226,9111,7,27,Female,33802,Silver,Debit Card,True,None,Cloudy,False,Wednesday,False,116,83
+968,1993,4036,Colgate Toothbrush,Toothbrush,6,2.0,2023-04-30,7805,East Adam,370,31,129,6133,11,48,Female,67991,Platinum,Cash,True,None,Snowy,False,Sunday,True,125,128
+969,1761,4739,Colgate Toothpaste,Toothpaste,1,3.5,2024-04-15,3390,South Rhondaport,58,35,107,5984,2,51,Male,111686,Bronze,Credit Card,False,Discount,Rainy,True,Monday,True,71,93
+970,7286,5444,Colgate Whitening Strips,Teeth Whitening,6,25.0,2024-12-22,9781,Christinahaven,256,21,298,2519,12,30,Male,38662,Bronze,Credit Card,False,Buy One Get One,Rainy,False,Sunday,False,149,133
+971,2910,7296,Colgate Whitening Strips,Teeth Whitening,4,25.0,2024-09-29,6604,New Tyler,380,50,198,7590,12,25,Female,102101,Gold,Mobile Payment,True,None,Rainy,False,Sunday,True,105,95
+972,4329,8169,Colgate Mouthwash,Mouthwash,4,5.0,2023-04-29,2973,Tanyaview,56,36,136,7990,9,30,Other,20661,Platinum,Mobile Payment,False,Buy One Get One,Cloudy,False,Saturday,True,69,114
+973,3415,1934,Colgate Mouthwash,Mouthwash,7,5.0,2024-10-15,5696,Fordport,384,25,148,7352,12,22,Male,71850,Gold,Debit Card,True,None,Rainy,False,Tuesday,True,120,83
+974,6280,6546,Colgate Toothpaste,Toothpaste,8,3.5,2023-02-12,4943,Palmerburgh,283,39,229,2002,5,50,Male,92117,Gold,Mobile Payment,True,Buy One Get One,Snowy,False,Sunday,True,54,136
+975,6068,8771,Colgate Mouthwash,Mouthwash,1,5.0,2023-05-19,2101,Gonzalezberg,478,20,289,9805,10,27,Female,38662,Gold,Debit Card,True,Buy One Get One,Rainy,False,Friday,False,142,109
+976,6661,2555,Colgate Whitening Strips,Teeth Whitening,1,25.0,2024-12-01,6433,Santanaland,194,24,251,7712,9,37,Female,61756,Bronze,Debit Card,False,Discount,Sunny,True,Sunday,False,93,69
+977,2096,8897,Colgate Whitening Strips,Teeth Whitening,3,25.0,2023-11-16,8595,Drewberg,460,37,165,8607,13,63,Female,66177,Gold,Cash,False,Discount,Snowy,False,Thursday,True,125,120
+978,6478,9219,Colgate Toothpaste,Toothpaste,9,3.5,2023-07-12,4089,Johnsonbury,302,34,230,989,4,26,Male,92291,Gold,Debit Card,True,None,Sunny,False,Wednesday,False,92,85
+979,8298,209,Colgate Toothpaste,Toothpaste,5,3.5,2024-07-20,3124,Lake Barbaraburgh,314,42,123,7233,11,56,Female,76986,Silver,Debit Card,False,Discount,Snowy,True,Saturday,False,144,114
+980,6012,4466,Colgate Mouthwash,Mouthwash,5,5.0,2024-03-28,65,Angelabury,104,48,201,2455,5,29,Female,100947,Gold,Cash,False,None,Snowy,False,Thursday,False,64,63
+981,1871,4012,Colgate Whitening Strips,Teeth Whitening,3,25.0,2024-03-25,1803,East Kimberlyborough,195,40,107,524,14,52,Other,33743,Bronze,Credit Card,True,Discount,Snowy,False,Monday,False,128,104
+982,307,8422,Colgate Mouthwash,Mouthwash,5,5.0,2024-02-27,9897,Kevinbury,123,47,148,9718,12,45,Other,54491,Bronze,Debit Card,False,Buy One Get One,Rainy,True,Tuesday,False,119,106
+983,9126,5422,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-12-11,5690,Lake Franciscofort,410,22,288,6053,6,25,Other,106827,Gold,Mobile Payment,False,Buy One Get One,Rainy,False,Monday,True,144,67
+984,3625,8104,Colgate Toothpaste,Toothpaste,1,3.5,2023-07-13,1887,Lake Julie,388,35,146,3936,11,56,Other,68970,Silver,Credit Card,True,Buy One Get One,Sunny,True,Thursday,True,103,67
+985,6550,5450,Colgate Whitening Strips,Teeth Whitening,7,25.0,2024-05-07,3180,Curtismouth,459,31,155,9400,10,60,Female,102670,Platinum,Cash,True,Buy One Get One,Rainy,False,Tuesday,True,127,127
+986,7505,2620,Colgate Toothbrush,Toothbrush,7,2.0,2023-05-17,6097,Lake William,123,41,172,3372,3,34,Female,78381,Gold,Cash,True,Discount,Rainy,True,Wednesday,True,72,90
+987,7426,5714,Colgate Toothpaste,Toothpaste,8,3.5,2024-07-16,1339,Farrellton,66,26,203,2053,4,18,Male,61254,Platinum,Cash,True,None,Sunny,False,Tuesday,False,78,105
+988,9949,6894,Colgate Toothbrush,Toothbrush,8,2.0,2024-02-24,646,Austinport,176,49,130,9548,14,40,Female,68781,Bronze,Credit Card,True,None,Snowy,True,Saturday,True,75,68
+989,1631,2292,Colgate Toothpaste,Toothpaste,9,3.5,2023-07-20,9253,South Cheryl,417,32,292,6785,3,51,Other,100589,Silver,Mobile Payment,True,None,Cloudy,False,Thursday,False,118,125
+990,3035,5572,Colgate Toothbrush,Toothbrush,7,2.0,2024-08-26,373,New Steve,126,26,270,124,13,50,Female,41550,Silver,Mobile Payment,True,None,Rainy,False,Monday,False,71,92
+991,7819,208,Colgate Whitening Strips,Teeth Whitening,4,25.0,2023-02-02,9296,North Kimberlyview,66,42,122,7937,3,19,Male,74711,Platinum,Debit Card,True,Discount,Snowy,False,Thursday,False,63,108
+992,7425,1243,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-08-29,521,New Jean,355,28,271,1324,3,46,Other,47966,Gold,Credit Card,True,Buy One Get One,Cloudy,True,Tuesday,False,134,56
+993,9268,334,Colgate Toothpaste,Toothpaste,3,3.5,2024-10-14,8496,South Sophiaville,499,20,204,4878,6,59,Female,22550,Silver,Mobile Payment,False,Buy One Get One,Snowy,True,Monday,True,103,104
+994,1330,5552,Colgate Mouthwash,Mouthwash,10,5.0,2024-04-16,7333,North Kevinport,151,22,155,8748,6,47,Female,104570,Silver,Mobile Payment,False,None,Snowy,False,Tuesday,False,139,126
+995,747,4261,Colgate Whitening Strips,Teeth Whitening,6,25.0,2023-08-23,3400,South Williammouth,52,21,285,8281,6,23,Male,22529,Silver,Credit Card,True,Buy One Get One,Rainy,False,Wednesday,True,148,99
+996,2030,1327,Colgate Mouthwash,Mouthwash,9,5.0,2023-04-30,6881,Port Janice,496,33,175,4266,7,70,Female,84479,Gold,Mobile Payment,True,Discount,Cloudy,False,Sunday,True,131,54
+997,7171,7619,Colgate Mouthwash,Mouthwash,3,5.0,2023-03-29,358,West Sarah,283,22,204,1964,7,63,Male,32088,Bronze,Credit Card,True,None,Cloudy,True,Wednesday,False,52,88
+998,1067,8880,Colgate Toothpaste,Toothpaste,1,3.5,2024-09-14,3470,North Anthonyview,358,26,140,6958,12,39,Other,91118,Silver,Cash,True,Buy One Get One,Rainy,True,Saturday,False,109,80
+999,9628,7047,Colgate Toothbrush,Toothbrush,2,2.0,2023-04-23,3739,Port Lynn,330,50,133,4540,8,54,Male,53367,Platinum,Cash,True,None,Rainy,True,Sunday,False,108,93
+1000,1168,3399,Colgate Toothpaste,Toothpaste,4,3.5,2024-06-16,2459,Turnertown,460,40,202,566,9,34,Other,54756,Gold,Debit Card,False,Buy One Get One,Snowy,True,Sunday,True,82,137
